@@ -1,0 +1,58 @@
+[
+  {
+    "id": "agr-01",
+    "categoryId": "agricultura",
+    "text": "Se debe realizar una redistribucion masiva de tierras improductivas a campesinos sin tierra.",
+    "context": "La concentracion de tierra en Colombia es una de las mas altas del mundo y ha sido fuente historica de conflicto.",
+    "type": "likert",
+    "weight": 3
+  },
+  {
+    "id": "agr-02",
+    "categoryId": "agricultura",
+    "text": "Se debe priorizar la agroindustria de exportacion sobre la agricultura familiar para generar divisas.",
+    "context": "Colombia exporta cafe, flores, banano y otros productos, pero los pequenos agricultores producen la mayoria de los alimentos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "agr-03",
+    "categoryId": "agricultura",
+    "text": "El gobierno debe subsidiar y proteger la produccion nacional de alimentos frente a las importaciones.",
+    "context": "Colombia importa millones de toneladas de alimentos que podria producir internamente.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "agr-04",
+    "categoryId": "agricultura",
+    "text": "Se deben prohibir los cultivos transgenicos y promover la agricultura organica y agroecologica.",
+    "context": "Los transgenicos aumentan la productividad pero generan preocupaciones ambientales y de soberania alimentaria.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "agr-05",
+    "categoryId": "agricultura",
+    "text": "Se debe invertir en infraestructura de vias terciarias para conectar el campo con los mercados.",
+    "context": "Las vias rurales en mal estado encarecen el transporte de alimentos y aislan a las comunidades campesinas.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "agr-06",
+    "categoryId": "agricultura",
+    "text": "La sustitucion voluntaria de cultivos ilicitos es mejor estrategia que la erradicacion forzada.",
+    "context": "Miles de familias campesinas dependen del cultivo de coca como fuente de ingresos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "agr-07",
+    "categoryId": "agricultura",
+    "text": "Se debe crear un banco agrario fortalecido con creditos blandos para pequenos y medianos productores.",
+    "context": "El acceso a credito es una de las principales barreras para el desarrollo rural.",
+    "type": "likert",
+    "weight": 1
+  }
+]

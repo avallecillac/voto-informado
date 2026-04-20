@@ -1,0 +1,114 @@
+[
+  {
+    "id": "economia",
+    "name": "Economia y Empleo",
+    "shortName": "Economia",
+    "icon": "TrendingUp",
+    "description": "Politicas economicas, empleo, impuestos, gasto publico y crecimiento",
+    "questionCount": 8
+  },
+  {
+    "id": "comercio_exterior",
+    "name": "Comercio Exterior",
+    "shortName": "Comercio",
+    "icon": "Globe",
+    "description": "Tratados de libre comercio, aranceles, exportaciones e importaciones",
+    "questionCount": 6
+  },
+  {
+    "id": "agricultura",
+    "name": "Agricultura y Desarrollo Rural",
+    "shortName": "Agricultura",
+    "icon": "Sprout",
+    "description": "Reforma agraria, apoyo al campo, soberania alimentaria",
+    "questionCount": 7
+  },
+  {
+    "id": "energia",
+    "name": "Energia y Mineria",
+    "shortName": "Energia",
+    "icon": "Zap",
+    "description": "Transicion energetica, petroleo, mineria, energias renovables",
+    "questionCount": 7
+  },
+  {
+    "id": "medio_ambiente",
+    "name": "Medio Ambiente",
+    "shortName": "Ambiente",
+    "icon": "TreePine",
+    "description": "Cambio climatico, deforestacion, proteccion de ecosistemas, agua",
+    "questionCount": 7
+  },
+  {
+    "id": "educacion",
+    "name": "Educacion",
+    "shortName": "Educacion",
+    "icon": "GraduationCap",
+    "description": "Acceso, calidad, educacion publica vs privada, tecnologia educativa",
+    "questionCount": 8
+  },
+  {
+    "id": "seguridad",
+    "name": "Seguridad y Paz",
+    "shortName": "Seguridad",
+    "icon": "Shield",
+    "description": "Conflicto armado, narcotrafico, paz total, fuerzas armadas",
+    "questionCount": 8
+  },
+  {
+    "id": "salud",
+    "name": "Salud",
+    "shortName": "Salud",
+    "icon": "Heart",
+    "description": "Sistema de salud, reforma a EPS, salud preventiva, salud mental",
+    "questionCount": 7
+  },
+  {
+    "id": "justicia",
+    "name": "Justicia y Anticorrupcion",
+    "shortName": "Justicia",
+    "icon": "Scale",
+    "description": "Reforma judicial, lucha contra la corrupcion, sistema penal",
+    "questionCount": 7
+  },
+  {
+    "id": "politica_exterior",
+    "name": "Politica Exterior",
+    "shortName": "Exterior",
+    "icon": "Flag",
+    "description": "Relaciones internacionales, Venezuela, integracion regional, migracion",
+    "questionCount": 6
+  },
+  {
+    "id": "tecnologia",
+    "name": "Tecnologia e Innovacion",
+    "shortName": "Tecnologia",
+    "icon": "Cpu",
+    "description": "Transformacion digital, inteligencia artificial, conectividad, ciencia",
+    "questionCount": 6
+  },
+  {
+    "id": "vivienda",
+    "name": "Vivienda y Urbanismo",
+    "shortName": "Vivienda",
+    "icon": "Home",
+    "description": "Vivienda de interes social, ordenamiento territorial, infraestructura",
+    "questionCount": 6
+  },
+  {
+    "id": "trabajo",
+    "name": "Trabajo y Proteccion Social",
+    "shortName": "Trabajo",
+    "icon": "Briefcase",
+    "description": "Reforma laboral, pensiones, informalidad, derechos laborales",
+    "questionCount": 7
+  },
+  {
+    "id": "cultura",
+    "name": "Cultura, Deporte y Diversidad",
+    "shortName": "Cultura",
+    "icon": "Palette",
+    "description": "Industrias culturales, deporte, diversidad etnica, derechos LGBTQ+",
+    "questionCount": 6
+  }
+]

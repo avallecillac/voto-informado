@@ -1,0 +1,173 @@
+{
+  "id": "roy-barreras",
+  "name": "Roy Barreras",
+  "party": "Fuerza de la Paz",
+  "coalition": null,
+  "photoUrl": "/images/candidates/roy-barreras.webp",
+  "politicalOrientation": "centro-izquierda",
+  "programUrl": "",
+  "bio": "Medico y cirujano de la Universidad Nacional, exnegociador de paz y exsenador autor de la Ley Estatutaria de Salud (Ley 1751 de 2015). Su propuesta combina pragmatismo energetico (Seguridad, Sostenibilidad y Soberania) con enfasis en salud como derecho fundamental, cultura como motor de identidad y politicas de equidad para las mujeres.",
+  "positions": [
+    {
+      "questionId": "ene-01",
+      "stance": -2,
+      "justification": "Emitir decreto de emergencia para reactivar adjudicacion de nuevas areas de exploracion de gas y petroleo y garantizar reposicion de reservas antes de 2027.",
+      "programReference": "Programa Energia, Eje 1 Seguridad de Suministro",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-02",
+      "stance": 1,
+      "justification": "Tanta energia renovable no convencional como sea posible: promover granjas solares, PCH y comunidades energeticas, pero sin forzar transicion acelerada.",
+      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-04",
+      "stance": 1,
+      "justification": "Reactivar exploracion de hidrocarburos convencionales y no convencionales, incluyendo laboratorios regulatorios para proyectos no convencionales en Guajira y Putumayo.",
+      "programReference": "Programa Energia, Eje 1",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-05",
+      "stance": -1,
+      "justification": "Declaratoria PINES para desbloquear licencias ambientales y consultas previas en corredores energeticos en plazo maximo de 6 meses.",
+      "programReference": "Programa Energia, Eje 1 Declaratoria PINES",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "ene-06",
+      "stance": 2,
+      "justification": "Ampliar el margen de accion de Ecopetrol para que tambien sea la gran Empresa Nacional de Mineria, fortaleciendo su rol como motor financiero del Estado.",
+      "programReference": "Programa Energia, Seguridad Financiera",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-01",
+      "stance": -1,
+      "justification": "Reduccion del government take o tasa efectiva de tributacion en hidrocarburos y mineria; se opone a cargas fiscales que reduzcan competitividad.",
+      "programReference": "Programa Energia, Eje 1.3 Seguridad Inversionista",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "amb-02",
+      "stance": 1,
+      "justification": "El principal problema de emisiones es el sector AFOLU por deforestacion; las autoridades ambientales deben priorizar la ilegalidad que destruye ecosistemas.",
+      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "amb-04",
+      "stance": 1,
+      "justification": "No forzar una transicion que ponga en riesgo abastecimiento y obligue a pagar mas por energia; pragmatismo energetico prioriza estabilidad economica.",
+      "programReference": "Programa Energia, Introduccion",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-05",
+      "stance": 1,
+      "justification": "Crear un fondo de justicia ambiental con contribuciones cruzadas de la explotacion minera y petrolera para adaptar zonas mas vulnerables.",
+      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-01",
+      "stance": -1,
+      "justification": "No propone eliminar EPS; propone materializar operativamente la Ley Estatutaria con Bloque Salud blockchain, historia clinica unica y giro directo de ADRES.",
+      "programReference": "Programa Salud, Politica 1 Inteligencia Sanitaria",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "sal-02",
+      "stance": 1,
+      "justification": "Programa nacional de atencion psicologica exclusiva para talento humano en salud; acceso a servicios de salud mental incluido en agenda.",
+      "programReference": "Programa Salud, Politica 2 Cuidar al Cuidador",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "sal-03",
+      "stance": 2,
+      "justification": "Modelo de Equipos Basicos de Atencion Integral EBAIS Digital territorializado; invertir en agua potable y nutricion antes que en UCI.",
+      "programReference": "Programa Salud, Politica 3 Salud sin Paredes",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-05",
+      "stance": 0,
+      "justification": "Salud elevada a derecho fundamental autonomo acabando con paradigma de mercancia, pero conserva red publica y privada con trazabilidad y contratos inteligentes.",
+      "programReference": "Programa Salud, Introduccion",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "sal-06",
+      "stance": 1,
+      "justification": "Atencion de la salud reproductiva y maternal: en zonas urbanas en centros de salud, en zona rural medico en casa.",
+      "programReference": "Programa Mujeres, Circuito Seguro Mujer Vital",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-07",
+      "stance": 2,
+      "justification": "Estatuto Unico del Trabajador de la Salud: a trabajo igual salario igual, piso salarial nacional obligatorio y prohibicion de OPS misionales.",
+      "programReference": "Programa Salud, Politica 2",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-01",
+      "stance": 2,
+      "justification": "Plan de Infraestructura Cultural en todos los territorios, Programa Somos Colombia, Universidad Abierta de la Cultura y Fondo de Economia Creativa y Circular.",
+      "programReference": "Programa Cultura, Objetivos I-III",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-02",
+      "stance": 1,
+      "justification": "Realizaremos los Juegos Deportivos Indigenas y la formacion cultural debe rescatar saberes propios locales.",
+      "programReference": "Programa Cultura, Objetivo II y Colombia Oro Puro",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "cul-03",
+      "stance": 2,
+      "justification": "Plan de Infraestructura Deportiva en alianza con alcaldes y gobernadores para que los hijos tengan lugares dignos donde practicar en todo Colombia.",
+      "programReference": "Programa Cultura, Colombia Oro Puro",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-05",
+      "stance": 2,
+      "justification": "Fondo de Economia Creativa y Circular para emprendimientos culturales; apoyar artistas colombianos, no mas dinero para artistas extranjeros.",
+      "programReference": "Programa Cultura, Objetivo III",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tra-01",
+      "stance": 1,
+      "justification": "Estatuto Unico del Trabajador de la Salud con carrera sanitaria similar al NHS britanico y prohibicion de OPS misionales.",
+      "programReference": "Programa Salud, Politica 2",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tra-02",
+      "stance": -1,
+      "justification": "Prohibicion de OPS misionales y tablas salariales minimas obligatorias para impedir la subasta a la baja en salud.",
+      "programReference": "Programa Salud, Politica 2",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tra-05",
+      "stance": 0,
+      "justification": "Propone subsidios focalizados (100 mil viviendas a madres comunitarias, maestras y cuidadoras) e incentivos tributarios, no renta basica universal.",
+      "programReference": "Programa Mujeres, Vivienda",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tra-07",
+      "stance": 1,
+      "justification": "Promover que madres cabeza de familia tengan horarios acordes a jornadas escolares con incentivos tributarios a empresas que las acojan.",
+      "programReference": "Programa Mujeres, Madres cabeza de familia",
+      "confidence": "inferred"
+    }
+  ]
+}

@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code local settings
+.claude/
+
+# intermediate PDF extraction artifacts (regeneratable from planes-gobierno/)
+/data/planes-gobierno-text/
+/scripts/*.out
+/scripts/select-questions.json
+

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "amb-01",
+    "categoryId": "medio_ambiente",
+    "text": "Colombia debe implementar un impuesto al carbono mas agresivo para reducir emisiones de gases de efecto invernadero.",
+    "context": "Colombia ya tiene un impuesto al carbono pero es considerado bajo por organizaciones ambientales.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "amb-02",
+    "categoryId": "medio_ambiente",
+    "text": "La deforestacion en la Amazonia colombiana debe combatirse con presencia militar si es necesario.",
+    "context": "Colombia pierde miles de hectareas de bosque al ano, especialmente en la Amazonia y el Pacifico.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "amb-03",
+    "categoryId": "medio_ambiente",
+    "text": "Los derechos de la naturaleza deben reconocerse constitucionalmente, dando personalidad juridica a ecosistemas clave.",
+    "context": "Colombia ya ha reconocido derechos a rios y ecosistemas a traves de sentencias judiciales.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "amb-04",
+    "categoryId": "medio_ambiente",
+    "text": "El desarrollo economico debe tener prioridad sobre la proteccion ambiental cuando ambos entran en conflicto.",
+    "context": "Muchas comunidades dependen de actividades extractivas para su sustento, generando tension con la conservacion.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "amb-05",
+    "categoryId": "medio_ambiente",
+    "text": "Se debe crear un fondo especial para pagar a campesinos y comunidades indigenas por conservar los bosques.",
+    "context": "Los pagos por servicios ambientales son una herramienta para incentivar la conservacion.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "amb-06",
+    "categoryId": "medio_ambiente",
+    "text": "Colombia debe liderar negociaciones internacionales de cambio climatico exigiendo compensacion de los paises mas contaminantes.",
+    "context": "Colombia contribuye poco a las emisiones globales pero es uno de los paises mas vulnerables al cambio climatico.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "amb-07",
+    "categoryId": "medio_ambiente",
+    "text": "El acceso al agua potable debe ser un derecho fundamental garantizado por el Estado, incluso si implica limitar el uso industrial.",
+    "context": "Millones de colombianos aun no tienen acceso a agua potable, especialmente en zonas rurales y el Pacifico.",
+    "type": "likert",
+    "weight": 3
+  }
+]

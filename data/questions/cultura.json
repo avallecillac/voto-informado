@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cul-01",
+    "categoryId": "cultura",
+    "text": "Se debe aumentar significativamente el presupuesto para cultura, artes y patrimonio.",
+    "context": "El presupuesto cultural en Colombia es uno de los mas bajos de la region como porcentaje del PIB.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "cul-02",
+    "categoryId": "cultura",
+    "text": "Los pueblos indigenas y afrocolombianos deben tener mayor autonomia sobre sus territorios y recursos.",
+    "context": "Colombia tiene mas de 100 pueblos indigenas y la mayor poblacion afrodescendiente de la region andina.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "cul-03",
+    "categoryId": "cultura",
+    "text": "Se debe invertir en infraestructura deportiva en todos los municipios para democratizar el acceso al deporte.",
+    "context": "El exito deportivo de Colombia en eventos internacionales contrasta con la falta de infraestructura en muchas regiones.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "cul-04",
+    "categoryId": "cultura",
+    "text": "Se deben garantizar los derechos de las parejas del mismo sexo, incluyendo la adopcion y el matrimonio civil.",
+    "context": "La Corte Constitucional ha avanzado en derechos LGBTQ+, pero persiste la discriminacion social.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "cul-05",
+    "categoryId": "cultura",
+    "text": "La industria creativa y del entretenimiento colombiana debe recibir apoyo estatal similar al que reciben otros sectores productivos.",
+    "context": "Colombia ha tenido exito en musica, cine y televisision, pero el sector carece de politicas industriales.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "cul-06",
+    "categoryId": "cultura",
+    "text": "Se debe reconocer y proteger la diversidad de genero y las identidades no binarias en la legislacion colombiana.",
+    "context": "El debate sobre identidad de genero es cada vez mas visible en la sociedad colombiana.",
+    "type": "likert",
+    "weight": 2
+  }
+]

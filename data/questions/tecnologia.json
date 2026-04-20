@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tec-01",
+    "categoryId": "tecnologia",
+    "text": "El acceso a internet debe ser un derecho fundamental garantizado por el Estado en todo el territorio.",
+    "context": "La conectividad en zonas rurales sigue siendo muy limitada, ampliando la brecha digital.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "tec-02",
+    "categoryId": "tecnologia",
+    "text": "Se debe regular estrictamente el uso de inteligencia artificial para proteger empleos y privacidad.",
+    "context": "La IA esta transformando el mercado laboral y plantea retos eticos y regulatorios.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "tec-03",
+    "categoryId": "tecnologia",
+    "text": "Colombia debe invertir fuertemente en ciencia e investigacion, aumentando el presupuesto de Minciencias.",
+    "context": "Colombia invierte menos del 0.3% del PIB en investigacion, muy por debajo de paises desarrollados.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "tec-04",
+    "categoryId": "tecnologia",
+    "text": "Se deben crear incentivos fiscales para startups y empresas de tecnologia colombianas.",
+    "context": "El ecosistema de emprendimiento tecnologico en Colombia ha crecido pero enfrenta barreras regulatorias.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "tec-05",
+    "categoryId": "tecnologia",
+    "text": "El gobierno debe digitalizar completamente sus tramites y servicios para reducir la burocracia.",
+    "context": "La digitalizacion de tramites reduce corrupcion y facilita el acceso a servicios publicos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "tec-06",
+    "categoryId": "tecnologia",
+    "text": "Se debe proteger estrictamente la privacidad de los datos personales de los ciudadanos frente a empresas y al Estado.",
+    "context": "La recoleccion masiva de datos plantea riesgos de vigilancia y uso indebido de informacion.",
+    "type": "likert",
+    "weight": 2
+  }
+]

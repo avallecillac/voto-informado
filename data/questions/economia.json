@@ -1,0 +1,66 @@
+[
+  {
+    "id": "econ-01",
+    "categoryId": "economia",
+    "text": "El Estado debe aumentar los impuestos a las grandes empresas y personas de altos ingresos para financiar programas sociales.",
+    "context": "Colombia tiene una de las mayores desigualdades de ingreso en America Latina. La reforma tributaria es un tema central del debate economico.",
+    "type": "likert",
+    "weight": 3
+  },
+  {
+    "id": "econ-02",
+    "categoryId": "economia",
+    "text": "Se debe reducir el tamano del Estado y privatizar empresas publicas para mejorar la eficiencia economica.",
+    "context": "Colombia tiene un debate permanente sobre el rol del Estado en la economia y la eficiencia de las empresas publicas.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "econ-03",
+    "categoryId": "economia",
+    "text": "El salario minimo debe aumentarse significativamente por encima de la inflacion para mejorar las condiciones de vida de los trabajadores.",
+    "context": "El salario minimo en Colombia se negocia anualmente entre gobierno, empleadores y sindicatos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "econ-04",
+    "categoryId": "economia",
+    "text": "Colombia debe priorizar la atraccion de inversion extranjera ofreciendo incentivos tributarios y desregulacion.",
+    "context": "La inversion extranjera directa es una fuente importante de empleo y crecimiento, pero los incentivos tienen un costo fiscal.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "econ-05",
+    "categoryId": "economia",
+    "text": "El gobierno debe intervenir activamente en los precios de productos basicos (alimentos, combustibles, servicios publicos) para proteger a los mas vulnerables.",
+    "context": "Los subsidios y controles de precios protegen a los ciudadanos pero pueden generar distorsiones de mercado.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "econ-06",
+    "categoryId": "economia",
+    "text": "Se debe promover la economia popular y solidaria (cooperativas, emprendimientos locales) como alternativa al modelo corporativo.",
+    "context": "La economia solidaria emplea a millones de colombianos, especialmente en zonas rurales y sectores informales.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "econ-07",
+    "categoryId": "economia",
+    "text": "Colombia debe avanzar hacia una economia mas diversificada y reducir su dependencia de materias primas como el petroleo y el carbon.",
+    "context": "Las exportaciones de combustibles representan una parte significativa de los ingresos del pais, pero son vulnerables a ciclos de precios.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "econ-08",
+    "categoryId": "economia",
+    "text": "La informalidad laboral se combate mejor con incentivos a la formalizacion que con mayor regulacion y sanciones.",
+    "context": "Cerca del 60% del empleo en Colombia es informal, sin acceso a seguridad social ni prestaciones.",
+    "type": "likert",
+    "weight": 2
+  }
+]

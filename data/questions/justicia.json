@@ -1,0 +1,58 @@
+[
+  {
+    "id": "jus-01",
+    "categoryId": "justicia",
+    "text": "Se debe crear una agencia anticorrupcion independiente con poderes reales de investigacion y sancion.",
+    "context": "La corrupcion le cuesta a Colombia billones de pesos al ano y erosiona la confianza en las instituciones.",
+    "type": "likert",
+    "weight": 3
+  },
+  {
+    "id": "jus-02",
+    "categoryId": "justicia",
+    "text": "Las penas por delitos de corrupcion deben aumentarse drasticamente, incluyendo la cadena perpetua.",
+    "context": "Las penas actuales por corrupcion son consideradas blandas por muchos ciudadanos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "jus-03",
+    "categoryId": "justicia",
+    "text": "La justicia transicional (JEP) debe continuar su trabajo hasta completar la investigacion de todos los casos del conflicto.",
+    "context": "La JEP investiga crimenes del conflicto armado y busca verdad, justicia y reparacion.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "jus-04",
+    "categoryId": "justicia",
+    "text": "Se debe reformar la Fiscalia y el sistema judicial para reducir la impunidad, que supera el 90%.",
+    "context": "La impunidad en Colombia es una de las mas altas de la region.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "jus-05",
+    "categoryId": "justicia",
+    "text": "Los funcionarios publicos electos deben perder su fuero y ser juzgados por la justicia ordinaria.",
+    "context": "Los fueros especiales protegen a congresistas y otros funcionarios de la justicia ordinaria.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "jus-06",
+    "categoryId": "justicia",
+    "text": "Se debe implementar la extincion de dominio de manera mas agresiva contra bienes de origen ilicito.",
+    "context": "La extincion de dominio permite al Estado apropiarse de bienes adquiridos ilegalmente.",
+    "type": "likert",
+    "weight": 1
+  },
+  {
+    "id": "jus-07",
+    "categoryId": "justicia",
+    "text": "La participacion ciudadana en decisiones judiciales y politicas debe ampliarse con mecanismos como jurados y presupuestos participativos.",
+    "context": "Colombia tiene mecanismos de participacion ciudadana que son poco utilizados.",
+    "type": "likert",
+    "weight": 1
+  }
+]

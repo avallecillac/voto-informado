@@ -1,0 +1,509 @@
+{
+  "id": "claudia-lopez",
+  "name": "Claudia Lopez Hernandez",
+  "party": "Verde Oxigeno",
+  "coalition": null,
+  "photoUrl": "/images/candidates/claudia-lopez.webp",
+  "politicalOrientation": "centro",
+  "programUrl": "",
+  "bio": "Ex alcaldesa de Bogota y ex senadora, candidata presidencial para 2026. Propone un gobierno de soluciones centrado en poner la casa en orden, cuidar a la gente y desarrollar las regiones. Defiende la descentralizacion, el Sistema Nacional de Cuidado, la Fiscalia Antimafia y la responsabilidad fiscal.",
+  "positions": [
+    {
+      "questionId": "econ-01",
+      "stance": -1,
+      "justification": "Tasa de tributacion empresarial de renta bajara 2 puntos por cada punto adicional de crecimiento del PIB; menores impuestos con mayor crecimiento.",
+      "programReference": "PAGE 14 - Crear reglas predecibles de impuestos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-02",
+      "stance": 1,
+      "justification": "Recortes de gasto burocratico y busquedas de eficiencia; gastos totales no pueden seguir creciendo mas que los ingresos.",
+      "programReference": "PAGE 13 - Un Estado responsable, transparente",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-03",
+      "stance": 1,
+      "justification": "Defiende un salario minimo justo como conquista social que se queda y se protege.",
+      "programReference": "PAGE 5 - Quienes somos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-04",
+      "stance": 1,
+      "justification": "Diplomacia activa para atraer inversion extranjera directa de calidad; reglas claras y estabilidad para que el sector privado invierta.",
+      "programReference": "PAGE 13 - Impulsar una diplomacia politica y economica activa",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-05",
+      "stance": 1,
+      "justification": "Regalias regionales financiaran infraestructura electrica para que costos no se carguen a tarifas de familias vulnerables.",
+      "programReference": "PAGE 30 - Region Caribe",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-06",
+      "stance": 2,
+      "justification": "Creditos preferenciales a economia popular liderada por mujeres, jovenes y personas con discapacidad; apoyo a micronegocios.",
+      "programReference": "PAGE 19 - Crear incentivos al empleo",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "econ-07",
+      "stance": 1,
+      "justification": "Transicion energetica con renovables pero con exploracion de hidrocarburos para garantizar soberania energetica.",
+      "programReference": "PAGE 24 - Apuesta productiva regional",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "econ-08",
+      "stance": 2,
+      "justification": "Incentivos al empleo y apoyo a micronegocios; pasar de autoempleo a empresas formales; subsidios al empleo con salario minimo.",
+      "programReference": "PAGE 19 - Crear incentivos al empleo",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "com-04",
+      "stance": 2,
+      "justification": "Diplomacia que abra mercados para bienes y servicios colombianos; apuesta por exportaciones con valor agregado y empresas ancla.",
+      "programReference": "PAGE 13 - Diplomacia economica activa",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "com-05",
+      "stance": 1,
+      "justification": "Zonas economicas especiales de alto valor agregado logistico y exportador en puertos estrategicos.",
+      "programReference": "PAGE 28 - Modelo de concesiones portuarias",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "agr-05",
+      "stance": 2,
+      "justification": "Programa nacional de vias terciarias y secundarias atadas a concesiones de grandes vias nacionales para reducir costos de transporte.",
+      "programReference": "PAGE 29 - Vias terciarias",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "agr-06",
+      "stance": 1,
+      "justification": "Programas que ofrecen ingresos a campesinos e indigenas por conservacion de la selva y restauracion; firmeza contra narcotrafico.",
+      "programReference": "PAGE 32 - Amazonia",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "agr-07",
+      "stance": 2,
+      "justification": "Asistencia tecnica, credito barato y precio de compra garantizado para cosechas de campesinos socios.",
+      "programReference": "PAGE 31 - Llanos y Orinoquia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "agr-03",
+      "stance": 1,
+      "justification": "Apuesta por seguridad alimentaria en Llanos y Orinoquia con precio de compra garantizado para cosechas nacionales.",
+      "programReference": "PAGE 31 - Llanos y Orinoquia",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "ene-01",
+      "stance": -2,
+      "justification": "Retomar la exploracion de hidrocarburos y pilotos de fracking bajo evidencia cientifica para asegurar precios bajos y no desabastecimiento.",
+      "programReference": "PAGE 24 - Politica energetica",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-02",
+      "stance": 2,
+      "justification": "Caribe como epicentro de transicion energetica con solar y eolico; cluster para fabricar paneles y turbinas; Estado facilitador.",
+      "programReference": "PAGE 30 - Region Caribe",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-03",
+      "stance": 1,
+      "justification": "Proteccion de parques nacionales y ecosistemas estrategicos; desarticular minas ilegales en Amazonia.",
+      "programReference": "PAGE 24 - Gestion ambiental",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "ene-04",
+      "stance": -1,
+      "justification": "Realizar pilotos de fracking bajo evidencia cientifica y riguroso licenciamiento ambiental para asegurar precios bajos.",
+      "programReference": "PAGE 24 - Politica energetica",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ene-05",
+      "stance": 1,
+      "justification": "Comunidades seran socias de proyectos con obras por impuestos y participacion en utilidades en lugar de intermediacion politica.",
+      "programReference": "PAGE 24 - Modelo regional",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-02",
+      "stance": 2,
+      "justification": "Estado actuara con firmeza para recuperar control territorial frente al crimen organizado en la Amazonia.",
+      "programReference": "PAGE 32 - Amazonia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-05",
+      "stance": 2,
+      "justification": "Mercado de bonos de carbono y Pagos por Servicios Ambientales con justicia climatica interregional para comunidades indigenas.",
+      "programReference": "PAGE 32 - Amazonia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-06",
+      "stance": 2,
+      "justification": "Liderazgo regional y global para proteccion de la Amazonia, Pacifico biogeografico y ecosistemas estrategicos.",
+      "programReference": "PAGE 13 - Defensa de ecosistemas estrategicos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-07",
+      "stance": 2,
+      "justification": "Agua como bien comun y derecho humano con acceso universal a agua potable y saneamiento, priorizando zonas rurales.",
+      "programReference": "PAGE 22 - Agua y saneamiento",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "amb-04",
+      "stance": -1,
+      "justification": "Pilotos de fracking y exploracion de hidrocarburos para asegurar precios bajos; agilizar tramites ambientales.",
+      "programReference": "PAGE 24 - Politica energetica",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "edu-01",
+      "stance": 1,
+      "justification": "Un millon de becas de educacion y trabajo tipo Todos a la U como programa nacional de acceso a educacion posmedia.",
+      "programReference": "PAGE 19 - Todos a la U",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "edu-02",
+      "stance": 1,
+      "justification": "SENA reestructurado para responder a necesidades productivas regionales; educacion posmedia unificada para empleo.",
+      "programReference": "PAGE 19 - Oportunidades para jovenes",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "edu-05",
+      "stance": 1,
+      "justification": "Fortalecer el rol docente con pedagogias innovadoras y renovacion curricular participativa.",
+      "programReference": "PAGE 19 - Transformacion educativa",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "edu-06",
+      "stance": 2,
+      "justification": "Plan especial para educacion rural con pertinencia intercultural; universalizar preescolar de tres grados.",
+      "programReference": "PAGE 20 - Equidad en trayectorias",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "edu-07",
+      "stance": 1,
+      "justification": "Incentivos ligados a la calidad y competencias del siglo XXI con educacion socioemocional.",
+      "programReference": "PAGE 19 - Fortalecer sistema educativo",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "edu-08",
+      "stance": 2,
+      "justification": "Educacion como motor de movilidad social para la equidad, democracia y reconciliacion nacional.",
+      "programReference": "PAGE 19 - Educacion y trabajo",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-01",
+      "stance": -2,
+      "justification": "La paz total es un desastre sin resultados que permitio expansion criminal; solo quedan organizaciones criminales transnacionales.",
+      "programReference": "PAGE 10 - Dos fracasos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-02",
+      "stance": 2,
+      "justification": "Fortalecer Ministerio de Defensa, ampliar pie de fuerza y capacidades operativas, tecnologia, formacion y cooperacion internacional.",
+      "programReference": "PAGE 12 - Fortalecer Ministerio de Defensa",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-03",
+      "stance": 1,
+      "justification": "Apoyar desclasificacion del cannabis y hoja de coca y reforma del regimen internacional de drogas.",
+      "programReference": "PAGE 13 - Reforma regimen drogas",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-04",
+      "stance": 1,
+      "justification": "Cumplirle a las victimas y garantizar reparacion integral y cumplimiento de acuerdos de paz con comunidades y regiones.",
+      "programReference": "PAGE 12 - Cumplirle a las victimas",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-06",
+      "stance": 1,
+      "justification": "Tercer nivel de justicia restaurativa para conflictos sociales y faltas a la convivencia con servicios sociales y segundas oportunidades.",
+      "programReference": "PAGE 11 - Justicia restaurativa",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-07",
+      "stance": 2,
+      "justification": "Colombia acompanara los esfuerzos para restablecer la democracia y la libertad en Venezuela.",
+      "programReference": "PAGE 13 - Liderazgo politico y estrategico",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "seg-08",
+      "stance": 2,
+      "justification": "Cumplirle a las victimas: garantizar la reparacion integral y cumplimiento efectivo de lo pactado con las regiones.",
+      "programReference": "PAGE 12 - Cumplirle a las victimas",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-01",
+      "stance": -2,
+      "justification": "Sistema sera mixto con gestoras y prestadoras, con limites y controles a integracion vertical y regencia publica.",
+      "programReference": "PAGE 17 - Sistema Mixto e Integral",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-02",
+      "stance": 2,
+      "justification": "Incorporar salud mental, discapacidad y envejecimiento como prioridades de atencion con planes de beneficios explicitos.",
+      "programReference": "PAGE 17 - Nuevo estudio actuarial",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-03",
+      "stance": 2,
+      "justification": "Sistema Nacional de Salud y Cuidado centrado en prevencion, equidad territorial y dignidad, con servicios en ciclo vital.",
+      "programReference": "PAGE 16 - Sistema de Salud",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-05",
+      "stance": 2,
+      "justification": "Sistema mixto publico-privado-comunitario con prestadoras y tablas de precios unificadas por servicios y regiones.",
+      "programReference": "PAGE 17 - Sistema Mixto e Integral",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "sal-06",
+      "stance": 1,
+      "justification": "Politica integral de genero que articula educacion, empleo, cuidado y vida libre de violencias con derechos reproductivos.",
+      "programReference": "PAGE 17 - Mujeres",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "jus-01",
+      "stance": 2,
+      "justification": "Crear Fiscalia Antimafia con minimas garantias, maximas sanciones y aislamiento indefinido para mafias de corrupcion.",
+      "programReference": "PAGE 11 - Fiscalia antimafia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "jus-02",
+      "stance": 2,
+      "justification": "Maximas sanciones y aislamiento indefinido para criminales de mafias de corrupcion, narcotrafico y crimen organizado.",
+      "programReference": "PAGE 11 - Justicia contra mafias",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "jus-04",
+      "stance": 2,
+      "justification": "Reforma de la justicia en tres niveles para acabar con la impunidad y reforzar presencia territorial de la justicia.",
+      "programReference": "PAGE 11 - Reformar la justicia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "jus-06",
+      "stance": 2,
+      "justification": "Todo el capital ilegal que se incaute y recupere se reinvertira en las regiones; sentencias de entrega de riqueza criminal.",
+      "programReference": "PAGE 11 - Fiscalia antimafia",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "jus-07",
+      "stance": 2,
+      "justification": "Presupuestos participativos regionales con votacion ciudadana para priorizar proyectos de inversion regional.",
+      "programReference": "PAGE 25 - Presupuestos participativos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ext-01",
+      "stance": -1,
+      "justification": "Colombia acompanara los esfuerzos para restablecer la democracia y la libertad en Venezuela; liderazgo politico en las Americas.",
+      "programReference": "PAGE 13 - Liderazgo en las Americas",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "ext-04",
+      "stance": 2,
+      "justification": "Ejercer liderazgo politico y estrategico en las Americas para defender democracia, territorio y soberania nacional.",
+      "programReference": "PAGE 13 - Liderazgo en las Americas",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "ext-06",
+      "stance": 2,
+      "justification": "Defensa de democracia y libertad en Venezuela; politica exterior de cooperacion efectiva para defensa de la democracia.",
+      "programReference": "PAGE 13 - Politica exterior",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tec-01",
+      "stance": 2,
+      "justification": "Garantizar acceso a internet y competencia efectiva en telecomunicaciones, con finanzas y datos abiertos.",
+      "programReference": "PAGE 28 - Infraestructura digital",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tec-03",
+      "stance": 1,
+      "justification": "Investigacion cientifica para bioeconomia y desarrollo tecnologico; intercambios cientificos y tecnologicos.",
+      "programReference": "PAGE 13 - Defensa ecosistemas estrategicos",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tec-04",
+      "stance": 2,
+      "justification": "Empresas ancla globales que transfieran tecnologia a pymes locales; clusteres regionales de tecnologia y servicios.",
+      "programReference": "PAGE 34 - Region Central",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tec-05",
+      "stance": 2,
+      "justification": "Gobierno digital interoperable con tramites automatizados, pagos integrados y Portal Unico Empresarial.",
+      "programReference": "PAGE 28 - Infraestructura digital",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "viv-01",
+      "stance": 0,
+      "justification": "250 mil subsidios para compra, 200 mil arrendamiento social, 150 mil mejoramientos; enfoque mixto de soluciones habitacionales.",
+      "programReference": "PAGE 21 - 600 mil soluciones habitacionales",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "viv-03",
+      "stance": 1,
+      "justification": "Banco Nacional de Suelos y actualizacion del catastro multiproposito para gestion de suelo publico estrategico.",
+      "programReference": "PAGE 21 - Banco Nacional de Suelos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "viv-04",
+      "stance": 2,
+      "justification": "Proyectos ferreos mixtos, lineas del metro de Bogota, Regiotram Region Metropolitana de Bogota y Valle de Aburra.",
+      "programReference": "PAGE 35 - Proyectos estrategicos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "viv-05",
+      "stance": 2,
+      "justification": "Descentralizar el DNP a DPR con subregiones funcionales; conectar ciudades intermedias como nodos estrategicos.",
+      "programReference": "PAGE 25 - Descentralizar DNP",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tra-01",
+      "stance": 1,
+      "justification": "Defensa de la reforma laboral como conquista social que se queda y se protege para dignificar el ingreso de trabajadores.",
+      "programReference": "PAGE 5 - Quienes somos",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tra-02",
+      "stance": -1,
+      "justification": "Defiende reforma laboral ya aprobada como conquista social; pasar de autoempleo a empresas con empleos formales.",
+      "programReference": "PAGE 5 - Conquistas sociales",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tra-04",
+      "stance": 1,
+      "justification": "Defiende avances en proteccion social equitativa para la vejez a traves de la reforma pensional ya aprobada.",
+      "programReference": "PAGE 5 - Reforma pensional",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tra-05",
+      "stance": 0,
+      "justification": "Subsidios diferenciados para hogares en pobreza extrema y moderada con servicios de cuidado y becas educativas.",
+      "programReference": "PAGE 18 - Asignacion de subsidios",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "tra-06",
+      "stance": 0,
+      "justification": "Defiende la reforma pensional que establece un sistema mixto con componente publico y complementario privado.",
+      "programReference": "PAGE 5 - Reforma pensional",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "cul-01",
+      "stance": 1,
+      "justification": "Fondo Regional de Estimulos, presupuestos participativos y APP culturales para fortalecer infraestructura y empleo cultural.",
+      "programReference": "PAGE 20 - Cultura viva",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-02",
+      "stance": 2,
+      "justification": "Reglamentacion y operacion de Entidades Territoriales Indigenas con competencias claras y presupuesto para autonomia.",
+      "programReference": "PAGE 32 - Amazonia ETIs",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-03",
+      "stance": 1,
+      "justification": "Ruta deportiva juvenil, Juegos Regionales de la Identidad y APP deportivas para ampliar infraestructura y acceso.",
+      "programReference": "PAGE 20 - Deporte",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-04",
+      "stance": 2,
+      "justification": "Poblacion diversa LGBTIQ+ pueda vivir libre, sin miedo y con plenos derechos; castigos rapidos a crimenes de odio.",
+      "programReference": "PAGE 6 - Gobernar para la gente",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "cul-06",
+      "stance": 2,
+      "justification": "Frenar exclusion y crimenes de odio contra poblacion diversa LGBTIQ+; proteger autonomia de mujeres frente a violencias de genero.",
+      "programReference": "PAGE 15 - Pacto social incluyente",
+      "confidence": "explicit"
+    },
+    {
+      "questionId": "agr-01",
+      "stance": 0,
+      "justification": "Campesinos como socios con formalizacion predial y catastro multiproposito, sin redistribucion masiva.",
+      "programReference": "PAGE 31 - Llanos y Orinoquia",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "com-06",
+      "stance": 1,
+      "justification": "Diplomacia economica activa que abra mercados y diversifique cooperacion internacional multilateral.",
+      "programReference": "PAGE 13 - Diplomacia activa",
+      "confidence": "inferred"
+    },
+    {
+      "questionId": "tec-06",
+      "stance": 1,
+      "justification": "Sistema de informacion en salud unificado, publico, interoperable y transparente centrado en el paciente.",
+      "programReference": "PAGE 17 - Sistema de informacion salud",
+      "confidence": "inferred"
+    }
+  ]
+}

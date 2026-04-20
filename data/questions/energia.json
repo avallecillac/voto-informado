@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ene-01",
+    "categoryId": "energia",
+    "text": "Colombia debe detener la exploracion y explotacion de nuevos yacimientos de petroleo y gas.",
+    "context": "El petroleo representa una fuente importante de ingresos fiscales y exportaciones, pero contribuye al cambio climatico.",
+    "type": "likert",
+    "weight": 3
+  },
+  {
+    "id": "ene-02",
+    "categoryId": "energia",
+    "text": "Se debe acelerar la transicion hacia energias renovables (solar, eolica) con subsidios y regulacion favorable.",
+    "context": "Colombia tiene un gran potencial en energias renovables, especialmente solar en La Guajira y eolica en la costa.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "ene-03",
+    "categoryId": "energia",
+    "text": "La mineria a gran escala debe prohibirse en zonas de paramos y ecosistemas estrategicos.",
+    "context": "Los paramos son fuente de agua para millones de colombianos, pero tambien contienen recursos minerales valiosos.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "ene-04",
+    "categoryId": "energia",
+    "text": "El fracking debe permitirse en Colombia bajo regulacion estricta para aumentar la produccion de gas.",
+    "context": "El fracking es controversial por su impacto ambiental, pero podria aumentar las reservas energeticas del pais.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "ene-05",
+    "categoryId": "energia",
+    "text": "Las comunidades locales deben tener poder de veto sobre proyectos minero-energeticos en sus territorios.",
+    "context": "Las consultas previas y populares han frenado proyectos extractivos, generando tension entre desarrollo y derechos comunitarios.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "ene-06",
+    "categoryId": "energia",
+    "text": "Ecopetrol debe mantenerse como empresa publica y no debe privatizarse parcial ni totalmente.",
+    "context": "Ecopetrol es la empresa mas grande de Colombia y una fuente clave de ingresos para el Estado.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "ene-07",
+    "categoryId": "energia",
+    "text": "Se debe invertir en energia nuclear como parte de la matriz energetica de Colombia.",
+    "context": "La energia nuclear es baja en emisiones pero tiene riesgos y altos costos de implementacion.",
+    "type": "likert",
+    "weight": 1
+  }
+]

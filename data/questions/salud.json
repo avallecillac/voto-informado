@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sal-01",
+    "categoryId": "salud",
+    "text": "Se deben eliminar las EPS y crear un sistema unico de salud administrado por el Estado.",
+    "context": "El sistema de salud colombiano ha sido criticado por la intermediacion de las EPS y las barreras de acceso.",
+    "type": "likert",
+    "weight": 3
+  },
+  {
+    "id": "sal-02",
+    "categoryId": "salud",
+    "text": "La salud mental debe recibir la misma prioridad y financiacion que la salud fisica en el sistema de salud.",
+    "context": "Colombia enfrenta una crisis de salud mental agravada por el conflicto armado y la pandemia.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "sal-03",
+    "categoryId": "salud",
+    "text": "Se debe fortalecer la atencion primaria y preventiva en los territorios en lugar de concentrar recursos en hospitales de alta complejidad.",
+    "context": "La atencion primaria puede resolver hasta el 80% de las consultas, pero esta subfinanciada en Colombia.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "sal-04",
+    "categoryId": "salud",
+    "text": "Colombia debe producir sus propios medicamentos genericos y vacunas para reducir la dependencia de farmaceuticas internacionales.",
+    "context": "Los altos costos de medicamentos son una barrera importante de acceso a la salud.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "sal-05",
+    "categoryId": "salud",
+    "text": "El sector privado debe tener un rol importante en la prestacion de servicios de salud, no solo el Estado.",
+    "context": "Muchos colombianos prefieren la medicina prepagada y los servicios privados por su percepcion de mejor calidad.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "sal-06",
+    "categoryId": "salud",
+    "text": "Se debe garantizar el acceso a servicios de salud reproductiva y sexual, incluyendo anticonceptivos y educacion sexual.",
+    "context": "El embarazo adolescente y el acceso a salud reproductiva son temas importantes de salud publica.",
+    "type": "likert",
+    "weight": 2
+  },
+  {
+    "id": "sal-07",
+    "categoryId": "salud",
+    "text": "Los profesionales de la salud deben recibir mejores salarios y condiciones laborales para reducir la fuga de talento.",
+    "context": "Muchos medicos y enfermeras colombianos emigran a otros paises en busca de mejores condiciones.",
+    "type": "likert",
+    "weight": 1
+  }
+]
