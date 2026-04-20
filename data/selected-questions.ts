@@ -19,7 +19,7 @@ export const SELECTED_QUESTION_IDS = [
   "agr-01",
   // justicia (1)
   "jus-03",
-  // economia (3)
+  // economía (3)
   "econ-05",
   "econ-01",
   "econ-02",
@@ -31,7 +31,7 @@ export const SELECTED_QUESTION_IDS = [
   "tra-02",
   "tra-05",
   "tra-06",
-  // energia (3)
+  // energía (3)
   "ene-04",
   "ene-01",
   "ene-05",
@@ -46,9 +46,9 @@ export const SELECTED_QUESTION_IDS = [
   "cul-04",
   // comercio_exterior (1)
   "com-01",
-  // educacion (1)
+  // educación (1)
   "edu-01",
-  // tecnologia (1)
+  // tecnología (1)
   "tec-03",
   // vivienda (1)
   "viv-01",

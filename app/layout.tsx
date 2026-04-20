@@ -16,13 +16,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Voto Informado Colombia 2026",
   description:
-    "Descubre cual candidato presidencial representa mejor tus ideales. Basado en los programas de gobierno oficiales.",
+    "Descubre cuál candidato presidencial representa mejor tus ideales. Basado en los programas de gobierno oficiales.",
   openGraph: {
     title: "Voto Informado Colombia 2026",
     description:
-      "Descubre cual candidato presidencial representa mejor tus ideales.",
+      "Responde 27 afirmaciones clave y descubre cuál candidato presidencial representa mejor tus ideales. Basado en los programas de gobierno oficiales.",
     type: "website",
     locale: "es_CO",
+    siteName: "Voto Informado Colombia",
+    // opengraph-image.tsx at app root auto-generates the preview image
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Voto Informado Colombia 2026",
+    description:
+      "Descubre cuál candidato presidencial representa mejor tus ideales. Basado en los programas de gobierno oficiales.",
   },
 };
 

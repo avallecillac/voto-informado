@@ -2,8 +2,8 @@
   {
     "id": "ext-01",
     "categoryId": "politica_exterior",
-    "text": "Colombia debe mantener relaciones diplomaticas abiertas con Venezuela independientemente de las diferencias politicas.",
-    "context": "Las relaciones con Venezuela han sido un tema central de la politica exterior colombiana en la ultima decada.",
+    "text": "Colombia debe mantener relaciones diplomaticas abiertas con Venezuela independientemente de las diferencias políticas.",
+    "context": "Las relaciones con Venezuela han sido un tema central de la política exterior colombiana en la última decada.",
     "type": "likert",
     "weight": 2
   },
@@ -19,7 +19,7 @@
     "id": "ext-03",
     "categoryId": "politica_exterior",
     "text": "Colombia debe alinearse mas con EE.UU. en temas de seguridad y lucha antidrogas.",
-    "context": "EE.UU. ha sido historicamente el principal aliado de Colombia en temas de seguridad.",
+    "context": "EE.UU. ha sido históricamente el principal aliado de Colombia en temas de seguridad.",
     "type": "likert",
     "weight": 2
   },
@@ -27,23 +27,23 @@
     "id": "ext-04",
     "categoryId": "politica_exterior",
     "text": "Colombia debe buscar un asiento permanente o mayor influencia en organismos multilaterales (ONU, OEA).",
-    "context": "Colombia busca un mayor rol en la gobernanza global acorde con su tamano e importancia regional.",
+    "context": "Colombia busca un mayor rol en la gobernanza global acorde con su tamaño e importancia regional.",
     "type": "likert",
     "weight": 1
   },
   {
     "id": "ext-05",
     "categoryId": "politica_exterior",
-    "text": "Se debe priorizar la cooperacion Sur-Sur con paises de America Latina, Africa y Asia.",
-    "context": "La cooperacion Sur-Sur ofrece alternativas a la dependencia de potencias tradicionales.",
+    "text": "Se debe priorizar la cooperación Sur-Sur con países de America Latina, Africa y Asia.",
+    "context": "La cooperación Sur-Sur ofrece alternativas a la dependencia de potencias tradicionales.",
     "type": "likert",
     "weight": 1
   },
   {
     "id": "ext-06",
     "categoryId": "politica_exterior",
-    "text": "Colombia debe defender activamente los derechos humanos y la democracia en otros paises de la region.",
-    "context": "La region enfrenta retrocesos democraticos en varios paises.",
+    "text": "Colombia debe defender activamente los derechos humanos y la democracia en otros países de la región.",
+    "context": "La región enfrenta retrocesos democráticos en varios países.",
     "type": "likert",
     "weight": 2
   }

@@ -73,7 +73,7 @@ export default function PrioritiesPage() {
     return (
       <div className="py-12 text-center">
         <p className="text-muted-foreground">
-          Aun no has respondido preguntas.
+          Aún no has respondido preguntas.
         </p>
         <Button className="mt-4" onClick={() => router.push("/quiz/intro")}>
           Empezar
@@ -93,16 +93,16 @@ export default function PrioritiesPage() {
           <Star className="h-6 w-6 text-yellow-600" />
         </div>
         <h1 className="text-2xl font-bold sm:text-3xl">
-          Cuales 3 temas son mas importantes para ti?
+          ¿Cuáles 3 temas son más importantes para ti?
         </h1>
         <p className="mt-2 text-muted-foreground">
           Elige hasta <strong className="text-yellow-700">3 temas</strong> que
-          son especialmente importantes. Se les dara el doble de peso en tu
+          sean especialmente importantes. Se les dará el doble de peso en tu
           resultado.
         </p>
         <p className="mt-2 text-sm text-muted-foreground">
           Este paso es <strong>opcional</strong>. Si no marcas ninguno, todos
-          los temas tendran el mismo peso.
+          los temas tendrán el mismo peso.
         </p>
         <Badge
           variant={importantCategories.length > 0 ? "default" : "secondary"}

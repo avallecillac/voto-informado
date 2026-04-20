@@ -2,32 +2,32 @@
   {
     "id": "agr-01",
     "categoryId": "agricultura",
-    "text": "Se debe realizar una redistribucion masiva de tierras improductivas a campesinos sin tierra.",
-    "context": "La concentracion de tierra en Colombia es una de las mas altas del mundo y ha sido fuente historica de conflicto.",
+    "text": "Se debe realizar una redistribución masiva de tierras improductivas a campesinos sin tierra.",
+    "context": "La concentracion de tierra en Colombia es una de las mas altas del mundo y ha sido fuente histórica de conflicto.",
     "type": "likert",
     "weight": 3
   },
   {
     "id": "agr-02",
     "categoryId": "agricultura",
-    "text": "Se debe priorizar la agroindustria de exportacion sobre la agricultura familiar para generar divisas.",
-    "context": "Colombia exporta cafe, flores, banano y otros productos, pero los pequenos agricultores producen la mayoria de los alimentos.",
+    "text": "Se debe priorizar la agroindustria de exportación sobre la agricultura familiar para generar divisas.",
+    "context": "Colombia exporta café, flores, banano y otros productos, pero los pequeños agricultores producen la mayoria de los alimentos.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "agr-03",
     "categoryId": "agricultura",
-    "text": "El gobierno debe subsidiar y proteger la produccion nacional de alimentos frente a las importaciones.",
-    "context": "Colombia importa millones de toneladas de alimentos que podria producir internamente.",
+    "text": "El gobierno debe subsidiar y proteger la producción nacional de alimentos frente a las importaciones.",
+    "context": "Colombia importa millones de toneladas de alimentos que podría producir internamente.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "agr-04",
     "categoryId": "agricultura",
-    "text": "Se deben prohibir los cultivos transgenicos y promover la agricultura organica y agroecologica.",
-    "context": "Los transgenicos aumentan la productividad pero generan preocupaciones ambientales y de soberania alimentaria.",
+    "text": "Se deben prohibir los cultivos transgenicos y promover la agricultura orgánica y agroecologica.",
+    "context": "Los transgenicos aumentan la productividad pero generan preocupaciones ambientales y de soberanía alimentaria.",
     "type": "likert",
     "weight": 1
   },
@@ -42,7 +42,7 @@
   {
     "id": "agr-06",
     "categoryId": "agricultura",
-    "text": "La sustitucion voluntaria de cultivos ilicitos es mejor estrategia que la erradicacion forzada.",
+    "text": "La sustitución voluntaria de cultivos ilicitos es mejor estrategia que la erradicación forzada.",
     "context": "Miles de familias campesinas dependen del cultivo de coca como fuente de ingresos.",
     "type": "likert",
     "weight": 2
@@ -50,7 +50,7 @@
   {
     "id": "agr-07",
     "categoryId": "agricultura",
-    "text": "Se debe crear un banco agrario fortalecido con creditos blandos para pequenos y medianos productores.",
+    "text": "Se debe crear un banco agrario fortalecido con creditos blandos para pequeños y medianos productores.",
     "context": "El acceso a credito es una de las principales barreras para el desarrollo rural.",
     "type": "likert",
     "weight": 1

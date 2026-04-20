@@ -130,7 +130,7 @@ export default function CandidateDetailPage() {
 
       {/* Position comparison */}
       <h2 className="mb-4 text-lg font-semibold">
-        Comparacion pregunta por pregunta
+        Comparación pregunta por pregunta
       </h2>
 
       <div className="space-y-3">
@@ -225,7 +225,7 @@ export default function CandidateDetailPage() {
                       {position.confidence === "inferred" && (
                         <span className="mt-1 inline-flex items-center gap-1 text-xs text-yellow-600">
                           <AlertTriangle className="h-3 w-3" />
-                          Posicion inferida (no explicita en el programa)
+                          Posición inferida (no explícita en el programa)
                         </span>
                       )}
                     </div>

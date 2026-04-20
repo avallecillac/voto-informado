@@ -23,15 +23,15 @@ export default function HomePage() {
 
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             Vota con{" "}
-            <span className="text-blue-600">informacion</span>,{" "}
+            <span className="text-blue-600">información</span>,{" "}
             <br className="hidden sm:block" />
             no con{" "}
-            <span className="text-red-500">polarizacion</span>
+            <span className="text-red-500">polarización</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
             Responde preguntas sobre los temas que te importan y descubre
-            cual candidato presidencial representa mejor tus ideales.
+            cuál candidato presidencial representa mejor tus ideales.
             Basado en los{" "}
             <strong>programas de gobierno oficiales</strong>.
           </p>
@@ -51,7 +51,7 @@ export default function HomePage() {
                 "text-base"
               )}
             >
-              Ver metodologia
+              Ver metodología
             </Link>
           </div>
         </div>
@@ -61,26 +61,26 @@ export default function HomePage() {
       <section className="border-t bg-white py-16">
         <div className="mx-auto max-w-5xl px-4">
           <h2 className="text-center text-2xl font-semibold sm:text-3xl">
-            Como funciona
+            Cómo funciona
           </h2>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             <StepCard
               number={1}
               icon={<CheckCircle className="h-6 w-6 text-blue-600" />}
-              title="Elige tus temas"
-              description="Selecciona las 3 categorias que mas te importan: economia, educacion, seguridad, medio ambiente y mas."
+              title="Responde las preguntas"
+              description="Contesta 27 afirmaciones clave sobre políticas públicas: economía, educación, seguridad, medio ambiente y más."
             />
             <StepCard
               number={2}
               icon={<BarChart3 className="h-6 w-6 text-blue-600" />}
-              title="Responde preguntas"
-              description="Contesta preguntas sobre politicas publicas y califica que tan importante es cada tema para ti."
+              title="Elige tus prioridades"
+              description="Al final, marca los 3 temas que son más importantes para ti. Se les dará el doble de peso en tu resultado."
             />
             <StepCard
               number={3}
               icon={<Vote className="h-6 w-6 text-blue-600" />}
               title="Descubre tu match"
-              description="Ve cual candidato coincide mas con tus ideales, con referencias directas a sus programas de gobierno."
+              description="Ve cuál candidato coincide más con tus ideales, con referencias directas a sus programas de gobierno."
             />
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function HomePage() {
             <TrustCard
               icon={<FileText className="h-5 w-5" />}
               title="Fuentes oficiales"
-              text="Cada posicion de candidato cita directamente su programa de gobierno registrado."
+              text="Cada posición de candidato cita directamente su programa de gobierno registrado."
             />
             <TrustCard
               icon={<Shield className="h-5 w-5" />}
@@ -102,8 +102,8 @@ export default function HomePage() {
             />
             <TrustCard
               icon={<BarChart3 className="h-5 w-5" />}
-              title="Metodologia abierta"
-              text="Nuestro algoritmo y datos son publicos para que cualquiera pueda verificar."
+              title="Metodología abierta"
+              text="Nuestro algoritmo y datos son públicos para que cualquiera pueda verificar."
             />
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl px-4">
           <p>
             Voto Informado Colombia 2026 es una herramienta informativa
-            independiente. No esta afiliada a ningun partido politico ni
+            independiente. No está afiliada a ningún partido político ni
             candidato.
           </p>
         </div>

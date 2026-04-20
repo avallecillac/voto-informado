@@ -11,7 +11,7 @@
     "id": "viv-02",
     "categoryId": "vivienda",
     "text": "Se debe regular el precio de los arriendos para evitar la especulacion y proteger a los inquilinos.",
-    "context": "El costo de vivienda en ciudades como Bogota, Medellin y Cartagena ha crecido mucho mas que los salarios.",
+    "context": "El costo de vivienda en ciudades como Bogotá, Medellín y Cartagena ha crecido mucho mas que los salarios.",
     "type": "likert",
     "weight": 2
   },
@@ -26,16 +26,16 @@
   {
     "id": "viv-04",
     "categoryId": "vivienda",
-    "text": "La inversion en transporte publico masivo debe priorizarse sobre la construccion de nuevas vias para carros.",
-    "context": "Las ciudades colombianas enfrentan congestion vehicular creciente y sistemas de transporte insuficientes.",
+    "text": "La inversión en transporte público masivo debe priorizarse sobre la construcción de nuevas vias para carros.",
+    "context": "Las ciudades colombianas enfrentan congestión vehicular creciente y sistemas de transporte insuficientes.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "viv-05",
     "categoryId": "vivienda",
-    "text": "Se debe descentralizar el desarrollo urbano fomentando ciudades intermedias en lugar de concentrar todo en Bogota.",
-    "context": "La concentracion de servicios, empleo y poder en Bogota genera desigualdad regional.",
+    "text": "Se debe descentralizar el desarrollo urbano fomentando ciudades intermedias en lugar de concentrar todo en Bogotá.",
+    "context": "La concentracion de servicios, empleo y poder en Bogotá genera desigualdad regional.",
     "type": "likert",
     "weight": 2
   },
@@ -43,7 +43,7 @@
     "id": "viv-06",
     "categoryId": "vivienda",
     "text": "Se deben legalizar y mejorar los barrios informales en lugar de reubicar a sus habitantes.",
-    "context": "Millones de colombianos viven en asentamientos informales que carecen de servicios basicos.",
+    "context": "Millones de colombianos viven en asentamientos informales que carecen de servicios básicos.",
     "type": "likert",
     "weight": 2
   }

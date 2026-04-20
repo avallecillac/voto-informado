@@ -10,8 +10,8 @@
   {
     "id": "amb-02",
     "categoryId": "medio_ambiente",
-    "text": "La deforestacion en la Amazonia colombiana debe combatirse con presencia militar si es necesario.",
-    "context": "Colombia pierde miles de hectareas de bosque al ano, especialmente en la Amazonia y el Pacifico.",
+    "text": "La deforestación en la Amazonía colombiana debe combatirse con presencia militar si es necesario.",
+    "context": "Colombia pierde miles de hectareas de bosque al año, especialmente en la Amazonía y el Pacífico.",
     "type": "likert",
     "weight": 2
   },
@@ -26,8 +26,8 @@
   {
     "id": "amb-04",
     "categoryId": "medio_ambiente",
-    "text": "El desarrollo economico debe tener prioridad sobre la proteccion ambiental cuando ambos entran en conflicto.",
-    "context": "Muchas comunidades dependen de actividades extractivas para su sustento, generando tension con la conservacion.",
+    "text": "El desarrollo económico debe tener prioridad sobre la protección ambiental cuando ambos entran en conflicto.",
+    "context": "Muchas comunidades dependen de actividades extractivas para su sustento, generando tension con la conservación.",
     "type": "likert",
     "weight": 2
   },
@@ -35,15 +35,15 @@
     "id": "amb-05",
     "categoryId": "medio_ambiente",
     "text": "Se debe crear un fondo especial para pagar a campesinos y comunidades indigenas por conservar los bosques.",
-    "context": "Los pagos por servicios ambientales son una herramienta para incentivar la conservacion.",
+    "context": "Los pagos por servicios ambientales son una herramienta para incentivar la conservación.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "amb-06",
     "categoryId": "medio_ambiente",
-    "text": "Colombia debe liderar negociaciones internacionales de cambio climatico exigiendo compensacion de los paises mas contaminantes.",
-    "context": "Colombia contribuye poco a las emisiones globales pero es uno de los paises mas vulnerables al cambio climatico.",
+    "text": "Colombia debe liderar negociaciones internacionales de cambio climatico exigiendo compensacion de los países mas contaminantes.",
+    "context": "Colombia contribuye poco a las emisiones globales pero es uno de los países mas vulnerables al cambio climatico.",
     "type": "likert",
     "weight": 2
   },
@@ -51,7 +51,7 @@
     "id": "amb-07",
     "categoryId": "medio_ambiente",
     "text": "El acceso al agua potable debe ser un derecho fundamental garantizado por el Estado, incluso si implica limitar el uso industrial.",
-    "context": "Millones de colombianos aun no tienen acceso a agua potable, especialmente en zonas rurales y el Pacifico.",
+    "context": "Millones de colombianos aun no tienen acceso a agua potable, especialmente en zonas rurales y el Pacífico.",
     "type": "likert",
     "weight": 3
   }

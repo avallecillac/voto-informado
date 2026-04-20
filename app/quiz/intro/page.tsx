@@ -18,7 +18,7 @@ export default function IntroPage() {
   return (
     <div>
       <div className="mb-8 text-center">
-        <h1 className="text-2xl font-bold sm:text-3xl">Como funciona</h1>
+        <h1 className="text-2xl font-bold sm:text-3xl">Cómo funciona</h1>
         <p className="mt-2 text-muted-foreground">
           3 pasos simples para descubrir tu candidato
         </p>
@@ -33,19 +33,19 @@ export default function IntroPage() {
           number={1}
           icon={<ThumbsUp className="h-5 w-5" />}
           title="Responde 27 afirmaciones"
-          description="Para cada afirmacion elige: De acuerdo, En desacuerdo, o Neutral. Puedes saltar las que no quieras responder."
+          description="Para cada afirmación elige: De acuerdo, En desacuerdo, o Neutral. Puedes saltar las que no quieras responder."
         />
         <StepCard
           number={2}
           icon={<Star className="h-5 w-5" />}
           title="Elige tus 3 temas prioritarios"
-          description="Al final, indica los 3 temas que son mas importantes para ti. Se les dara el doble de peso en tu resultado."
+          description="Al final, indica los 3 temas que son más importantes para ti. Se les dará el doble de peso en tu resultado."
         />
         <StepCard
           number={3}
           icon={<Trophy className="h-5 w-5" />}
           title="Descubre tu match"
-          description="Veras un ranking de los candidatos con el porcentaje de coincidencia, con citas directas de sus programas."
+          description="Verás un ranking de los candidatos con el porcentaje de coincidencia, con citas directas de sus programas."
         />
       </div>
 
@@ -57,7 +57,7 @@ export default function IntroPage() {
               Neutral y transparente
             </p>
             <p className="mt-1 text-blue-800">
-              Cada posicion citada viene del programa de gobierno oficial.
+              Cada posición citada viene del programa de gobierno oficial.
               No hay algoritmos secretos ni sesgo editorial.
             </p>
           </div>

@@ -2,15 +2,15 @@
   {
     "id": "seg-01",
     "categoryId": "seguridad",
-    "text": "La politica de 'paz total' con todos los grupos armados debe continuar y profundizarse.",
-    "context": "La paz total busca dialogos simultaneos con guerrillas, disidencias y bandas criminales. Tiene defensores y criticos en todo el espectro politico.",
+    "text": "La política de 'paz total' con todos los grupos armados debe continuar y profundizarse.",
+    "context": "La paz total busca dialogos simultaneos con guerrillas, disidencias y bandas criminales. Tiene defensores y críticos en todo el espectro político.",
     "type": "likert",
     "weight": 3
   },
   {
     "id": "seg-02",
     "categoryId": "seguridad",
-    "text": "Se debe fortalecer y aumentar el presupuesto de las fuerzas militares y de policia para combatir la inseguridad.",
+    "text": "Se debe fortalecer y aumentar el presupuesto de las fuerzas militares y de policía para combatir la inseguridad.",
     "context": "Colombia enfrenta desafios de seguridad por grupos armados, narcotrafico y delincuencia comun.",
     "type": "likert",
     "weight": 2
@@ -18,16 +18,16 @@
   {
     "id": "seg-03",
     "categoryId": "seguridad",
-    "text": "La solucion al narcotrafico pasa por la legalizacion o regulacion de las drogas, no por la fumigacion y la guerra contra las drogas.",
-    "context": "Colombia ha sido epicentro de la guerra contra las drogas por decadas, con costos humanos y economicos enormes.",
+    "text": "La solución al narcotrafico pasa por la legalización o regulación de las drogas, no por la fumigación y la guerra contra las drogas.",
+    "context": "Colombia ha sido epicentro de la guerra contra las drogas por decadas, con costos humanos y económicos enormes.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "seg-04",
     "categoryId": "seguridad",
-    "text": "Los acuerdos de paz con las FARC deben implementarse completamente, incluyendo la reforma rural integral y la participacion politica.",
-    "context": "El Acuerdo de Paz de 2016 tiene pendientes significativos en su implementacion.",
+    "text": "Los acuerdos de paz con las FARC deben implementarse completamente, incluyendo la reforma rural integral y la participación política.",
+    "context": "El Acuerdo de Paz de 2016 tiene pendientes significativos en su implementación.",
     "type": "likert",
     "weight": 2
   },
@@ -42,7 +42,7 @@
   {
     "id": "seg-06",
     "categoryId": "seguridad",
-    "text": "La seguridad ciudadana debe abordarse con mas inversion social (educacion, empleo) que con mas policia y penas.",
+    "text": "La seguridad ciudadana debe abordarse con mas inversión social (educación, empleo) que con mas policía y penas.",
     "context": "Existe un debate entre enfoques preventivos y punitivos para enfrentar la delincuencia.",
     "type": "likert",
     "weight": 2
@@ -50,7 +50,7 @@
   {
     "id": "seg-07",
     "categoryId": "seguridad",
-    "text": "Colombia debe mantener una posicion firme frente al regimen de Venezuela, incluyendo posibles restricciones fronterizas.",
+    "text": "Colombia debe mantener una posicion firme frente al régimen de Venezuela, incluyendo posibles restricciones fronterizas.",
     "context": "La relacion con Venezuela impacta temas de seguridad, migracion y comercio.",
     "type": "likert",
     "weight": 2
@@ -58,8 +58,8 @@
   {
     "id": "seg-08",
     "categoryId": "seguridad",
-    "text": "Las victimas del conflicto armado deben recibir reparacion integral, incluso si esto implica aumentar significativamente el gasto publico.",
-    "context": "Colombia tiene mas de 9 millones de victimas registradas del conflicto armado.",
+    "text": "Las víctimas del conflicto armado deben recibir reparacion integral, incluso si esto implica aumentar significativamente el gasto público.",
+    "context": "Colombia tiene mas de 9 millones de víctimas registradas del conflicto armado.",
     "type": "likert",
     "weight": 2
   }

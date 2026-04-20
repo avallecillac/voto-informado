@@ -1,60 +1,60 @@
 {
   "id": "ivan-cepeda",
-  "name": "Ivan Cepeda Castro",
-  "party": "Pacto Historico",
-  "coalition": "Pacto Historico",
+  "name": "Iván Cepeda Castro",
+  "party": "Pacto Histórico",
+  "coalition": "Pacto Histórico",
   "photoUrl": "/images/candidates/ivan-cepeda.webp",
   "politicalOrientation": "izquierda",
   "programUrl": "",
-  "bio": "Senador del Pacto Historico, defensor de derechos humanos e hijo de un senador de la UP asesinado. Se presenta como continuador del proyecto de cambio iniciado por Gustavo Petro, con un programa enfocado en revolucion etica, social, territorial y democratica. Propone profundizar las reformas agraria, laboral, pensional y de salud.",
+  "bio": "Senador del Pacto Histórico, defensor de derechos humanos e hijo de un senador de la UP asesinado. Se presenta como continuador del proyecto de cambio iniciado por Gustavo Petro, con un programa enfocado en revolución ética, social, territorial y democrática. Propone profundizar las reformas agraria, laboral, pensional y de salud.",
   "positions": [
     {
       "questionId": "econ-01",
       "stance": 2,
-      "justification": "Propone redistribucion estructural de la riqueza y fiscalidad progresiva; recaudo tributario como herramienta de equidad.",
+      "justification": "Propone redistribución estructural de la riqueza y fiscalidad progresiva; recaudo tributario como herramienta de equidad.",
       "programReference": "PAGE 66-67 Igualdad sustantiva; PAGE 186 Recaudo tributario progresivo",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-02",
       "stance": -2,
-      "justification": "Critica modelo neoliberal privatizador; defiende el Estado social y las empresas publicas como herramienta de soberania.",
-      "programReference": "PAGE 185 Critica reformas neoliberales de Uribe",
+      "justification": "Crítica modelo neoliberal privatizador; defiende el Estado social y las empresas públicas como herramienta de soberanía.",
+      "programReference": "PAGE 185 Crítica reformas neoliberales de Uribe",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-03",
       "stance": 2,
-      "justification": "Celebra aumento del 37% y 23% del salario minimo como salario vital; defiende alzas por encima de inflacion.",
-      "programReference": "PAGE 209, 220 Aumento salario minimo 37%",
+      "justification": "Celebra aumento del 37% y 23% del salario mínimo como salario vital; defiende alzas por encima de inflación.",
+      "programReference": "PAGE 209, 220 Aumento salario mínimo 37%",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-04",
       "stance": -1,
-      "justification": "Rechaza modelo neoliberal basado en desregulacion e incentivos a multinacionales; prioriza economia popular.",
-      "programReference": "PAGE 185 Critica del modelo neoliberal",
+      "justification": "Rechaza modelo neoliberal basado en desregulacion e incentivos a multinacionales; prioriza economía popular.",
+      "programReference": "PAGE 185 Crítica del modelo neoliberal",
       "confidence": "inferred"
     },
     {
       "questionId": "econ-05",
       "stance": 2,
-      "justification": "Propone Estado activo que garantice derechos y subsidios a vulnerables; regulacion de precios basicos.",
-      "programReference": "PAGE 65-68 Politica social",
+      "justification": "Propone Estado activo que garantice derechos y subsidios a vulnerables; regulación de precios básicos.",
+      "programReference": "PAGE 65-68 Política social",
       "confidence": "inferred"
     },
     {
       "questionId": "econ-06",
       "stance": 2,
-      "justification": "Promueve la economia popular, solidaria, cooperativas y mercados campesinos como eje del desarrollo.",
-      "programReference": "PAGE 68 Economia campesina y popular",
+      "justification": "Promueve la economía popular, solidaria, cooperativas y mercados campesinos como eje del desarrollo.",
+      "programReference": "PAGE 68 Economía campesina y popular",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-07",
       "stance": 2,
-      "justification": "Transicion energetica para sustituir dependencia de petroleo y carbon; diversificar matriz productiva.",
-      "programReference": "PAGE 425 Pacto por la vida, transicion energetica",
+      "justification": "Transición energética para sustituir dependencia de petróleo y carbon; diversificar matriz productiva.",
+      "programReference": "PAGE 425 Pacto por la vida, transición energética",
       "confidence": "explicit"
     },
     {
@@ -67,57 +67,57 @@
     {
       "questionId": "com-01",
       "stance": -2,
-      "justification": "Critica los TLC por destruir produccion nacional como yuca, cafe y sectores campesinos.",
+      "justification": "Crítica los TLC por destruir producción nacional como yuca, café y sectores campesinos.",
       "programReference": "PAGE 108 TLC destruyeron productos nacionales",
       "confidence": "explicit"
     },
     {
       "questionId": "com-02",
       "stance": 2,
-      "justification": "Propone protecciones ante importacion indiscriminada de lacteos y productos que afectan al campesinado.",
-      "programReference": "PAGE 240 Proteccion frente a TLC",
+      "justification": "Propone protecciones ante importación indiscriminada de lacteos y productos que afectan al campesinado.",
+      "programReference": "PAGE 240 Protección frente a TLC",
       "confidence": "explicit"
     },
     {
       "questionId": "com-03",
       "stance": 2,
-      "justification": "Promueve cooperacion Sur-Sur, integracion latinoamericana y distanciamiento de imperialismo estadounidense.",
-      "programReference": "PAGE 38-45 Politica exterior autonoma, Sur Global",
+      "justification": "Promueve cooperación Sur-Sur, integración latinoamericana y distanciamiento de imperialismo estadounidense.",
+      "programReference": "PAGE 38-45 Política exterior autonoma, Sur Global",
       "confidence": "explicit"
     },
     {
       "questionId": "com-04",
       "stance": 2,
-      "justification": "Propone reindustrializacion y valor agregado en cacao, coco y pesca; superar dependencia de materias primas.",
-      "programReference": "PAGE 395 Industria, educacion y cultura",
+      "justification": "Propone reindustrialización y valor agregado en cacao, coco y pesca; superar dependencia de materias primas.",
+      "programReference": "PAGE 395 Industria, educación y cultura",
       "confidence": "explicit"
     },
     {
       "questionId": "com-06",
       "stance": 2,
-      "justification": "Critica la subordinacion a Estados Unidos y defiende politica exterior autonoma y diversificada.",
-      "programReference": "PAGE 40-44 Politica exterior autonoma",
+      "justification": "Crítica la subordinacion a Estados Unidos y defiende política exterior autonoma y diversificada.",
+      "programReference": "PAGE 40-44 Política exterior autonoma",
       "confidence": "explicit"
     },
     {
       "questionId": "agr-01",
       "stance": 2,
-      "justification": "Revolucion agraria: redistribucion y formalizacion masiva de tierras. Mas de 7000 hectareas entregadas en La Guajira.",
+      "justification": "Revolucion agraria: redistribución y formalizacion masiva de tierras. Mas de 7000 hectareas entregadas en La Guajira.",
       "programReference": "PAGE 68-69 Reforma agraria; PAGE 431 Tierras entregadas",
       "confidence": "explicit"
     },
     {
       "questionId": "agr-02",
       "stance": -2,
-      "justification": "Prioriza economia campesina y soberania alimentaria sobre agroindustria exportadora de latifundistas.",
+      "justification": "Prioriza economía campesina y soberanía alimentaria sobre agroindustria exportadora de latifundistas.",
       "programReference": "PAGE 88-95 Revolucion agraria",
       "confidence": "explicit"
     },
     {
       "questionId": "agr-03",
       "stance": 2,
-      "justification": "Protege produccion nacional frente a importaciones; recuperar productos como yuca, cafe, algodon, fique.",
-      "programReference": "PAGE 108, 201 Defensa produccion nacional",
+      "justification": "Protege producción nacional frente a importaciones; recuperar productos como yuca, café, algodon, fique.",
+      "programReference": "PAGE 108, 201 Defensa producción nacional",
       "confidence": "explicit"
     },
     {
@@ -137,28 +137,28 @@
     {
       "questionId": "agr-07",
       "stance": 2,
-      "justification": "Fortalecer creditos y acceso a tecnologia para pequenos productores y comunidades.",
-      "programReference": "PAGE 93-95 Economia campesina",
+      "justification": "Fortalecer creditos y acceso a tecnología para pequeños productores y comunidades.",
+      "programReference": "PAGE 93-95 Economía campesina",
       "confidence": "inferred"
     },
     {
       "questionId": "ene-01",
       "stance": 2,
-      "justification": "Prohibir fracking y exploracion en yacimientos no convencionales; acelerar transicion energetica.",
+      "justification": "Prohibir fracking y exploración en yacimientos no convencionales; acelerar transición energética.",
       "programReference": "PAGE 424 Prohibicion fracking y YNC",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-02",
       "stance": 2,
-      "justification": "Acelerar energias renovables no convencionales; comunidades energeticas; Guajira como epicentro solar y eolico.",
-      "programReference": "PAGE 424, 430 Transicion energetica",
+      "justification": "Acelerar energías renovables no convencionales; comunidades energéticas; Guajira como epicentro solar y eólico.",
+      "programReference": "PAGE 424, 430 Transición energética",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-03",
       "stance": 2,
-      "justification": "Defiende los paramos como Santurban frente a la mineria; critica mineria transnacional devastadora.",
+      "justification": "Defiende los paramos como Santurban frente a la minería; crítica minería transnacional devastadora.",
       "programReference": "PAGE 75, 280 Defensa paramos",
       "confidence": "explicit"
     },
@@ -179,22 +179,22 @@
     {
       "questionId": "ene-06",
       "stance": 2,
-      "justification": "Rechazo a privatizacion; Ecopetrol debe financiar transicion energetica y desarrollo soberano.",
-      "programReference": "PAGE 115, 400 Transicion con reconversion laboral",
+      "justification": "Rechazo a privatización; Ecopetrol debe financiar transición energética y desarrollo soberano.",
+      "programReference": "PAGE 115, 400 Transición con reconversion laboral",
       "confidence": "inferred"
     },
     {
       "questionId": "amb-01",
       "stance": 2,
-      "justification": "Cumplir y superar compromiso de reducir emisiones 51% al 2030; politica climatica activa.",
-      "programReference": "PAGE 424 Reduccion emisiones 51%",
+      "justification": "Cumplir y superar compromiso de reducir emisiones 51% al 2030; política climatica activa.",
+      "programReference": "PAGE 424 Reducción emisiones 51%",
       "confidence": "explicit"
     },
     {
       "questionId": "amb-02",
       "stance": 1,
-      "justification": "Combatir deforestacion y minerias ilegales que amenazan Amazonia; logros en reduccion de deforestacion.",
-      "programReference": "PAGE 423 Reduccion deforestacion",
+      "justification": "Combatir deforestación y minerias ilegales que amenazan Amazonía; logros en reducción de deforestación.",
+      "programReference": "PAGE 423 Reducción deforestación",
       "confidence": "explicit"
     },
     {
@@ -207,15 +207,15 @@
     {
       "questionId": "amb-04",
       "stance": -2,
-      "justification": "No hay justicia social sin justicia ambiental; critica desarrollo que arrasa naturaleza.",
+      "justification": "No hay justicia social sin justicia ambiental; crítica desarrollo que arrasa naturaleza.",
       "programReference": "PAGE 425 Justicia ambiental",
       "confidence": "explicit"
     },
     {
       "questionId": "amb-05",
       "stance": 2,
-      "justification": "Pagos por servicios ambientales y proteccion de liderezas y campesinos que cuidan bosques.",
-      "programReference": "PAGE 424 Fortalecimiento proteccion lideres ambientales",
+      "justification": "Pagos por servicios ambientales y protección de liderezas y campesinos que cuidan bosques.",
+      "programReference": "PAGE 424 Fortalecimiento protección lideres ambientales",
       "confidence": "inferred"
     },
     {
@@ -228,36 +228,36 @@
     {
       "questionId": "amb-07",
       "stance": 2,
-      "justification": "Acceso al agua potable es derecho humano fundamental; eje de la revolucion agraria.",
+      "justification": "Acceso al agua potable es derecho humano fundamental; eje de la revolución agraria.",
       "programReference": "PAGE 194-198 Agua como derecho; PAGE 431 La Guajira",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-01",
       "stance": 2,
-      "justification": "Aprobaron ley que fortalece presupuesto educacion publica; quieren educacion publica lo mas fuerte y gratuita.",
-      "programReference": "PAGE 70-78 Educacion publica",
+      "justification": "Aprobaron ley que fortalece presupuesto educación pública; quieren educación pública lo mas fuerte y gratuita.",
+      "programReference": "PAGE 70-78 Educación pública",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-05",
       "stance": 2,
       "justification": "Dignificar a los docentes y fortalecer condiciones laborales dentro de reforma educativa.",
-      "programReference": "PAGE 73 Fortalecimiento educacion publica",
+      "programReference": "PAGE 73 Fortalecimiento educación pública",
       "confidence": "inferred"
     },
     {
       "questionId": "edu-06",
       "stance": 2,
-      "justification": "Educacion en zonas rurales prioritaria; universidades en territorios, universidad del pueblo Wayuu.",
-      "programReference": "PAGE 72, 430 Educacion rural e indigena",
+      "justification": "Educación en zonas rurales prioritaria; universidades en territorios, universidad del pueblo Wayuu.",
+      "programReference": "PAGE 72, 430 Educación rural e indigena",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-08",
       "stance": 2,
-      "justification": "Educacion para la paz, memoria historica y formacion en valores civicos como eje central.",
-      "programReference": "PAGE 80-86 Memoria y educacion para la paz",
+      "justification": "Educación para la paz, memoria histórica y formación en valores civicos como eje central.",
+      "programReference": "PAGE 80-86 Memoria y educación para la paz",
       "confidence": "explicit"
     },
     {
@@ -270,49 +270,49 @@
     {
       "questionId": "seg-02",
       "stance": -1,
-      "justification": "Prioriza seguridad humana e inversion social sobre aumento de gasto militar punitivo.",
+      "justification": "Prioriza seguridad humana e inversión social sobre aumento de gasto militar punitivo.",
       "programReference": "PAGE 341 Seguridad humana",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-03",
       "stance": 2,
-      "justification": "Fin del prohibicionismo; regulacion del cannabis industrial y hoja de coca como oportunidad.",
-      "programReference": "PAGE 350 Regulacion cannabis y coca",
+      "justification": "Fin del prohibicionismo; regulación del cannabis industrial y hoja de coca como oportunidad.",
+      "programReference": "PAGE 350 Regulación cannabis y coca",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-04",
       "stance": 2,
-      "justification": "Cumplimiento integral del Acuerdo de Paz; reforma rural y participacion politica.",
+      "justification": "Cumplimiento integral del Acuerdo de Paz; reforma rural y participación política.",
       "programReference": "PAGE 113 Cumplimiento acuerdo de paz",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-06",
       "stance": 2,
-      "justification": "Seguridad humana con inversion social, educacion y vivienda, no solo policia y penas.",
+      "justification": "Seguridad humana con inversión social, educación y vivienda, no solo policía y penas.",
       "programReference": "PAGE 341 Seguridad humana integral",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-07",
       "stance": -2,
-      "justification": "Rechaza intervencion militar de EEUU en Venezuela; defiende relaciones diplomaticas.",
-      "programReference": "PAGE 58, 205 Rechazo intervencion en Venezuela",
+      "justification": "Rechaza intervención militar de EEUU en Venezuela; defiende relaciones diplomaticas.",
+      "programReference": "PAGE 58, 205 Rechazo intervención en Venezuela",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-08",
       "stance": 2,
-      "justification": "Reparacion integral a victimas del conflicto armado y del genocidio politico como prioridad.",
-      "programReference": "PAGE 32, 80-86 Victimas y reparacion",
+      "justification": "Reparacion integral a víctimas del conflicto armado y del genocidio político como prioridad.",
+      "programReference": "PAGE 32, 80-86 Víctimas y reparacion",
       "confidence": "explicit"
     },
     {
       "questionId": "sal-01",
       "stance": 2,
-      "justification": "Reforma a la salud para fortalecer el sistema publico y superar intermediacion de EPS.",
+      "justification": "Reforma a la salud para fortalecer el sistema público y superar intermediacion de EPS.",
       "programReference": "PAGE 327, 430 Reforma sistema de salud",
       "confidence": "explicit"
     },
@@ -326,22 +326,22 @@
     {
       "questionId": "sal-03",
       "stance": 2,
-      "justification": "Fortalecer atencion primaria y presencia territorial del sistema de salud, especialmente rural.",
+      "justification": "Fortalecer atención primaria y presencia territorial del sistema de salud, especialmente rural.",
       "programReference": "PAGE 430 Sistema indigena y territorial",
       "confidence": "inferred"
     },
     {
       "questionId": "sal-04",
       "stance": 2,
-      "justification": "Reducir dependencia de farmaceuticas internacionales; soberania sanitaria.",
+      "justification": "Reducir dependencia de farmaceuticas internacionales; soberanía sanitaria.",
       "programReference": "PAGE 327 Reforma salud",
       "confidence": "inferred"
     },
     {
       "questionId": "sal-05",
       "stance": -2,
-      "justification": "Defiende sistema publico centralizado; critica rol mercantilista de EPS e intermediarios.",
-      "programReference": "PAGE 327 Reforma salud publica",
+      "justification": "Defiende sistema público centralizado; crítica rol mercantilista de EPS e intermediarios.",
+      "programReference": "PAGE 327 Reforma salud pública",
       "confidence": "inferred"
     },
     {
@@ -368,8 +368,8 @@
     {
       "questionId": "jus-03",
       "stance": 2,
-      "justification": "Poder de la verdad de las victimas y trabajo de la JEP para enfrentar impunidad estructural.",
-      "programReference": "PAGE 80-87 JEP y victimas",
+      "justification": "Poder de la verdad de las víctimas y trabajo de la JEP para enfrentar impunidad estructural.",
+      "programReference": "PAGE 80-87 JEP y víctimas",
       "confidence": "explicit"
     },
     {
@@ -389,8 +389,8 @@
     {
       "questionId": "jus-07",
       "stance": 2,
-      "justification": "Ampliar participacion ciudadana, rebelion ciudadana contra corrupcion y poder constituyente.",
-      "programReference": "PAGE 250, 267 Rebelion ciudadana y participacion",
+      "justification": "Ampliar participación ciudadana, rebelion ciudadana contra corrupción y poder constituyente.",
+      "programReference": "PAGE 250, 267 Rebelion ciudadana y participación",
       "confidence": "explicit"
     },
     {
@@ -403,29 +403,29 @@
     {
       "questionId": "ext-02",
       "stance": 2,
-      "justification": "Politica integral a migrantes venezolanos; Colombia por naturaleza protectora de migrantes.",
-      "programReference": "PAGE 44, 47 Proteccion migrantes",
+      "justification": "Política integral a migrantes venezolanos; Colombia por naturaleza protectora de migrantes.",
+      "programReference": "PAGE 44, 47 Protección migrantes",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-03",
       "stance": -2,
-      "justification": "Critica subordinacion a EEUU; llama a abandonar la guerra contra las drogas y la dominacion imperial.",
-      "programReference": "PAGE 42, 44 Politica exterior autonoma",
+      "justification": "Crítica subordinacion a EEUU; llama a abandonar la guerra contra las drogas y la dominacion imperial.",
+      "programReference": "PAGE 42, 44 Política exterior autonoma",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-05",
       "stance": 2,
-      "justification": "Prioriza cooperacion Sur-Sur y articulacion con America Latina y Sur Global.",
+      "justification": "Prioriza cooperación Sur-Sur y articulacion con America Latina y Sur Global.",
       "programReference": "PAGE 42, 212 Sur Global",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-06",
       "stance": 2,
-      "justification": "Defiende derechos humanos en region; solidaridad con Palestina, Brasil; rechazo al neofascismo.",
-      "programReference": "PAGE 40-45, 202 Defensa derechos humanos region",
+      "justification": "Defiende derechos humanos en región; solidaridad con Palestina, Brasil; rechazo al neofascismo.",
+      "programReference": "PAGE 40-45, 202 Defensa derechos humanos región",
       "confidence": "explicit"
     },
     {
@@ -438,42 +438,42 @@
     {
       "questionId": "tec-03",
       "stance": 2,
-      "justification": "Poner a Colombia a la vanguardia de ciencia, tecnologia y conocimiento con mas inversion.",
-      "programReference": "PAGE 397 Ciencia y tecnologia",
+      "justification": "Poner a Colombia a la vanguardia de ciencia, tecnología y conocimiento con mas inversión.",
+      "programReference": "PAGE 397 Ciencia y tecnología",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-05",
       "stance": 2,
-      "justification": "Ventanilla unica digital, trazabilidad y digitalizacion como herramienta anticorrupcion.",
-      "programReference": "PAGE 364 Ventanilla unica digital",
+      "justification": "Ventanilla única digital, trazabilidad y digitalizacion como herramienta anticorrupción.",
+      "programReference": "PAGE 364 Ventanilla única digital",
       "confidence": "explicit"
     },
     {
       "questionId": "viv-01",
       "stance": 2,
-      "justification": "Programa masivo de vivienda para jovenes y sectores populares con el Estado como eje.",
+      "justification": "Programa masivo de vivienda para jóvenes y sectores populares con el Estado como eje.",
       "programReference": "PAGE 145, 147 Programa masivo vivienda",
       "confidence": "explicit"
     },
     {
       "questionId": "viv-04",
       "stance": 2,
-      "justification": "Inversion en transporte, vias terciarias y conectividad territorial para superar desigualdad.",
+      "justification": "Inversión en transporte, vias terciarias y conectividad territorial para superar desigualdad.",
       "programReference": "PAGE 195, 431 Transporte y vias",
       "confidence": "inferred"
     },
     {
       "questionId": "viv-05",
       "stance": 2,
-      "justification": "Descentralizacion real que distribuye poder y riqueza hacia territorios y ciudades intermedias.",
-      "programReference": "PAGE 118 Descentralizacion territorial",
+      "justification": "Descentralización real que distribuye poder y riqueza hacia territorios y ciudades intermedias.",
+      "programReference": "PAGE 118 Descentralización territorial",
       "confidence": "explicit"
     },
     {
       "questionId": "viv-06",
       "stance": 2,
-      "justification": "Mejorar barrios populares con servicios publicos, revolucion urbana por la vida.",
+      "justification": "Mejorar barrios populares con servicios públicos, revolución urbana por la vida.",
       "programReference": "PAGE 318 Revolucion urbana",
       "confidence": "explicit"
     },
@@ -487,8 +487,8 @@
     {
       "questionId": "tra-02",
       "stance": -2,
-      "justification": "Critica la reforma neoliberal que precarizo el empleo; defiende reforma que dignifica trabajo.",
-      "programReference": "PAGE 185, 224 Critica flexibilizacion",
+      "justification": "Crítica la reforma neoliberal que precarizo el empleo; defiende reforma que dignifica trabajo.",
+      "programReference": "PAGE 185, 224 Crítica flexibilizacion",
       "confidence": "explicit"
     },
     {
@@ -501,8 +501,8 @@
     {
       "questionId": "tra-05",
       "stance": 2,
-      "justification": "Consolidar renta basica universal para superar la pobreza y la exclusion.",
-      "programReference": "PAGE 33, 65 Renta basica universal",
+      "justification": "Consolidar renta básica universal para superar la pobreza y la exclusión.",
+      "programReference": "PAGE 33, 65 Renta básica universal",
       "confidence": "explicit"
     },
     {
@@ -515,8 +515,8 @@
     {
       "questionId": "cul-01",
       "stance": 2,
-      "justification": "Industria, educacion y cultura como derechos de los territorios; apoyo a industrias creativas.",
-      "programReference": "PAGE 389, 395 Industria cultura educacion",
+      "justification": "Industria, educación y cultura como derechos de los territorios; apoyo a industrias creativas.",
+      "programReference": "PAGE 389, 395 Industria cultura educación",
       "confidence": "explicit"
     },
     {
@@ -529,7 +529,7 @@
     {
       "questionId": "cul-04",
       "stance": 2,
-      "justification": "Diversidad sexual como expresion legitima; defensa de derechos LGBTIQ+.",
+      "justification": "Diversidad sexual como expresión legitima; defensa de derechos LGBTIQ+.",
       "programReference": "PAGE 30 Diversidad sexual",
       "confidence": "explicit"
     },
@@ -543,7 +543,7 @@
     {
       "questionId": "cul-06",
       "stance": 2,
-      "justification": "Revolucion antirracista e inclusiva, con proteccion a identidades diversas incluidas LGBTIQ+.",
+      "justification": "Revolucion antirracista e inclusiva, con protección a identidades diversas incluidas LGBTIQ+.",
       "programReference": "PAGE 323 Revolucion antirracista",
       "confidence": "explicit"
     }

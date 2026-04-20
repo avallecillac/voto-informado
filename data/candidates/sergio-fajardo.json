@@ -6,26 +6,26 @@
   "photoUrl": "/images/candidates/sergio-fajardo.webp",
   "politicalOrientation": "centro",
   "programUrl": "",
-  "bio": "Matematico y politico colombiano, exalcalde de Medellin y exgobernador de Antioquia, reconocido por su enfasis en educacion como motor de transformacion social. Propone un gobierno de centro con enfoque tecnico, rechazando los extremos y priorizando decencia, meritocracia y resultados.",
+  "bio": "Matematico y político colombiano, exalcalde de Medellín y exgobernador de Antioquia, reconocido por su énfasis en educación como motor de transformación social. Propone un gobierno de centro con enfoque tecnico, rechazando los extremos y priorizando decencia, meritocracia y resultados.",
   "positions": [
     {
       "questionId": "econ-01",
       "stance": 0,
       "justification": "Plan de consolidacion fiscal responsable con revision de beneficios tributarios sin enfoque redistributivo agresivo",
-      "programReference": "Finanzas Publicas, p.10-11",
+      "programReference": "Finanzas Públicas, p.10-11",
       "confidence": "inferred"
     },
     {
       "questionId": "econ-02",
       "stance": 0,
-      "justification": "Estado mas eficiente y descentralizado, reduce gastos administrativos pero no privatiza empresas publicas",
-      "programReference": "Finanzas Publicas, p.10",
+      "justification": "Estado mas eficiente y descentralizado, reduce gastos administrativos pero no privatiza empresas públicas",
+      "programReference": "Finanzas Públicas, p.10",
       "confidence": "inferred"
     },
     {
       "questionId": "econ-04",
       "stance": 1,
-      "justification": "Consolidar a Colombia como destino confiable para la inversion nacional y extranjera con reglas claras y seguridad juridica",
+      "justification": "Consolidar a Colombia como destino confiable para la inversión nacional y extranjera con reglas claras y seguridad juridica",
       "programReference": "Desarrollo Productivo, p.27",
       "confidence": "explicit"
     },
@@ -33,20 +33,20 @@
       "questionId": "econ-05",
       "stance": -1,
       "justification": "Ajuste gradual en precios de gasolina y diesel para cerrar deficit del FEPC, revisar subsidios para focalizarlos mejor",
-      "programReference": "Finanzas Publicas, p.11",
+      "programReference": "Finanzas Públicas, p.11",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-06",
       "stance": 1,
-      "justification": "Ruta de estabilidad productiva para economia popular: 1 millon de trabajadores y micronegocios con acompanamiento",
+      "justification": "Ruta de estabilidad productiva para economía popular: 1 millon de trabajadores y micronegocios con acompañamiento",
       "programReference": "Emprendimiento, p.25",
       "confidence": "explicit"
     },
     {
       "questionId": "econ-07",
       "stance": 2,
-      "justification": "Pasar de economia fragmentada y dependiente de pocos sectores a una economia moderna, diversificada y competitiva",
+      "justification": "Pasar de economía fragmentada y dependiente de pocos sectores a una economía moderna, diversificada y competitiva",
       "programReference": "Desarrollo Productivo, p.27",
       "confidence": "explicit"
     },
@@ -60,15 +60,15 @@
     {
       "questionId": "com-01",
       "stance": 1,
-      "justification": "Restableceremos relacion solida con Estados Unidos, principal socio comercial, y alianza estrategica con Union Europea",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Restableceremos relacion sólida con Estados Unidos, principal socio comercial, y alianza estratégica con Union Europea",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "com-03",
       "stance": 1,
-      "justification": "Colombia liderara una agenda de buena vecindad e integracion regional en America Latina y el Caribe",
-      "programReference": "Politica Exterior, p.18-19",
+      "justification": "Colombia liderara una agenda de buena vecindad e integración regional en America Latina y el Caribe",
+      "programReference": "Política Exterior, p.18-19",
       "confidence": "explicit"
     },
     {
@@ -81,28 +81,28 @@
     {
       "questionId": "com-05",
       "stance": 1,
-      "justification": "Ventanilla Unica de Inversiones modernizada para atraer inversion en energias limpias, biotecnologia, industria",
+      "justification": "Ventanilla Unica de Inversiones modernizada para atraer inversión en energías limpias, biotecnologia, industria",
       "programReference": "Desarrollo Productivo, p.28",
       "confidence": "explicit"
     },
     {
       "questionId": "com-06",
       "stance": 1,
-      "justification": "Diversificar mercados sin comprometer autonomia estrategica, apertura a nuevos mercados en Asia y America Latina",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Diversificar mercados sin comprometer autonomia estratégica, apertura a nuevos mercados en Asia y America Latina",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "agr-01",
       "stance": 0,
-      "justification": "Tierra con Futuro: formalizacion y adjudicacion con paquete productivo, pero no redistribucion masiva",
+      "justification": "Tierra con Futuro: formalizacion y adjudicacion con paquete productivo, pero no redistribución masiva",
       "programReference": "Agricultura y Desarrollo Rural, p.29",
       "confidence": "explicit"
     },
     {
       "questionId": "agr-02",
       "stance": 0,
-      "justification": "50% de pequenos y medianos productores vinculados a cadenas agroalimentarias modernas, balance entre ambos",
+      "justification": "50% de pequeños y medianos productores vinculados a cadenas agroalimentarias modernas, balance entre ambos",
       "programReference": "Agricultura y Desarrollo Rural, p.29",
       "confidence": "inferred"
     },
@@ -130,43 +130,43 @@
     {
       "questionId": "ene-01",
       "stance": -2,
-      "justification": "Acelerar explotacion de hallazgos de gas offshore, renovar exploracion de gas, pilotos de fracking bajo evaluaciones",
-      "programReference": "Energia, p.12",
+      "justification": "Acelerar explotación de hallazgos de gas offshore, renovar exploración de gas, pilotos de fracking bajo evaluaciones",
+      "programReference": "Energía, p.12",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-02",
       "stance": 2,
-      "justification": "1.000 MW nuevos de capacidad por ano, 80% renovables, destrabar 2.000 MW eolicos y solares en La Guajira",
-      "programReference": "Energia, p.12",
+      "justification": "1.000 MW nuevos de capacidad por año, 80% renovables, destrabar 2.000 MW eólicos y solares en La Guajira",
+      "programReference": "Energía, p.12",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-03",
       "stance": 1,
-      "justification": "Proteger y restaurar ecosistemas estrategicos, recuperacion de Parques Nacionales y areas protegidas",
+      "justification": "Proteger y restaurar ecosistemas estratégicos, recuperacion de Parques Nacionales y áreas protegidas",
       "programReference": "Medio Ambiente, p.31",
       "confidence": "inferred"
     },
     {
       "questionId": "ene-04",
       "stance": 1,
-      "justification": "Los pilotos de fracking podran desarrollarse bajo estrictas evaluaciones tecnicas y ambientales independientes",
-      "programReference": "Energia, p.12",
+      "justification": "Los pilotos de fracking podrán desarrollarse bajo estrictas evaluaciones tecnicas y ambientales independientes",
+      "programReference": "Energía, p.12",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-05",
       "stance": 0,
-      "justification": "Comunidades socias de proyectos energeticos con participacion economica, pero consulta mas tecnica sin veto",
-      "programReference": "Energia, p.13; Medio Ambiente, p.32",
+      "justification": "Comunidades socias de proyectos energéticos con participación económica, pero consulta mas tecnica sin veto",
+      "programReference": "Energía, p.13; Medio Ambiente, p.32",
       "confidence": "inferred"
     },
     {
       "questionId": "ene-06",
       "stance": 2,
-      "justification": "Salvar a Ecopetrol: mejorar gobernabilidad y buscar desarrollo o adquisicion de nuevos activos estrategicos",
-      "programReference": "Energia, p.13",
+      "justification": "Salvar a Ecopetrol: mejorar gobernabilidad y buscar desarrollo o adquisicion de nuevos activos estratégicos",
+      "programReference": "Energía, p.13",
       "confidence": "explicit"
     },
     {
@@ -179,14 +179,14 @@
     {
       "questionId": "amb-02",
       "stance": 1,
-      "justification": "Cero deforestacion 2030, accion coordinada de autoridades ambientales y fuerza publica contra redes criminales",
+      "justification": "Cero deforestación 2030, acción coordinada de autoridades ambientales y fuerza pública contra redes criminales",
       "programReference": "Medio Ambiente, p.31",
       "confidence": "explicit"
     },
     {
       "questionId": "amb-04",
       "stance": -1,
-      "justification": "Conservacion, innovacion productiva y sostenibilidad se refuerzan mutuamente, capital natural como activo",
+      "justification": "Conservación, innovación productiva y sostenibilidad se refuerzan mutuamente, capital natural como activo",
       "programReference": "Medio Ambiente, p.31",
       "confidence": "inferred"
     },
@@ -200,8 +200,8 @@
     {
       "questionId": "amb-06",
       "stance": 2,
-      "justification": "Alianza Global por un Planeta Sostenible, liderazgo internacional en proteccion de biodiversidad y financiamiento climatico",
-      "programReference": "Politica Exterior, p.19",
+      "justification": "Alianza Global por un Planeta Sostenible, liderazgo internacional en protección de biodiversidad y financiamiento climatico",
+      "programReference": "Política Exterior, p.19",
       "confidence": "explicit"
     },
     {
@@ -215,35 +215,35 @@
       "questionId": "edu-01",
       "stance": 1,
       "justification": "Recuperar el Icetex con nuevas becas, creditos con pagos contingentes al ingreso, en vez de gratuidad universal",
-      "programReference": "Educacion, p.22",
+      "programReference": "Educación, p.22",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-02",
       "stance": 1,
-      "justification": "Transformaremos el SENA, aumentaremos estudiantes en al menos 150 mil, modelos de formacion dual",
-      "programReference": "Educacion, p.22",
+      "justification": "Transformaremos el SENA, aumentaremos estudiantes en al menos 150 mil, modelos de formación dual",
+      "programReference": "Educación, p.22",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-04",
       "stance": 2,
-      "justification": "Reformaremos curriculo educativo para incluir IA desde educacion media, olimpiadas nacionales de IA",
-      "programReference": "Ciencia y Tecnologia, p.24",
+      "justification": "Reformaremos curriculo educativo para incluir IA desde educación media, olimpiadas nacionales de IA",
+      "programReference": "Ciencia y Tecnología, p.24",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-05",
       "stance": 2,
-      "justification": "Fortaleceremos formacion continua, desarrollo profesional y bienestar de docentes, mejorar condiciones de trabajo",
-      "programReference": "Educacion, p.22",
+      "justification": "Fortaleceremos formación continua, desarrollo profesional y bienestar de docentes, mejorar condiciones de trabajo",
+      "programReference": "Educación, p.22",
       "confidence": "explicit"
     },
     {
       "questionId": "edu-06",
       "stance": 2,
-      "justification": "Fortaleceremos educacion rural multigrado, etnoeducacion, con priorizacion en Catatumbo, Cauca y Choco",
-      "programReference": "Educacion, p.22",
+      "justification": "Fortaleceremos educación rural multigrado, etnoeducacion, con priorizacion en Catatumbo, Cauca y Choco",
+      "programReference": "Educación, p.22",
       "confidence": "explicit"
     },
     {
@@ -256,36 +256,36 @@
     {
       "questionId": "edu-08",
       "stance": 2,
-      "justification": "Formacion en ciudadania y cultura de paz, resolucion pacifica de conflictos como prioridad educativa",
-      "programReference": "Educacion, p.22; Jovenes, p.50",
+      "justification": "Formación en ciudadania y cultura de paz, resolucion pacifica de conflictos como prioridad educativa",
+      "programReference": "Educación, p.22; Jovenes, p.50",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-01",
       "stance": -2,
-      "justification": "Recuperar la autoridad democratica con firmeza frente al crimen organizado, no dialogos con todos los grupos",
+      "justification": "Recuperar la autoridad democrática con firmeza frente al crimen organizado, no dialogos con todos los grupos",
       "programReference": "Seguridad, p.6",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-02",
       "stance": 2,
-      "justification": "Aumentaremos en 40.000 el numero de policias profesionales durante el cuatrienio, duplicaremos grupos Gaula",
+      "justification": "Aumentaremos en 40.000 el número de policías profesionales durante el cuatrienio, duplicaremos grupos Gaula",
       "programReference": "Seguridad, p.6",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-03",
       "stance": 0,
-      "justification": "Atacar rentas criminales y economias ilicitas del narcotrafico, sin propuesta explicita de legalizacion",
+      "justification": "Atacar rentas criminales y economías ilicitas del narcotrafico, sin propuesta explícita de legalización",
       "programReference": "Seguridad, p.6",
       "confidence": "inferred"
     },
     {
       "questionId": "seg-04",
       "stance": 1,
-      "justification": "Alianza estrategica con UE orientada a cooperacion para la paz, implementacion del capitulo etnico",
-      "programReference": "Politica Exterior, p.18; Poblaciones NARP, p.55",
+      "justification": "Alianza estratégica con UE orientada a cooperación para la paz, implementación del capitulo etnico",
+      "programReference": "Política Exterior, p.18; Poblaciones NARP, p.55",
       "confidence": "inferred"
     },
     {
@@ -298,15 +298,15 @@
     {
       "questionId": "seg-07",
       "stance": 1,
-      "justification": "Con Venezuela pragmatismo democratico: cero complicidades con el regimen pero canales diplomaticos abiertos",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Con Venezuela pragmatismo democrático: cero complicidades con el régimen pero canales diplomaticos abiertos",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "seg-08",
       "stance": 2,
-      "justification": "Aceleracion de la reparacion integral, reparacion colectiva como eje de transformacion territorial",
-      "programReference": "Victimas, p.58",
+      "justification": "Aceleracion de la reparacion integral, reparacion colectiva como eje de transformación territorial",
+      "programReference": "Víctimas, p.58",
       "confidence": "explicit"
     },
     {
@@ -319,14 +319,14 @@
     {
       "questionId": "sal-02",
       "stance": 2,
-      "justification": "La salud mental sera una prioridad, mayor asignacion de recursos, ampliacion de oferta de especialistas",
+      "justification": "La salud mental será una prioridad, mayor asignacion de recursos, ampliacion de oferta de especialistas",
       "programReference": "Salud, p.9",
       "confidence": "explicit"
     },
     {
       "questionId": "sal-03",
       "stance": 2,
-      "justification": "Fortaleceremos la Atencion Primaria en Salud como base del sistema, con redes territoriales y medicina familiar",
+      "justification": "Fortaleceremos la Atención Primaria en Salud como base del sistema, con redes territoriales y medicina familiar",
       "programReference": "Salud, p.9",
       "confidence": "explicit"
     },
@@ -347,36 +347,36 @@
     {
       "questionId": "sal-06",
       "stance": 2,
-      "justification": "Garantizaremos atencion basica en salud integral y proteccion de derechos sexuales y reproductivos",
+      "justification": "Garantizaremos atención básica en salud integral y protección de derechos sexuales y reproductivos",
       "programReference": "Mujeres, p.47",
       "confidence": "explicit"
     },
     {
       "questionId": "sal-07",
       "stance": 2,
-      "justification": "Talento humano con dignidad: formalizacion laboral, mejores condiciones y cupos de residencia medica",
+      "justification": "Talento humano con dignidad: formalizacion laboral, mejores condiciones y cupos de residencia médica",
       "programReference": "Salud, p.9",
       "confidence": "explicit"
     },
     {
       "questionId": "jus-01",
       "stance": 2,
-      "justification": "Transformar la Secretaria de Transparencia en una Agencia Anticorrupcion con contratacion por merito",
-      "programReference": "Lucha Anticorrupcion, p.14",
+      "justification": "Transformar la Secretaria de Transparencia en una Agencia Anticorrupción con contratación por merito",
+      "programReference": "Lucha Anticorrupción, p.14",
       "confidence": "explicit"
     },
     {
       "questionId": "jus-02",
       "stance": 1,
-      "justification": "No habra perdon sin total restitucion, castigos reales para los corruptos y recuperacion del dinero robado",
-      "programReference": "Lucha Anticorrupcion, p.14",
+      "justification": "No habrá perdon sin total restitución, castigos reales para los corruptos y recuperacion del dinero robado",
+      "programReference": "Lucha Anticorrupción, p.14",
       "confidence": "explicit"
     },
     {
       "questionId": "jus-03",
       "stance": 1,
-      "justification": "Compromiso con implementacion del capitulo etnico y reparacion integral de victimas del conflicto",
-      "programReference": "Victimas, p.58-59",
+      "justification": "Compromiso con implementación del capitulo etnico y reparacion integral de víctimas del conflicto",
+      "programReference": "Víctimas, p.58-59",
       "confidence": "inferred"
     },
     {
@@ -389,15 +389,15 @@
     {
       "questionId": "jus-05",
       "stance": 1,
-      "justification": "Altos funcionarios tendran rol de garantes y responsabilidad, despolitizar los organos de control",
-      "programReference": "Justicia, p.17; Anticorrupcion, p.14",
+      "justification": "Altos funcionarios tendrán rol de garantes y responsabilidad, despolitizar los organos de control",
+      "programReference": "Justicia, p.17; Anticorrupción, p.14",
       "confidence": "inferred"
     },
     {
       "questionId": "jus-06",
       "stance": 2,
-      "justification": "Unidad de Congelamiento Urgente de Activos, recuperacion efectiva del dinero robado para inversion social",
-      "programReference": "Anticorrupcion, p.15",
+      "justification": "Unidad de Congelamiento Urgente de Activos, recuperacion efectiva del dinero robado para inversión social",
+      "programReference": "Anticorrupción, p.15",
       "confidence": "explicit"
     },
     {
@@ -410,78 +410,78 @@
     {
       "questionId": "ext-01",
       "stance": 0,
-      "justification": "Con Venezuela pragmatismo democratico: cero complicidades con el regimen, pero canales diplomaticos abiertos",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Con Venezuela pragmatismo democrático: cero complicidades con el régimen, pero canales diplomaticos abiertos",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-02",
       "stance": 2,
-      "justification": "Regularizacion migratoria continua como politica de Estado, garantizar acceso a salud, educacion y proteccion social",
+      "justification": "Regularizacion migratoria continua como política de Estado, garantizar acceso a salud, educación y protección social",
       "programReference": "Venezolanos en Colombia, p.61-62",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-03",
       "stance": 1,
-      "justification": "Cooperacion con corresponsabilidad en seguridad, comercio, migracion regular, innovacion con EE.UU.",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Cooperación con corresponsabilidad en seguridad, comercio, migracion regular, innovación con EE.UU.",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-04",
       "stance": 1,
-      "justification": "Posicionar al pais como potencia media regional con liderazgo responsable y constructivo, multilateralismo",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Posicionar al país como potencia media regional con liderazgo responsable y constructivo, multilateralismo",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "ext-06",
       "stance": 2,
-      "justification": "Alianza estrategica con UE orientada a sostenibilidad, derechos humanos y cooperacion para la paz",
-      "programReference": "Politica Exterior, p.18",
+      "justification": "Alianza estratégica con UE orientada a sostenibilidad, derechos humanos y cooperación para la paz",
+      "programReference": "Política Exterior, p.18",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-01",
       "stance": 2,
       "justification": "Estado Digital 2030 garantizara conectividad total, despliegue de fibra optica, 5G y centros de datos",
-      "programReference": "Ciencia y Tecnologia, p.23-24",
+      "programReference": "Ciencia y Tecnología, p.23-24",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-02",
       "stance": 1,
       "justification": "Adopcion responsable de IA que respete derechos fundamentales, con control humano y trazabilidad",
-      "programReference": "Ciencia y Tecnologia, p.23",
+      "programReference": "Ciencia y Tecnología, p.23",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-03",
       "stance": 2,
-      "justification": "Nuevo modelo de gobernanza del Sistema Nacional de CTI, red de institutos publicos de investigacion",
-      "programReference": "Ciencia y Tecnologia, p.23",
+      "justification": "Nuevo modelo de gobernanza del Sistema Nacional de CTI, red de institutos públicos de investigacion",
+      "programReference": "Ciencia y Tecnología, p.23",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-04",
       "stance": 2,
-      "justification": "Colombia Hub regional de tecnologia e IA, startups de alto impacto y empresas unicornios",
-      "programReference": "Ciencia y Tecnologia, p.24",
+      "justification": "Colombia Hub regional de tecnología e IA, startups de alto impacto y empresas unicornios",
+      "programReference": "Ciencia y Tecnología, p.24",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-05",
       "stance": 2,
-      "justification": "Estado Digital 2030: servicios publicos completamente digitales e interoperabilidad entre entidades",
-      "programReference": "Ciencia y Tecnologia, p.24",
+      "justification": "Estado Digital 2030: servicios públicos completamente digitales e interoperabilidad entre entidades",
+      "programReference": "Ciencia y Tecnología, p.24",
       "confidence": "explicit"
     },
     {
       "questionId": "tec-06",
       "stance": 1,
-      "justification": "Adopcion responsable de tecnologias que respete derechos fundamentales, proteccion de datos con IA",
-      "programReference": "Ciencia y Tecnologia, p.23",
+      "justification": "Adopcion responsable de tecnologias que respete derechos fundamentales, protección de datos con IA",
+      "programReference": "Ciencia y Tecnología, p.23",
       "confidence": "inferred"
     },
     {
@@ -494,7 +494,7 @@
     {
       "questionId": "tra-03",
       "stance": 1,
-      "justification": "Estatuto del Profesional Independiente con reglas sobre pagos oportunos y garantias minimas",
+      "justification": "Estatuto del Profesional Independiente con reglas sobre pagos oportunos y garantías mínimas",
       "programReference": "Empleo, p.40-41",
       "confidence": "explicit"
     },
@@ -536,7 +536,7 @@
     {
       "questionId": "viv-04",
       "stance": 2,
-      "justification": "Movilidad limpia prioritaria mediante expansion del transporte publico masivo y electrificacion del transporte",
+      "justification": "Movilidad limpia prioritaria mediante expansion del transporte público masivo y electrificacion del transporte",
       "programReference": "Medio Ambiente, p.32",
       "confidence": "explicit"
     },
@@ -578,21 +578,21 @@
     {
       "questionId": "cul-04",
       "stance": 1,
-      "justification": "Proteccion, seguridad y justicia frente a derechos adquiridos de comunidad LGBTIQ+, implementacion de sentencias",
+      "justification": "Protección, seguridad y justicia frente a derechos adquiridos de comunidad LGBTIQ+, implementación de sentencias",
       "programReference": "LGBTIQ+, p.56",
       "confidence": "explicit"
     },
     {
       "questionId": "cul-05",
       "stance": 2,
-      "justification": "Ecosistema cultural con apoyo a artistas, gestores, artesanos, cineastas, musicos con formacion digital",
+      "justification": "Ecosistema cultural con apoyo a artistas, gestores, artesanos, cineastas, musicos con formación digital",
       "programReference": "Cultura, p.45",
       "confidence": "explicit"
     },
     {
       "questionId": "cul-06",
       "stance": 1,
-      "justification": "Politica Nacional LGBTIQ+ con enfoque territorial y presupuesto garantizado, capacitacion en diversidad",
+      "justification": "Política Nacional LGBTIQ+ con enfoque territorial y presupuesto garantizado, capacitacion en diversidad",
       "programReference": "LGBTIQ+, p.56",
       "confidence": "explicit"
     }

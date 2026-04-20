@@ -2,16 +2,16 @@
   {
     "id": "tra-01",
     "categoryId": "trabajo",
-    "text": "La reforma laboral debe fortalecer los derechos sindicales y la negociacion colectiva.",
-    "context": "La tasa de sindicalizacion en Colombia es muy baja y los trabajadores sindicalizados han sido historicamente perseguidos.",
+    "text": "La reforma laboral debe fortalecer los derechos sindicales y la negociación colectiva.",
+    "context": "La tasa de sindicalizacion en Colombia es muy baja y los trabajadores sindicalizados han sido históricamente perseguidos.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tra-02",
     "categoryId": "trabajo",
-    "text": "Se debe flexibilizar la contratacion laboral para facilitar la generacion de empleo formal.",
-    "context": "Algunos argumentan que la rigidez laboral desincentiva la contratacion formal.",
+    "text": "Se debe flexibilizar la contratación laboral para facilitar la generacion de empleo formal.",
+    "context": "Algunos argumentan que la rigidez laboral desincentiva la contratación formal.",
     "type": "likert",
     "weight": 2
   },
@@ -19,38 +19,38 @@
     "id": "tra-03",
     "categoryId": "trabajo",
     "text": "Las plataformas digitales (Rappi, Uber, etc.) deben reconocer a sus trabajadores como empleados con prestaciones.",
-    "context": "La economia gig crece en Colombia y millones de personas trabajan sin proteccion laboral.",
+    "context": "La economía gig crece en Colombia y millones de personas trabajan sin protección laboral.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tra-04",
     "categoryId": "trabajo",
-    "text": "La edad de pension debe mantenerse o reducirse, no aumentarse.",
-    "context": "El sistema pensional colombiano cubre solo un porcentaje pequeno de la poblacion mayor.",
+    "text": "La edad de pensión debe mantenerse o reducirse, no aumentarse.",
+    "context": "El sistema pensional colombiano cubre solo un porcentaje pequeño de la población mayor.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tra-05",
     "categoryId": "trabajo",
-    "text": "Se debe crear una renta basica universal para todos los colombianos en situacion de pobreza.",
-    "context": "Los programas de transferencias condicionadas como Familias en Accion ya existen pero con cobertura limitada.",
+    "text": "Se debe crear una renta básica universal para todos los colombianos en situacion de pobreza.",
+    "context": "Los programas de transferencias condicionadas como Familias en Acción ya existen pero con cobertura limitada.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tra-06",
     "categoryId": "trabajo",
-    "text": "El sistema de pensiones debe migrar completamente a un sistema publico de reparto administrado por Colpensiones.",
-    "context": "El sistema pensional colombiano tiene componentes publicos y privados (AFPs).",
+    "text": "El sistema de pensiones debe migrar completamente a un sistema público de reparto administrado por Colpensiones.",
+    "context": "El sistema pensional colombiano tiene componentes públicos y privados (AFPs).",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tra-07",
     "categoryId": "trabajo",
-    "text": "Se debe incentivar el teletrabajo y la jornada laboral flexible como politica publica.",
+    "text": "Se debe incentivar el teletrabajo y la jornada laboral flexible como política pública.",
     "context": "La pandemia acelero el teletrabajo pero muchas empresas han revertido la tendencia.",
     "type": "likert",
     "weight": 1

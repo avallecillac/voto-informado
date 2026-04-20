@@ -1,10 +1,10 @@
 [
   {
-    "id": "economia",
-    "name": "Economia y Empleo",
-    "shortName": "Economia",
+    "id": "economía",
+    "name": "Economía y Empleo",
+    "shortName": "Economía",
     "icon": "TrendingUp",
-    "description": "Politicas economicas, empleo, impuestos, gasto publico y crecimiento",
+    "description": "Políticas económicas, empleo, impuestos, gasto público y crecimiento",
     "questionCount": 8
   },
   {
@@ -20,15 +20,15 @@
     "name": "Agricultura y Desarrollo Rural",
     "shortName": "Agricultura",
     "icon": "Sprout",
-    "description": "Reforma agraria, apoyo al campo, soberania alimentaria",
+    "description": "Reforma agraria, apoyo al campo, soberanía alimentaria",
     "questionCount": 7
   },
   {
-    "id": "energia",
-    "name": "Energia y Mineria",
-    "shortName": "Energia",
+    "id": "energía",
+    "name": "Energía y Minería",
+    "shortName": "Energía",
     "icon": "Zap",
-    "description": "Transicion energetica, petroleo, mineria, energias renovables",
+    "description": "Transición energética, petróleo, minería, energías renovables",
     "questionCount": 7
   },
   {
@@ -36,15 +36,15 @@
     "name": "Medio Ambiente",
     "shortName": "Ambiente",
     "icon": "TreePine",
-    "description": "Cambio climatico, deforestacion, proteccion de ecosistemas, agua",
+    "description": "Cambio climatico, deforestación, protección de ecosistemas, agua",
     "questionCount": 7
   },
   {
-    "id": "educacion",
-    "name": "Educacion",
-    "shortName": "Educacion",
+    "id": "educación",
+    "name": "Educación",
+    "shortName": "Educación",
     "icon": "GraduationCap",
-    "description": "Acceso, calidad, educacion publica vs privada, tecnologia educativa",
+    "description": "Acceso, calidad, educación pública vs privada, tecnología educativa",
     "questionCount": 8
   },
   {
@@ -65,26 +65,26 @@
   },
   {
     "id": "justicia",
-    "name": "Justicia y Anticorrupcion",
+    "name": "Justicia y Anticorrupción",
     "shortName": "Justicia",
     "icon": "Scale",
-    "description": "Reforma judicial, lucha contra la corrupcion, sistema penal",
+    "description": "Reforma judicial, lucha contra la corrupción, sistema penal",
     "questionCount": 7
   },
   {
     "id": "politica_exterior",
-    "name": "Politica Exterior",
+    "name": "Política Exterior",
     "shortName": "Exterior",
     "icon": "Flag",
-    "description": "Relaciones internacionales, Venezuela, integracion regional, migracion",
+    "description": "Relaciones internacionales, Venezuela, integración regional, migracion",
     "questionCount": 6
   },
   {
-    "id": "tecnologia",
-    "name": "Tecnologia e Innovacion",
-    "shortName": "Tecnologia",
+    "id": "tecnología",
+    "name": "Tecnología e Innovación",
+    "shortName": "Tecnología",
     "icon": "Cpu",
-    "description": "Transformacion digital, inteligencia artificial, conectividad, ciencia",
+    "description": "Transformación digital, inteligencia artificial, conectividad, ciencia",
     "questionCount": 6
   },
   {
@@ -97,7 +97,7 @@
   },
   {
     "id": "trabajo",
-    "name": "Trabajo y Proteccion Social",
+    "name": "Trabajo y Protección Social",
     "shortName": "Trabajo",
     "icon": "Briefcase",
     "description": "Reforma laboral, pensiones, informalidad, derechos laborales",

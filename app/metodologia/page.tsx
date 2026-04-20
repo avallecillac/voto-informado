@@ -15,9 +15,9 @@ export default function MetodologiaPage() {
         Volver al inicio
       </Link>
 
-      <h1 className="text-3xl font-bold">Metodologia</h1>
+      <h1 className="text-3xl font-bold">Metodología</h1>
       <p className="mt-2 text-muted-foreground">
-        Transparencia total sobre como funciona Voto Informado.
+        Transparencia total sobre cómo funciona Voto Informado.
       </p>
 
       <div className="mt-8 space-y-6">
@@ -32,12 +32,12 @@ export default function MetodologiaPage() {
             <p>
               Las posiciones de cada candidato se extraen exclusivamente de sus
               <strong> programas de gobierno oficiales</strong>, registrados ante
-              la Registraduria Nacional del Estado Civil. No usamos declaraciones
+              la Registraduría Nacional del Estado Civil. No usamos declaraciones
               en medios, redes sociales, ni opiniones de terceros.
             </p>
             <p className="mt-3">
-              Cada posicion incluye una referencia directa al documento fuente
-              (seccion y pagina) para que puedas verificar la informacion.
+              Cada posición incluye una referencia directa al documento fuente
+              (sección y página) para que puedas verificar la información.
             </p>
           </CardContent>
         </Card>
@@ -53,16 +53,18 @@ export default function MetodologiaPage() {
             <p>Usamos un algoritmo de <strong>similitud ponderada</strong>:</p>
             <ol className="mt-3 list-inside list-decimal space-y-2">
               <li>
-                Cada pregunta se responde en una escala de -2 (muy en desacuerdo)
-                a +2 (muy de acuerdo).
+                Cada afirmación se responde en una escala simple:{" "}
+                <strong>En desacuerdo</strong>, <strong>Neutral</strong> o{" "}
+                <strong>De acuerdo</strong>.
               </li>
               <li>
-                Se calcula la coincidencia entre tu respuesta y la posicion del
+                Se calcula la coincidencia entre tu respuesta y la posición del
                 candidato: a menor distancia, mayor coincidencia.
               </li>
               <li>
-                Tu calificacion de importancia (1-3) pondera cada pregunta. Los
-                temas que mas te importan pesan mas en el resultado final.
+                Al final eliges hasta <strong>3 temas prioritarios</strong> que
+                son especialmente importantes para ti. Las preguntas de esos
+                temas pesan el doble en tu resultado.
               </li>
               <li>
                 El porcentaje final es el promedio ponderado de todas las
@@ -70,9 +72,9 @@ export default function MetodologiaPage() {
               </li>
             </ol>
             <div className="mt-4 rounded-md bg-gray-50 p-3 font-mono text-xs">
-              coincidencia = 1 - |tu_respuesta - posicion_candidato| / 4
+              coincidencia = 1 - |tu_respuesta - posición_candidato| / 4
               <br />
-              resultado = sum(importancia * coincidencia) / sum(importancia)
+              resultado = sum(peso × coincidencia) / sum(peso)
             </div>
           </CardContent>
         </Card>
@@ -81,19 +83,19 @@ export default function MetodologiaPage() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-lg">
               <FileText className="h-5 w-5 text-blue-600" />
-              Posiciones explicitas vs. inferidas
+              Posiciones explícitas vs. inferidas
             </CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-relaxed text-muted-foreground">
-            <p>Cada posicion de candidato se clasifica como:</p>
+            <p>Cada posición de candidato se clasifica como:</p>
             <ul className="mt-3 space-y-2">
               <li>
-                <strong>Explicita:</strong> El candidato aborda directamente el
-                tema en su programa de gobierno con una posicion clara.
+                <strong>Explícita:</strong> El candidato aborda directamente el
+                tema en su programa de gobierno con una posición clara.
               </li>
               <li>
                 <strong>Inferida:</strong> El programa no aborda directamente el
-                tema, pero se puede inferir una posicion a partir de otras
+                tema, pero se puede inferir una posición a partir de otras
                 propuestas relacionadas. Estas posiciones se marcan visualmente.
               </li>
             </ul>
@@ -111,17 +113,17 @@ export default function MetodologiaPage() {
             <ul className="space-y-2">
               <li>
                 Todos los candidatos reciben el mismo tratamiento visual y
-                algoritmico.
+                algorítmico.
               </li>
               <li>
                 Los resultados se ordenan por porcentaje de coincidencia, no por
                 encuestas ni preferencia editorial.
               </li>
               <li>
-                No estamos afiliados a ningun partido politico ni campana.
+                No estamos afiliados a ningún partido político ni campaña.
               </li>
               <li>
-                El codigo fuente y los datos son publicos para que cualquiera
+                El código fuente y los datos son públicos para que cualquiera
                 pueda auditar la herramienta.
               </li>
             </ul>

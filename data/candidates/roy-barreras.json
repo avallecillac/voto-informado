@@ -6,103 +6,103 @@
   "photoUrl": "/images/candidates/roy-barreras.webp",
   "politicalOrientation": "centro-izquierda",
   "programUrl": "",
-  "bio": "Medico y cirujano de la Universidad Nacional, exnegociador de paz y exsenador autor de la Ley Estatutaria de Salud (Ley 1751 de 2015). Su propuesta combina pragmatismo energetico (Seguridad, Sostenibilidad y Soberania) con enfasis en salud como derecho fundamental, cultura como motor de identidad y politicas de equidad para las mujeres.",
+  "bio": "Medico y cirujano de la Universidad Nacional, exnegociador de paz y exsenador autor de la Ley Estatutaria de Salud (Ley 1751 de 2015). Su propuesta combina pragmatismo energético (Seguridad, Sostenibilidad y Soberania) con énfasis en salud como derecho fundamental, cultura como motor de identidad y políticas de equidad para las mujeres.",
   "positions": [
     {
       "questionId": "ene-01",
       "stance": -2,
-      "justification": "Emitir decreto de emergencia para reactivar adjudicacion de nuevas areas de exploracion de gas y petroleo y garantizar reposicion de reservas antes de 2027.",
-      "programReference": "Programa Energia, Eje 1 Seguridad de Suministro",
+      "justification": "Emitir decreto de emergencia para reactivar adjudicacion de nuevas áreas de exploración de gas y petróleo y garantizar reposicion de reservas antes de 2027.",
+      "programReference": "Programa Energía, Eje 1 Seguridad de Suministro",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-02",
       "stance": 1,
-      "justification": "Tanta energia renovable no convencional como sea posible: promover granjas solares, PCH y comunidades energeticas, pero sin forzar transicion acelerada.",
-      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "justification": "Tanta energía renovable no convencional como sea posible: promover granjas solares, PCH y comunidades energéticas, pero sin forzar transición acelerada.",
+      "programReference": "Programa Energía, Eje 2 Sostenibilidad",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-04",
       "stance": 1,
-      "justification": "Reactivar exploracion de hidrocarburos convencionales y no convencionales, incluyendo laboratorios regulatorios para proyectos no convencionales en Guajira y Putumayo.",
-      "programReference": "Programa Energia, Eje 1",
+      "justification": "Reactivar exploración de hidrocarburos convencionales y no convencionales, incluyendo laboratorios regulatorios para proyectos no convencionales en Guajira y Putumayo.",
+      "programReference": "Programa Energía, Eje 1",
       "confidence": "explicit"
     },
     {
       "questionId": "ene-05",
       "stance": -1,
-      "justification": "Declaratoria PINES para desbloquear licencias ambientales y consultas previas en corredores energeticos en plazo maximo de 6 meses.",
-      "programReference": "Programa Energia, Eje 1 Declaratoria PINES",
+      "justification": "Declaratoria PINES para desbloquear licencias ambientales y consultas previas en corredores energéticos en plazo máximo de 6 meses.",
+      "programReference": "Programa Energía, Eje 1 Declaratoria PINES",
       "confidence": "inferred"
     },
     {
       "questionId": "ene-06",
       "stance": 2,
-      "justification": "Ampliar el margen de accion de Ecopetrol para que tambien sea la gran Empresa Nacional de Mineria, fortaleciendo su rol como motor financiero del Estado.",
-      "programReference": "Programa Energia, Seguridad Financiera",
+      "justification": "Ampliar el margen de acción de Ecopetrol para que también sea la gran Empresa Nacional de Minería, fortaleciendo su rol como motor financiero del Estado.",
+      "programReference": "Programa Energía, Seguridad Financiera",
       "confidence": "explicit"
     },
     {
       "questionId": "amb-01",
       "stance": -1,
-      "justification": "Reduccion del government take o tasa efectiva de tributacion en hidrocarburos y mineria; se opone a cargas fiscales que reduzcan competitividad.",
-      "programReference": "Programa Energia, Eje 1.3 Seguridad Inversionista",
+      "justification": "Reducción del government take o tasa efectiva de tributación en hidrocarburos y minería; se opone a cargas fiscales que reduzcan competitividad.",
+      "programReference": "Programa Energía, Eje 1.3 Seguridad Inversionista",
       "confidence": "inferred"
     },
     {
       "questionId": "amb-02",
       "stance": 1,
-      "justification": "El principal problema de emisiones es el sector AFOLU por deforestacion; las autoridades ambientales deben priorizar la ilegalidad que destruye ecosistemas.",
-      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "justification": "El principal problema de emisiones es el sector AFOLU por deforestación; las autoridades ambientales deben priorizar la ilegalidad que destruye ecosistemas.",
+      "programReference": "Programa Energía, Eje 2 Sostenibilidad",
       "confidence": "inferred"
     },
     {
       "questionId": "amb-04",
       "stance": 1,
-      "justification": "No forzar una transicion que ponga en riesgo abastecimiento y obligue a pagar mas por energia; pragmatismo energetico prioriza estabilidad economica.",
-      "programReference": "Programa Energia, Introduccion",
+      "justification": "No forzar una transición que ponga en riesgo abastecimiento y obligue a pagar mas por energía; pragmatismo energético prioriza estabilidad económica.",
+      "programReference": "Programa Energía, Introduccion",
       "confidence": "explicit"
     },
     {
       "questionId": "amb-05",
       "stance": 1,
-      "justification": "Crear un fondo de justicia ambiental con contribuciones cruzadas de la explotacion minera y petrolera para adaptar zonas mas vulnerables.",
-      "programReference": "Programa Energia, Eje 2 Sostenibilidad",
+      "justification": "Crear un fondo de justicia ambiental con contribuciones cruzadas de la explotación minera y petrolera para adaptar zonas mas vulnerables.",
+      "programReference": "Programa Energía, Eje 2 Sostenibilidad",
       "confidence": "explicit"
     },
     {
       "questionId": "sal-01",
       "stance": -1,
-      "justification": "No propone eliminar EPS; propone materializar operativamente la Ley Estatutaria con Bloque Salud blockchain, historia clinica unica y giro directo de ADRES.",
-      "programReference": "Programa Salud, Politica 1 Inteligencia Sanitaria",
+      "justification": "No propone eliminar EPS; propone materializar operativamente la Ley Estatutaria con Bloque Salud blockchain, historia clinica única y giro directo de ADRES.",
+      "programReference": "Programa Salud, Política 1 Inteligencia Sanitaria",
       "confidence": "inferred"
     },
     {
       "questionId": "sal-02",
       "stance": 1,
-      "justification": "Programa nacional de atencion psicologica exclusiva para talento humano en salud; acceso a servicios de salud mental incluido en agenda.",
-      "programReference": "Programa Salud, Politica 2 Cuidar al Cuidador",
+      "justification": "Programa nacional de atención psicologica exclusiva para talento humano en salud; acceso a servicios de salud mental incluido en agenda.",
+      "programReference": "Programa Salud, Política 2 Cuidar al Cuidador",
       "confidence": "inferred"
     },
     {
       "questionId": "sal-03",
       "stance": 2,
-      "justification": "Modelo de Equipos Basicos de Atencion Integral EBAIS Digital territorializado; invertir en agua potable y nutricion antes que en UCI.",
-      "programReference": "Programa Salud, Politica 3 Salud sin Paredes",
+      "justification": "Modelo de Equipos Basicos de Atención Integral EBAIS Digital territorializado; invertir en agua potable y nutricion antes que en UCI.",
+      "programReference": "Programa Salud, Política 3 Salud sin Paredes",
       "confidence": "explicit"
     },
     {
       "questionId": "sal-05",
       "stance": 0,
-      "justification": "Salud elevada a derecho fundamental autonomo acabando con paradigma de mercancia, pero conserva red publica y privada con trazabilidad y contratos inteligentes.",
+      "justification": "Salud elevada a derecho fundamental autonomo acabando con paradigma de mercancia, pero conserva red pública y privada con trazabilidad y contratos inteligentes.",
       "programReference": "Programa Salud, Introduccion",
       "confidence": "inferred"
     },
     {
       "questionId": "sal-06",
       "stance": 1,
-      "justification": "Atencion de la salud reproductiva y maternal: en zonas urbanas en centros de salud, en zona rural medico en casa.",
+      "justification": "Atención de la salud reproductiva y maternal: en zonas urbanas en centros de salud, en zona rural médico en casa.",
       "programReference": "Programa Mujeres, Circuito Seguro Mujer Vital",
       "confidence": "explicit"
     },
@@ -110,20 +110,20 @@
       "questionId": "sal-07",
       "stance": 2,
       "justification": "Estatuto Unico del Trabajador de la Salud: a trabajo igual salario igual, piso salarial nacional obligatorio y prohibicion de OPS misionales.",
-      "programReference": "Programa Salud, Politica 2",
+      "programReference": "Programa Salud, Política 2",
       "confidence": "explicit"
     },
     {
       "questionId": "cul-01",
       "stance": 2,
-      "justification": "Plan de Infraestructura Cultural en todos los territorios, Programa Somos Colombia, Universidad Abierta de la Cultura y Fondo de Economia Creativa y Circular.",
+      "justification": "Plan de Infraestructura Cultural en todos los territorios, Programa Somos Colombia, Universidad Abierta de la Cultura y Fondo de Economía Creativa y Circular.",
       "programReference": "Programa Cultura, Objetivos I-III",
       "confidence": "explicit"
     },
     {
       "questionId": "cul-02",
       "stance": 1,
-      "justification": "Realizaremos los Juegos Deportivos Indigenas y la formacion cultural debe rescatar saberes propios locales.",
+      "justification": "Realizaremos los Juegos Deportivos Indigenas y la formación cultural debe rescatar saberes propios locales.",
       "programReference": "Programa Cultura, Objetivo II y Colombia Oro Puro",
       "confidence": "inferred"
     },
@@ -137,7 +137,7 @@
     {
       "questionId": "cul-05",
       "stance": 2,
-      "justification": "Fondo de Economia Creativa y Circular para emprendimientos culturales; apoyar artistas colombianos, no mas dinero para artistas extranjeros.",
+      "justification": "Fondo de Economía Creativa y Circular para emprendimientos culturales; apoyar artistas colombianos, no mas dinero para artistas extranjeros.",
       "programReference": "Programa Cultura, Objetivo III",
       "confidence": "explicit"
     },
@@ -145,20 +145,20 @@
       "questionId": "tra-01",
       "stance": 1,
       "justification": "Estatuto Unico del Trabajador de la Salud con carrera sanitaria similar al NHS britanico y prohibicion de OPS misionales.",
-      "programReference": "Programa Salud, Politica 2",
+      "programReference": "Programa Salud, Política 2",
       "confidence": "inferred"
     },
     {
       "questionId": "tra-02",
       "stance": -1,
-      "justification": "Prohibicion de OPS misionales y tablas salariales minimas obligatorias para impedir la subasta a la baja en salud.",
-      "programReference": "Programa Salud, Politica 2",
+      "justification": "Prohibicion de OPS misionales y tablas salariales mínimas obligatorias para impedir la subasta a la baja en salud.",
+      "programReference": "Programa Salud, Política 2",
       "confidence": "inferred"
     },
     {
       "questionId": "tra-05",
       "stance": 0,
-      "justification": "Propone subsidios focalizados (100 mil viviendas a madres comunitarias, maestras y cuidadoras) e incentivos tributarios, no renta basica universal.",
+      "justification": "Propone subsidios focalizados (100 mil viviendas a madres comunitarias, maestras y cuidadoras) e incentivos tributarios, no renta básica universal.",
       "programReference": "Programa Mujeres, Vivienda",
       "confidence": "inferred"
     },

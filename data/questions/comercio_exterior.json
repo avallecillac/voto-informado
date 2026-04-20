@@ -3,7 +3,7 @@
     "id": "com-01",
     "categoryId": "comercio_exterior",
     "text": "Los tratados de libre comercio han sido beneficiosos para Colombia y deben mantenerse y ampliarse.",
-    "context": "Colombia tiene TLC con EE.UU., Union Europea, Mexico y otros paises. Su impacto es debatido.",
+    "context": "Colombia tiene TLC con EE.UU., Union Europea, México y otros países. Su impacto es debatido.",
     "type": "likert",
     "weight": 2
   },
@@ -11,31 +11,31 @@
     "id": "com-02",
     "categoryId": "comercio_exterior",
     "text": "Se deben aumentar los aranceles para proteger la industria y agricultura nacional de la competencia extranjera.",
-    "context": "La apertura economica ha beneficiado a consumidores pero ha afectado a sectores productivos nacionales.",
+    "context": "La apertura económica ha beneficiado a consumidores pero ha afectado a sectores productivos nacionales.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "com-03",
     "categoryId": "comercio_exterior",
-    "text": "Colombia debe fortalecer la integracion economica con America Latina antes que con EE.UU. o Europa.",
-    "context": "La integracion regional con la CAN, Mercosur y la Alianza del Pacifico tiene diferentes alcances.",
+    "text": "Colombia debe fortalecer la integración económica con America Latina antes que con EE.UU. o Europa.",
+    "context": "La integración regional con la CAN, Mercosur y la Alianza del Pacífico tiene diferentes alcances.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "com-04",
     "categoryId": "comercio_exterior",
-    "text": "Se debe promover la exportacion de productos con valor agregado y no solo materias primas.",
-    "context": "Las exportaciones colombianas son principalmente commodities como petroleo, cafe y carbon.",
+    "text": "Se debe promover la exportación de productos con valor agregado y no solo materias primas.",
+    "context": "Las exportaciones colombianas son principalmente commodities como petróleo, café y carbon.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "com-05",
     "categoryId": "comercio_exterior",
-    "text": "Las zonas francas e incentivos a la exportacion deben ampliarse para atraer mas inversion.",
-    "context": "Las zonas francas generan empleo pero tienen un costo fiscal en terminos de impuestos no recaudados.",
+    "text": "Las zonas francas e incentivos a la exportación deben ampliarse para atraer mas inversión.",
+    "context": "Las zonas francas generan empleo pero tienen un costo fiscal en términos de impuestos no recaudados.",
     "type": "likert",
     "weight": 1
   },

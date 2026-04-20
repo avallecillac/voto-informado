@@ -16,13 +16,13 @@ import {
   ArrowRight,
   RotateCcw,
   Info,
-  Trophy,
   Users,
   Eye,
   EyeOff,
   Filter,
 } from "lucide-react";
 import { useState } from "react";
+import { ShareButtons } from "@/components/share/share-buttons";
 
 const ORIENTATION_LABELS: Record<string, string> = {
   izquierda: "Izquierda",
@@ -36,6 +36,12 @@ const CONFIDENCE_COLORS: Record<string, string> = {
   baja: "bg-yellow-100 text-yellow-800",
   media: "bg-blue-100 text-blue-800",
   alta: "bg-green-100 text-green-800",
+};
+
+const CONFIDENCE_LABELS: Record<string, string> = {
+  baja: "baja",
+  media: "media",
+  alta: "alta",
 };
 
 export default function ResultsPage() {
@@ -69,7 +75,7 @@ export default function ResultsPage() {
       <div className="py-12 text-center">
         <Users className="mx-auto h-12 w-12 text-muted-foreground" />
         <h2 className="mt-4 text-xl font-semibold">
-          Aun no has respondido preguntas
+          Aún no has respondido preguntas
         </h2>
         <p className="mt-2 text-muted-foreground">
           Responde al menos algunas preguntas para ver tus resultados.
@@ -88,48 +94,47 @@ export default function ResultsPage() {
 
   return (
     <div>
-      {/* Header */}
-      <div className="mb-8 text-center">
-        <Trophy className="mx-auto h-10 w-10 text-blue-600" />
-        <h1 className="mt-4 text-2xl font-bold sm:text-3xl">Tus resultados</h1>
-        <p className="mt-2 text-muted-foreground">
-          Basado en {answers.length} respuestas
-        </p>
-        <Badge className={`mt-2 ${CONFIDENCE_COLORS[confidence]}`}>
-          Confianza {confidence}
-        </Badge>
-        {confidence === "baja" && (
-          <p className="mt-2 text-xs text-yellow-600">
-            <Info className="mr-1 inline h-3 w-3" />
-            Responde mas preguntas para resultados mas precisos
-          </p>
-        )}
-      </div>
-
-      {/* Filter toggle */}
-      <div className="mb-4 flex items-center justify-between">
-        <button
-          onClick={() => setShowFilter(!showFilter)}
-          className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground"
-        >
-          <Filter className="h-3.5 w-3.5" />
-          {excludedCandidates.length > 0
-            ? `${excludedCandidates.length} candidato${
-                excludedCandidates.length === 1 ? "" : "s"
-              } oculto${excludedCandidates.length === 1 ? "" : "s"}`
-            : "Filtrar candidatos"}
-        </button>
-        {excludedCandidates.length > 0 && (
+      {/* Compact meta bar: answers count + confidence + filter */}
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-sm">
+        <div className="flex items-center gap-3 text-muted-foreground">
+          <span>
+            <strong className="text-foreground">{answers.length}</strong>{" "}
+            respuestas
+          </span>
+          <Badge className={CONFIDENCE_COLORS[confidence]}>
+            Confianza {confidence}
+          </Badge>
+        </div>
+        <div className="flex items-center gap-3">
           <button
-            onClick={() =>
-              excludedCandidates.forEach((id) => toggleExcludedCandidate(id))
-            }
-            className="text-xs text-blue-600 hover:text-blue-700"
+            onClick={() => setShowFilter(!showFilter)}
+            className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-foreground"
           >
-            Mostrar todos
+            <Filter className="h-3.5 w-3.5" />
+            {excludedCandidates.length > 0
+              ? `${excludedCandidates.length} oculto${
+                  excludedCandidates.length === 1 ? "" : "s"
+                }`
+              : "Filtrar"}
           </button>
-        )}
+          {excludedCandidates.length > 0 && (
+            <button
+              onClick={() =>
+                excludedCandidates.forEach((id) => toggleExcludedCandidate(id))
+              }
+              className="text-xs text-blue-600 hover:text-blue-700"
+            >
+              Mostrar todos
+            </button>
+          )}
+        </div>
       </div>
+      {confidence === "baja" && (
+        <p className="mb-4 flex items-center gap-1 text-xs text-yellow-700">
+          <Info className="h-3 w-3" />
+          Responde más preguntas para resultados más precisos
+        </p>
+      )}
 
       {/* Filter panel - all candidates with show/hide toggle */}
       {showFilter && (
@@ -183,7 +188,7 @@ export default function ResultsPage() {
 
       {results.length === 0 && (
         <div className="rounded-lg border border-dashed p-8 text-center text-sm text-muted-foreground">
-          Todos los candidatos estan ocultos. Usa el filtro para mostrar alguno.
+          Todos los candidatos están ocultos. Usa el filtro para mostrar alguno.
         </div>
       )}
 
@@ -198,103 +203,114 @@ export default function ResultsPage() {
           const isTop = index === 0;
 
           return (
-            <Card
-              key={result.candidateId}
-              className={isTop ? "border-blue-500 ring-1 ring-blue-500" : ""}
-            >
-              <CardContent className="p-5">
-                <div className="flex items-start gap-4">
-                  {/* Rank */}
-                  <div
-                    className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
-                      isTop
-                        ? "bg-blue-600 text-white"
-                        : "bg-gray-100 text-gray-600"
-                    }`}
-                  >
-                    #{index + 1}
-                  </div>
-
-                  {/* Info */}
-                  <div className="flex-1 min-w-0">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <h3 className="font-semibold">{candidate.name}</h3>
-                      <Badge variant="outline" className="text-xs">
-                        {candidate.party}
-                      </Badge>
-                    </div>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {ORIENTATION_LABELS[candidate.politicalOrientation]}
-                    </p>
-
-                    {/* Match bar */}
-                    <div className="mt-3">
-                      <div className="mb-1 flex items-center justify-between">
-                        <span className="text-sm text-muted-foreground">
-                          Coincidencia
-                        </span>
-                        <span
-                          className={`text-lg font-bold ${
-                            result.overallMatch >= 70
-                              ? "text-green-600"
-                              : result.overallMatch >= 40
-                              ? "text-blue-600"
-                              : "text-orange-600"
-                          }`}
-                        >
-                          {Math.round(result.overallMatch)}%
-                        </span>
-                      </div>
-                      <Progress
-                        value={result.overallMatch}
-                        className="h-3"
-                      />
-                    </div>
-
-                    {/* Category breakdown */}
-                    {result.categoryMatches.length > 0 && (
-                      <div className="mt-3 flex flex-wrap gap-1.5">
-                        {result.categoryMatches.map((cm) => {
-                          const cat = categories.find(
-                            (c) => c.id === cm.categoryId
-                          );
-                          if (!cat) return null;
-                          return (
-                            <Badge
-                              key={cm.categoryId}
-                              variant="secondary"
-                              className="text-xs"
-                            >
-                              {cat.shortName}{" "}
-                              <span
-                                className={`ml-1 font-semibold ${
-                                  cm.match >= 70
-                                    ? "text-green-600"
-                                    : cm.match >= 40
-                                    ? "text-blue-600"
-                                    : "text-orange-600"
-                                }`}
-                              >
-                                {Math.round(cm.match)}%
-                              </span>
-                            </Badge>
-                          );
-                        })}
-                      </div>
-                    )}
-
-                    {/* Detail link */}
-                    <Link
-                      href={`/quiz/candidate/${candidate.id}`}
-                      className="mt-3 inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700"
+            <div key={result.candidateId}>
+              <Card
+                className={isTop ? "border-blue-500 ring-1 ring-blue-500" : ""}
+              >
+                <CardContent className="p-5">
+                  <div className="flex items-start gap-4">
+                    {/* Rank */}
+                    <div
+                      className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
+                        isTop
+                          ? "bg-blue-600 text-white"
+                          : "bg-gray-100 text-gray-600"
+                      }`}
                     >
-                      Ver detalle
-                      <ArrowRight className="h-3 w-3" />
-                    </Link>
+                      #{index + 1}
+                    </div>
+
+                    {/* Info */}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <h3 className="font-semibold">{candidate.name}</h3>
+                        <Badge variant="outline" className="text-xs">
+                          {candidate.party}
+                        </Badge>
+                      </div>
+                      <p className="mt-0.5 text-xs text-muted-foreground">
+                        {ORIENTATION_LABELS[candidate.politicalOrientation]}
+                      </p>
+
+                      {/* Match bar */}
+                      <div className="mt-3">
+                        <div className="mb-1 flex items-center justify-between">
+                          <span className="text-sm text-muted-foreground">
+                            Coincidencia
+                          </span>
+                          <span
+                            className={`text-lg font-bold ${
+                              result.overallMatch >= 70
+                                ? "text-green-600"
+                                : result.overallMatch >= 40
+                                ? "text-blue-600"
+                                : "text-orange-600"
+                            }`}
+                          >
+                            {Math.round(result.overallMatch)}%
+                          </span>
+                        </div>
+                        <Progress
+                          value={result.overallMatch}
+                          className="h-3"
+                        />
+                      </div>
+
+                      {/* Category breakdown */}
+                      {result.categoryMatches.length > 0 && (
+                        <div className="mt-3 flex flex-wrap gap-1.5">
+                          {result.categoryMatches.map((cm) => {
+                            const cat = categories.find(
+                              (c) => c.id === cm.categoryId
+                            );
+                            if (!cat) return null;
+                            return (
+                              <Badge
+                                key={cm.categoryId}
+                                variant="secondary"
+                                className="text-xs"
+                              >
+                                {cat.shortName}{" "}
+                                <span
+                                  className={`ml-1 font-semibold ${
+                                    cm.match >= 70
+                                      ? "text-green-600"
+                                      : cm.match >= 40
+                                      ? "text-blue-600"
+                                      : "text-orange-600"
+                                  }`}
+                                >
+                                  {Math.round(cm.match)}%
+                                </span>
+                              </Badge>
+                            );
+                          })}
+                        </div>
+                      )}
+
+                      {/* Detail link */}
+                      <Link
+                        href={`/quiz/candidate/${candidate.id}`}
+                        className="mt-3 inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700"
+                      >
+                        Ver detalle
+                        <ArrowRight className="h-3 w-3" />
+                      </Link>
+                    </div>
                   </div>
+                </CardContent>
+              </Card>
+
+              {/* Share buttons immediately after the #1 candidate */}
+              {isTop && (
+                <div className="mt-4">
+                  <ShareButtons
+                    topCandidate={candidate.name}
+                    topPercentage={result.overallMatch}
+                  />
                 </div>
-              </CardContent>
-            </Card>
+              )}
+            </div>
           );
         })}
       </div>
@@ -309,7 +325,7 @@ export default function ResultsPage() {
           className="gap-2"
         >
           <ArrowLeft className="h-4 w-4" />
-          Responder mas preguntas
+          Responder más preguntas
         </Button>
         <Button variant="ghost" onClick={handleReset} className="gap-2">
           <RotateCcw className="h-4 w-4" />
@@ -319,7 +335,7 @@ export default function ResultsPage() {
 
       {/* Disclaimer */}
       <p className="mt-8 text-center text-xs text-muted-foreground">
-        Esta herramienta es informativa y no constituye una recomendacion de
+        Esta herramienta es informativa y no constituye una recomendación de
         voto. Los resultados se basan en los programas de gobierno oficiales
         de los candidatos.
       </p>

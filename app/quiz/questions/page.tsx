@@ -50,7 +50,7 @@ const ANSWER_OPTIONS: AnswerOption[] = [
   {
     value: 2,
     label: "De acuerdo",
-    short: "Si",
+    short: "Sí",
     icon: ThumbsUp,
     colorClass: "text-green-600",
     selectedClass: "border-green-500 bg-green-50 ring-1 ring-green-500",
@@ -236,7 +236,7 @@ export default function QuestionsPage() {
             onClick={() => router.push("/quiz/priorities")}
             className="text-muted-foreground"
           >
-            Ya respondi suficientes. Ver resultados parciales
+            Ya respondí suficientes. Ver resultados parciales
           </Button>
         </div>
       )}

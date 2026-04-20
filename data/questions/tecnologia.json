@@ -1,7 +1,7 @@
 [
   {
     "id": "tec-01",
-    "categoryId": "tecnologia",
+    "categoryId": "tecnología",
     "text": "El acceso a internet debe ser un derecho fundamental garantizado por el Estado en todo el territorio.",
     "context": "La conectividad en zonas rurales sigue siendo muy limitada, ampliando la brecha digital.",
     "type": "likert",
@@ -9,41 +9,41 @@
   },
   {
     "id": "tec-02",
-    "categoryId": "tecnologia",
+    "categoryId": "tecnología",
     "text": "Se debe regular estrictamente el uso de inteligencia artificial para proteger empleos y privacidad.",
-    "context": "La IA esta transformando el mercado laboral y plantea retos eticos y regulatorios.",
+    "context": "La IA esta transformando el mercado laboral y plantea retos éticos y regulatorios.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tec-03",
-    "categoryId": "tecnologia",
+    "categoryId": "tecnología",
     "text": "Colombia debe invertir fuertemente en ciencia e investigacion, aumentando el presupuesto de Minciencias.",
-    "context": "Colombia invierte menos del 0.3% del PIB en investigacion, muy por debajo de paises desarrollados.",
+    "context": "Colombia invierte menos del 0.3% del PIB en investigacion, muy por debajo de países desarrollados.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tec-04",
-    "categoryId": "tecnologia",
-    "text": "Se deben crear incentivos fiscales para startups y empresas de tecnologia colombianas.",
-    "context": "El ecosistema de emprendimiento tecnologico en Colombia ha crecido pero enfrenta barreras regulatorias.",
+    "categoryId": "tecnología",
+    "text": "Se deben crear incentivos fiscales para startups y empresas de tecnología colombianas.",
+    "context": "El ecosistema de emprendimiento tecnológico en Colombia ha crecido pero enfrenta barreras regulatorias.",
     "type": "likert",
     "weight": 1
   },
   {
     "id": "tec-05",
-    "categoryId": "tecnologia",
+    "categoryId": "tecnología",
     "text": "El gobierno debe digitalizar completamente sus tramites y servicios para reducir la burocracia.",
-    "context": "La digitalizacion de tramites reduce corrupcion y facilita el acceso a servicios publicos.",
+    "context": "La digitalizacion de tramites reduce corrupción y facilita el acceso a servicios públicos.",
     "type": "likert",
     "weight": 2
   },
   {
     "id": "tec-06",
-    "categoryId": "tecnologia",
+    "categoryId": "tecnología",
     "text": "Se debe proteger estrictamente la privacidad de los datos personales de los ciudadanos frente a empresas y al Estado.",
-    "context": "La recoleccion masiva de datos plantea riesgos de vigilancia y uso indebido de informacion.",
+    "context": "La recolección masiva de datos plantea riesgos de vigilancia y uso indebido de información.",
     "type": "likert",
     "weight": 2
   }
