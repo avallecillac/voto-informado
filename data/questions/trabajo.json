@@ -10,7 +10,7 @@
   {
     "id": "tra-02",
     "categoryId": "trabajo",
-    "text": "Se debe flexibilizar la contratación laboral para facilitar la generacion de empleo formal.",
+    "text": "Se debe hacer más flexible el mercado laboral (reglas de contratación, despido y jornada) para incentivar la creación de empleo formal.",
     "context": "Colombia tiene aproximadamente 55% de informalidad laboral (DANE). Defensores de flexibilizar la contratación argumentan que reduce costos de formalización y aumenta empleo formal. Críticos señalan que flexibilización histórica ha precarizado el empleo sin reducir sustancialmente la informalidad, y que afecta derechos como estabilidad, horas extras y seguridad social.",
     "type": "likert",
     "weight": 2
