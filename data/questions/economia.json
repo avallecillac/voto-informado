@@ -1,7 +1,7 @@
 [
   {
     "id": "econ-01",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "El Estado debe aumentar los impuestos a las grandes empresas y personas de altos ingresos para financiar programas sociales.",
     "context": "Colombia tiene alta desigualdad de ingresos (Gini ≈ 0,55, uno de los más altos de América Latina). Defensores de impuestos progresivos argumentan que mejoran redistribución y financian programas sociales. Críticos señalan riesgo de fuga de capitales, reducción de inversión y baja recaudación si las bases tributarias son estrechas.",
     "type": "likert",
@@ -9,7 +9,7 @@
   },
   {
     "id": "econ-02",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "Se debe reducir el tamaño del Estado y privatizar empresas públicas para mejorar la eficiencia económica.",
     "context": "El gasto público colombiano ronda el 30% del PIB. Quienes proponen reducirlo citan eficiencia, menos burocracia y más espacio para el sector privado. Quienes se oponen argumentan que el Estado cumple funciones esenciales de redistribución, regulación y provisión de bienes públicos que el mercado por sí solo no garantiza.",
     "type": "likert",
@@ -17,7 +17,7 @@
   },
   {
     "id": "econ-03",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "El salario mínimo debe aumentarse significativamente por encima de la inflación para mejorar las condiciones de vida de los trabajadores.",
     "context": "El salario mínimo en Colombia se negocia anualmente entre gobierno, empleadores y sindicatos.",
     "type": "likert",
@@ -25,7 +25,7 @@
   },
   {
     "id": "econ-04",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "Colombia debe priorizar la atraccion de inversión extranjera ofreciendo incentivos tributarios y desregulacion.",
     "context": "La inversión extranjera directa es una fuente importante de empleo y crecimiento, pero los incentivos tienen un costo fiscal.",
     "type": "likert",
@@ -33,7 +33,7 @@
   },
   {
     "id": "econ-05",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "El gobierno debe intervenir activamente en los precios de productos básicos (alimentos, combustibles, servicios públicos) para proteger a los mas vulnerables.",
     "context": "Los subsidios a combustibles y controles de precios a alimentos cuestan al Estado billones de pesos al año. Defensores de la intervención citan protección a hogares vulnerables frente a shocks de precios. Críticos señalan distorsiones de mercado, contrabando y que los subsidios generalizados benefician más a sectores altos que a los pobres.",
     "type": "likert",
@@ -41,7 +41,7 @@
   },
   {
     "id": "econ-06",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "Se debe promover la economía popular y solidaria (cooperativas, emprendimientos locales) como alternativa al modelo corporativo.",
     "context": "La economía solidaria emplea a millones de colombianos, especialmente en zonas rurales y sectores informales.",
     "type": "likert",
@@ -49,7 +49,7 @@
   },
   {
     "id": "econ-07",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "Colombia debe avanzar hacia una economía mas diversificada y reducir su dependencia de materias primas como el petróleo y el carbon.",
     "context": "Las exportaciones de combustibles representan una parte significativa de los ingresos del país, pero son vulnerables a ciclos de precios.",
     "type": "likert",
@@ -57,7 +57,7 @@
   },
   {
     "id": "econ-08",
-    "categoryId": "economía",
+    "categoryId": "economia",
     "text": "La informalidad laboral se combate mejor con incentivos a la formalizacion que con mayor regulación y sanciones.",
     "context": "Cerca del 60% del empleo en Colombia es informal, sin acceso a seguridad social ni prestaciones.",
     "type": "likert",

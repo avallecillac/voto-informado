@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { getCategoryById } from "@/data";
+import { getCategoryColor } from "@/lib/category-colors";
 
 // StemWijzer-style 3-option format. Mapped to the underlying -2/0/+2 scale
 // so that existing candidate stance data (-2 to +2) continues to work.
@@ -100,6 +101,7 @@ export default function QuestionsPage() {
   }
 
   const category = getCategoryById(question.categoryId);
+  const color = getCategoryColor(question.categoryId);
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
 
   const handleAnswer = () => {
@@ -138,13 +140,14 @@ export default function QuestionsPage() {
 
       {/* Category badge */}
       {category && (
-        <Badge variant="secondary" className="mb-4">
+        <Badge className={`mb-4 ${color.badge} border-transparent`}>
           {category.name}
         </Badge>
       )}
 
-      {/* Question */}
-      <Card>
+      {/* Question - colored accent bar on top indicates category */}
+      <Card className="overflow-hidden p-0">
+        <div className={`h-1.5 w-full ${color.accentBg}`} />
         <CardContent className="p-6">
           <h2 className="text-lg font-semibold leading-relaxed sm:text-xl">
             {question.text}
@@ -152,14 +155,14 @@ export default function QuestionsPage() {
 
           {/* Context toggle */}
           <button
-            className="mt-3 flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700"
+            className={`mt-3 flex items-center gap-1 text-sm ${color.text} hover:opacity-80`}
             onClick={() => setShowContext(!showContext)}
           >
             <Info className="h-3.5 w-3.5" />
             {showContext ? "Ocultar contexto" : "Ver contexto"}
           </button>
           {showContext && (
-            <p className="mt-2 rounded-md bg-blue-50 p-3 text-sm text-muted-foreground">
+            <p className={`mt-2 rounded-md ${color.softBg} p-3 text-sm text-muted-foreground`}>
               {question.context}
             </p>
           )}

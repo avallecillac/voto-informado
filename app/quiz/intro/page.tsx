@@ -1,6 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { useQuizStore } from "@/lib/store/quiz-store";
+import { useHydration } from "@/lib/hooks/use-hydration";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -10,13 +12,64 @@ import {
   Trophy,
   Clock,
   Shield,
+  RotateCcw,
+  Play,
 } from "lucide-react";
 
 export default function IntroPage() {
   const router = useRouter();
+  const hydrated = useHydration();
+  const answeredCount = useQuizStore((s) => s.getAnsweredCount());
+  const reset = useQuizStore((s) => s.reset);
+
+  const hasExistingProgress = hydrated && answeredCount > 0;
+
+  const handleContinue = () => {
+    router.push("/quiz/questions");
+  };
+
+  const handleStartFresh = () => {
+    reset();
+    router.push("/quiz/questions");
+  };
 
   return (
     <div>
+      {/* Saved progress banner - shown at top so mobile users see it immediately */}
+      {hasExistingProgress && (
+        <Card className="mb-6 border-yellow-300 bg-yellow-50">
+          <CardContent className="p-4">
+            <p className="text-sm">
+              <strong>Ya tienes respuestas guardadas</strong> ({answeredCount}{" "}
+              de 27 preguntas).
+            </p>
+            <p className="mt-1 text-xs text-muted-foreground">
+              Puedes continuar donde quedaste o empezar de nuevo con
+              respuestas en blanco.
+            </p>
+            <div className="mt-4 flex flex-col gap-2 sm:flex-row">
+              <Button
+                size="lg"
+                className="flex-1 gap-2"
+                onClick={handleContinue}
+              >
+                <Play className="h-4 w-4" />
+                Continuar donde quedé
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="flex-1 gap-2"
+                onClick={handleStartFresh}
+              >
+                <RotateCcw className="h-4 w-4" />
+                Empezar de nuevo
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
       <div className="mb-8 text-center">
         <h1 className="text-2xl font-bold sm:text-3xl">Cómo funciona</h1>
         <p className="mt-2 text-muted-foreground">
@@ -64,16 +117,16 @@ export default function IntroPage() {
         </CardContent>
       </Card>
 
-      <div className="mt-8 flex justify-center">
-        <Button
-          size="lg"
-          className="gap-2"
-          onClick={() => router.push("/quiz/questions")}
-        >
-          Empezar
-          <ArrowRight className="h-4 w-4" />
-        </Button>
-      </div>
+      {/* Bottom CTA only shown when there's no existing progress
+          (when there IS progress, the actions are in the top banner) */}
+      {!hasExistingProgress && (
+        <div className="mt-8 flex justify-center">
+          <Button size="lg" className="gap-2" onClick={handleContinue}>
+            Empezar
+            <ArrowRight className="h-4 w-4" />
+          </Button>
+        </div>
+      )}
     </div>
   );
 }

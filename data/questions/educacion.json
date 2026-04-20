@@ -1,7 +1,7 @@
 [
   {
     "id": "edu-01",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "La educación pública universitaria debe ser gratuita para todos los colombianos.",
     "context": "La cobertura de educación superior en Colombia es cercana al 54%, con marcada brecha rural-urbana. Defensores de la gratuidad argumentan que es un derecho y reduce barreras económicas. Críticos señalan el costo fiscal, el riesgo de subsidiar a quienes pueden pagar, y plantean priorizar la calidad de educación básica y media.",
     "type": "likert",
@@ -9,7 +9,7 @@
   },
   {
     "id": "edu-02",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "Se debe priorizar la educación tecnica y tecnológica sobre la educación universitaria tradicional.",
     "context": "El mercado laboral colombiano demanda mas tecnicos y tecnologos que profesionales universitarios en muchos sectores.",
     "type": "likert",
@@ -17,7 +17,7 @@
   },
   {
     "id": "edu-03",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "Los colegios privados deben tener mayor libertad para definir sus curriculos sin intervención estatal.",
     "context": "El debate entre autonomia educativa y estandares nacionales es recurrente.",
     "type": "likert",
@@ -25,7 +25,7 @@
   },
   {
     "id": "edu-04",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "Se debe incorporar la inteligencia artificial y la tecnología digital como eje central del curriculo desde la educación básica.",
     "context": "La brecha digital en Colombia es significativa, especialmente entre zonas urbanas y rurales.",
     "type": "likert",
@@ -33,7 +33,7 @@
   },
   {
     "id": "edu-05",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "El gobierno debe aumentar significativamente el salario y las condiciones laborales de los docentes públicos.",
     "context": "Los maestros públicos en Colombia tienen salarios bajos en comparacion con otros profesionales y con docentes de otros países.",
     "type": "likert",
@@ -41,7 +41,7 @@
   },
   {
     "id": "edu-06",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "La educación en zonas rurales debe recibir presupuesto y atención diferenciada para cerrar la brecha con las ciudades.",
     "context": "Las tasas de desercion escolar y analfabetismo son mucho mayores en zonas rurales.",
     "type": "likert",
@@ -49,7 +49,7 @@
   },
   {
     "id": "edu-07",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "Se deben implementar evaluaciones estandarizadas mas rigurosas para medir la calidad educativa.",
     "context": "Colombia participa en pruebas PISA y tiene las pruebas Saber, pero los resultados muestran rezagos frente a la región.",
     "type": "likert",
@@ -57,7 +57,7 @@
   },
   {
     "id": "edu-08",
-    "categoryId": "educación",
+    "categoryId": "educacion",
     "text": "La educación debe incluir formación en valores civicos, democracia y resolucion pacifica de conflictos como prioridad.",
     "context": "En un país post-conflicto, la educación para la paz es vista como herramienta de transformación social.",
     "type": "likert",

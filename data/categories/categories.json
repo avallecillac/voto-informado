@@ -1,6 +1,6 @@
 [
   {
-    "id": "economía",
+    "id": "economia",
     "name": "Economía y Empleo",
     "shortName": "Economía",
     "icon": "TrendingUp",
@@ -24,7 +24,7 @@
     "questionCount": 7
   },
   {
-    "id": "energía",
+    "id": "energia",
     "name": "Energía y Minería",
     "shortName": "Energía",
     "icon": "Zap",
@@ -40,7 +40,7 @@
     "questionCount": 7
   },
   {
-    "id": "educación",
+    "id": "educacion",
     "name": "Educación",
     "shortName": "Educación",
     "icon": "GraduationCap",
@@ -80,7 +80,7 @@
     "questionCount": 6
   },
   {
-    "id": "tecnología",
+    "id": "tecnologia",
     "name": "Tecnología e Innovación",
     "shortName": "Tecnología",
     "icon": "Cpu",

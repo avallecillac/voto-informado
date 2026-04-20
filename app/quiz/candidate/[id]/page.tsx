@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import { ArrowLeft, ExternalLink, FileText, AlertTriangle } from "lucide-react";
+import { getCategoryColor } from "@/lib/category-colors";
 
 /**
  * Map the underlying -2..+2 stance to the simplified 3-option labels shown
@@ -148,17 +149,22 @@ export default function CandidateDetailPage() {
           const category = categories.find(
             (c) => c.id === question.categoryId
           );
+          const catColor = getCategoryColor(question.categoryId);
 
           const match = userAnswer
             ? 1 - Math.abs(userAnswer.value - position.stance) / 4
             : null;
 
           return (
-            <Card key={position.questionId}>
+            <Card key={position.questionId} className="overflow-hidden p-0">
+              {/* Color accent bar indicating category */}
+              <div className={`h-1 w-full ${catColor.accentBg}`} />
               <CardContent className="p-4">
                 {/* Category */}
                 {category && (
-                  <Badge variant="secondary" className="mb-2 text-xs">
+                  <Badge
+                    className={`mb-2 border-transparent text-xs ${catColor.badge}`}
+                  >
                     {category.shortName}
                   </Badge>
                 )}

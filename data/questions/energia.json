@@ -1,7 +1,7 @@
 [
   {
     "id": "ene-01",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "Colombia debe detener la exploración y explotación de nuevos yacimientos de petróleo y gas.",
     "context": "El sector petrolero genera aproximadamente 40% de las exportaciones y 15-20% de los ingresos fiscales. Quienes apoyan detener nueva exploración priorizan la transición energética y las metas climáticas. Quienes se oponen citan dependencia fiscal, empleo en regiones productoras y la necesidad de una transición gradual.",
     "type": "likert",
@@ -9,7 +9,7 @@
   },
   {
     "id": "ene-02",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "Se debe acelerar la transición hacia energías renovables (solar, eólica) con subsidios y regulación favorable.",
     "context": "Colombia tiene un gran potencial en energías renovables, especialmente solar en La Guajira y eólica en la costa.",
     "type": "likert",
@@ -17,7 +17,7 @@
   },
   {
     "id": "ene-03",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "La minería a gran escala debe prohibirse en zonas de paramos y ecosistemas estratégicos.",
     "context": "Los paramos son fuente de agua para millones de colombianos, pero también contienen recursos minerales valiosos.",
     "type": "likert",
@@ -25,7 +25,7 @@
   },
   {
     "id": "ene-04",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "El fracking debe permitirse en Colombia bajo regulación estricta para aumentar la producción de gas.",
     "context": "El fracking (fractura hidráulica) permite extraer gas de yacimientos no convencionales. Defensores lo presentan como vía a la autosuficiencia energética y empleo. Opositores citan riesgos ambientales (uso intensivo de agua, sismicidad inducida, contaminación de acuíferos) y contradicción con los compromisos climáticos del país.",
     "type": "likert",
@@ -33,7 +33,7 @@
   },
   {
     "id": "ene-05",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "Las comunidades locales deben tener poder de veto sobre proyectos minero-energéticos en sus territorios.",
     "context": "Colombia tiene dos mecanismos: consulta previa para pueblos étnicos (vinculante) y consulta popular para municipios (alcance limitado por la Corte Constitucional). Defensores del veto comunitario citan autonomía territorial y protección ambiental. Opositores citan el interés general, la seguridad jurídica para la inversión y los ingresos que financian regiones.",
     "type": "likert",
@@ -41,7 +41,7 @@
   },
   {
     "id": "ene-06",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "Ecopetrol debe mantenerse como empresa pública y no debe privatizarse parcial ni totalmente.",
     "context": "Ecopetrol es la empresa mas grande de Colombia y una fuente clave de ingresos para el Estado.",
     "type": "likert",
@@ -49,7 +49,7 @@
   },
   {
     "id": "ene-07",
-    "categoryId": "energía",
+    "categoryId": "energia",
     "text": "Se debe invertir en energía nuclear como parte de la matriz energética de Colombia.",
     "context": "La energía nuclear es baja en emisiones pero tiene riesgos y altos costos de implementación.",
     "type": "likert",

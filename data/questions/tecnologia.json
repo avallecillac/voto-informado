@@ -1,7 +1,7 @@
 [
   {
     "id": "tec-01",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "El acceso a internet debe ser un derecho fundamental garantizado por el Estado en todo el territorio.",
     "context": "La conectividad en zonas rurales sigue siendo muy limitada, ampliando la brecha digital.",
     "type": "likert",
@@ -9,7 +9,7 @@
   },
   {
     "id": "tec-02",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "Se debe regular estrictamente el uso de inteligencia artificial para proteger empleos y privacidad.",
     "context": "La IA esta transformando el mercado laboral y plantea retos éticos y regulatorios.",
     "type": "likert",
@@ -17,7 +17,7 @@
   },
   {
     "id": "tec-03",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "Colombia debe invertir fuertemente en ciencia e investigacion, aumentando el presupuesto de Minciencias.",
     "context": "Colombia invierte aproximadamente 0,3% del PIB en ciencia, tecnología e innovación; el promedio de la OCDE es cercano al 2,5%. Defensores de aumentar la inversión citan competitividad a largo plazo, diversificación económica y generación de empleo calificado. Críticos priorizan otras necesidades fiscales (salud, educación básica, infraestructura) o cuestionan la ejecución eficiente de recursos.",
     "type": "likert",
@@ -25,7 +25,7 @@
   },
   {
     "id": "tec-04",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "Se deben crear incentivos fiscales para startups y empresas de tecnología colombianas.",
     "context": "El ecosistema de emprendimiento tecnológico en Colombia ha crecido pero enfrenta barreras regulatorias.",
     "type": "likert",
@@ -33,7 +33,7 @@
   },
   {
     "id": "tec-05",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "El gobierno debe digitalizar completamente sus tramites y servicios para reducir la burocracia.",
     "context": "La digitalizacion de tramites reduce corrupción y facilita el acceso a servicios públicos.",
     "type": "likert",
@@ -41,7 +41,7 @@
   },
   {
     "id": "tec-06",
-    "categoryId": "tecnología",
+    "categoryId": "tecnologia",
     "text": "Se debe proteger estrictamente la privacidad de los datos personales de los ciudadanos frente a empresas y al Estado.",
     "context": "La recolección masiva de datos plantea riesgos de vigilancia y uso indebido de información.",
     "type": "likert",

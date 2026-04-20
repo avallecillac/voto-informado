@@ -28,6 +28,7 @@ import {
   Palette,
 } from "lucide-react";
 import type { CategoryId } from "@/lib/types";
+import { getCategoryColor } from "@/lib/category-colors";
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   TrendingUp,
@@ -119,15 +120,16 @@ export default function PrioritiesPage() {
             category.id as CategoryId
           );
           const isDisabled = !isImportant && !canSelectMore;
+          const color = getCategoryColor(category.id);
           return (
             <Card
               key={category.id}
               className={`relative p-3 transition-all ${
                 isImportant
-                  ? "cursor-pointer border-yellow-500 bg-yellow-50 ring-1 ring-yellow-500"
+                  ? `cursor-pointer ${color.accentBorder} ${color.softBg} ring-1 ${color.ring}`
                   : isDisabled
                   ? "cursor-not-allowed opacity-50"
-                  : "cursor-pointer hover:border-yellow-300 hover:bg-gray-50"
+                  : "cursor-pointer hover:border-gray-300 hover:bg-gray-50"
               }`}
               onClick={() => {
                 if (isDisabled) return;
@@ -136,11 +138,7 @@ export default function PrioritiesPage() {
             >
               <div className="flex items-center gap-3">
                 <div
-                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg ${
-                    isImportant
-                      ? "bg-yellow-100 text-yellow-700"
-                      : "bg-gray-100 text-gray-600"
-                  }`}
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg ${color.iconBg} ${color.iconText}`}
                 >
                   <CategoryIcon name={category.icon} />
                 </div>
@@ -153,7 +151,7 @@ export default function PrioritiesPage() {
                   </p>
                 </div>
                 {isImportant && (
-                  <Check className="h-4 w-4 shrink-0 text-yellow-600" />
+                  <Check className={`h-4 w-4 shrink-0 ${color.iconText}`} />
                 )}
               </div>
             </Card>

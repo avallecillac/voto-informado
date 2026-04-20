@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { ShareButtons } from "@/components/share/share-buttons";
+import { getCategoryColor } from "@/lib/category-colors";
 
 const ORIENTATION_LABELS: Record<string, string> = {
   izquierda: "Izquierda",
@@ -116,6 +117,13 @@ export default function ResultsPage() {
                   excludedCandidates.length === 1 ? "" : "s"
                 }`
               : "Filtrar"}
+          </button>
+          <button
+            onClick={handleReset}
+            className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-foreground"
+          >
+            <RotateCcw className="h-3.5 w-3.5" />
+            Reiniciar
           </button>
           {excludedCandidates.length > 0 && (
             <button
@@ -256,7 +264,7 @@ export default function ResultsPage() {
                         />
                       </div>
 
-                      {/* Category breakdown */}
+                      {/* Category breakdown with color per topic */}
                       {result.categoryMatches.length > 0 && (
                         <div className="mt-3 flex flex-wrap gap-1.5">
                           {result.categoryMatches.map((cm) => {
@@ -264,20 +272,20 @@ export default function ResultsPage() {
                               (c) => c.id === cm.categoryId
                             );
                             if (!cat) return null;
+                            const catColor = getCategoryColor(cm.categoryId);
                             return (
                               <Badge
                                 key={cm.categoryId}
-                                variant="secondary"
-                                className="text-xs"
+                                className={`border-transparent text-xs ${catColor.badge}`}
                               >
                                 {cat.shortName}{" "}
                                 <span
                                   className={`ml-1 font-semibold ${
                                     cm.match >= 70
-                                      ? "text-green-600"
+                                      ? "text-green-700"
                                       : cm.match >= 40
-                                      ? "text-blue-600"
-                                      : "text-orange-600"
+                                      ? "text-blue-700"
+                                      : "text-orange-700"
                                   }`}
                                 >
                                   {Math.round(cm.match)}%
@@ -318,7 +326,7 @@ export default function ResultsPage() {
       <Separator className="my-8" />
 
       {/* Actions */}
-      <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+      <div className="flex justify-center">
         <Button
           variant="outline"
           onClick={() => router.push("/quiz/questions")}
@@ -326,10 +334,6 @@ export default function ResultsPage() {
         >
           <ArrowLeft className="h-4 w-4" />
           Responder más preguntas
-        </Button>
-        <Button variant="ghost" onClick={handleReset} className="gap-2">
-          <RotateCcw className="h-4 w-4" />
-          Empezar de nuevo
         </Button>
       </div>
 
