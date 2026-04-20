@@ -3,7 +3,7 @@
     "id": "amb-01",
     "categoryId": "medio_ambiente",
     "text": "Colombia debe implementar un impuesto al carbono mas agresivo para reducir emisiones de gases de efecto invernadero.",
-    "context": "Colombia ya tiene un impuesto al carbono pero es considerado bajo por organizaciones ambientales.",
+    "context": "Colombia implementó un impuesto al carbono en 2016 (alrededor de USD 5 por tonelada de CO2), considerado bajo frente a estándares internacionales. Defensores de aumentarlo citan el cumplimiento de metas climáticas y la señal de precio al sector productivo. Críticos señalan impacto en costos energéticos, transporte y competitividad industrial si la transición no es gradual.",
     "type": "likert",
     "weight": 2
   },
@@ -27,7 +27,7 @@
     "id": "amb-04",
     "categoryId": "medio_ambiente",
     "text": "El desarrollo económico debe tener prioridad sobre la protección ambiental cuando ambos entran en conflicto.",
-    "context": "Muchas comunidades dependen de actividades extractivas para su sustento, generando tension con la conservación.",
+    "context": "La minería, hidrocarburos y agroindustria generan empleo e ingresos regionales pero presionan ecosistemas. Quienes priorizan desarrollo citan reducción de pobreza y financiación pública. Quienes priorizan protección ambiental citan servicios ecosistémicos, agua, biodiversidad y derechos intergeneracionales.",
     "type": "likert",
     "weight": 2
   },

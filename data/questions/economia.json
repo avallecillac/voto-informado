@@ -3,7 +3,7 @@
     "id": "econ-01",
     "categoryId": "economía",
     "text": "El Estado debe aumentar los impuestos a las grandes empresas y personas de altos ingresos para financiar programas sociales.",
-    "context": "Colombia tiene una de las mayores desigualdades de ingreso en America Latina. La reforma tributaria es un tema central del debate económico.",
+    "context": "Colombia tiene alta desigualdad de ingresos (Gini ≈ 0,55, uno de los más altos de América Latina). Defensores de impuestos progresivos argumentan que mejoran redistribución y financian programas sociales. Críticos señalan riesgo de fuga de capitales, reducción de inversión y baja recaudación si las bases tributarias son estrechas.",
     "type": "likert",
     "weight": 3
   },
@@ -11,7 +11,7 @@
     "id": "econ-02",
     "categoryId": "economía",
     "text": "Se debe reducir el tamaño del Estado y privatizar empresas públicas para mejorar la eficiencia económica.",
-    "context": "Colombia tiene un debate permanente sobre el rol del Estado en la economía y la eficiencia de las empresas públicas.",
+    "context": "El gasto público colombiano ronda el 30% del PIB. Quienes proponen reducirlo citan eficiencia, menos burocracia y más espacio para el sector privado. Quienes se oponen argumentan que el Estado cumple funciones esenciales de redistribución, regulación y provisión de bienes públicos que el mercado por sí solo no garantiza.",
     "type": "likert",
     "weight": 2
   },
@@ -35,7 +35,7 @@
     "id": "econ-05",
     "categoryId": "economía",
     "text": "El gobierno debe intervenir activamente en los precios de productos básicos (alimentos, combustibles, servicios públicos) para proteger a los mas vulnerables.",
-    "context": "Los subsidios y controles de precios protegen a los ciudadanos pero pueden generar distorsiones de mercado.",
+    "context": "Los subsidios a combustibles y controles de precios a alimentos cuestan al Estado billones de pesos al año. Defensores de la intervención citan protección a hogares vulnerables frente a shocks de precios. Críticos señalan distorsiones de mercado, contrabando y que los subsidios generalizados benefician más a sectores altos que a los pobres.",
     "type": "likert",
     "weight": 2
   },

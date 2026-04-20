@@ -3,7 +3,7 @@
     "id": "viv-01",
     "categoryId": "vivienda",
     "text": "El Estado debe construir directamente vivienda social en lugar de dar subsidios para comprar en el mercado privado.",
-    "context": "El deficit habitacional en Colombia supera los 3 millones de viviendas.",
+    "context": "El déficit habitacional en Colombia supera 3 millones de hogares (DANE), entre cuantitativo y cualitativo. Defensores de construcción pública directa citan acceso garantizado y control de calidad. Defensores de subsidios a la demanda (Mi Casa Ya, FRECH) citan eficiencia, diversidad de oferta y dinamización del sector constructor privado.",
     "type": "likert",
     "weight": 2
   },

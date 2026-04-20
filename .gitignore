@@ -47,4 +47,5 @@ next-env.d.ts
 /data/planes-gobierno-text/
 /scripts/*.out
 /scripts/select-questions.json
+/scripts/__pycache__/
 

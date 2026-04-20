@@ -3,7 +3,7 @@
     "id": "com-01",
     "categoryId": "comercio_exterior",
     "text": "Los tratados de libre comercio han sido beneficiosos para Colombia y deben mantenerse y ampliarse.",
-    "context": "Colombia tiene TLC con EE.UU., Union Europea, México y otros países. Su impacto es debatido.",
+    "context": "Colombia tiene TLC vigentes con EE.UU., Unión Europea, Corea del Sur, México y otros. Defensores citan aumento de exportaciones e inversión extranjera directa. Críticos argumentan impacto negativo en sectores como agricultura (lácteos, arroz) y en pequeños productores que no pueden competir con importaciones subsidiadas.",
     "type": "likert",
     "weight": 2
   },

@@ -3,7 +3,7 @@
     "id": "sal-01",
     "categoryId": "salud",
     "text": "Se deben eliminar las EPS y crear un sistema único de salud administrado por el Estado.",
-    "context": "El sistema de salud colombiano ha sido criticado por la intermediacion de las EPS y las barreras de acceso.",
+    "context": "Las EPS (Entidades Promotoras de Salud) intermedian el sistema desde la Ley 100 de 1993. Quienes proponen eliminarlas citan barreras de acceso, tutelas masivas y quiebras de varias EPS. Quienes las defienden citan la gestión del riesgo en salud, la libertad de elección y advierten sobre los costos de una transición abrupta a sistema único estatal.",
     "type": "likert",
     "weight": 3
   },
@@ -35,7 +35,7 @@
     "id": "sal-05",
     "categoryId": "salud",
     "text": "El sector privado debe tener un rol importante en la prestacion de servicios de salud, no solo el Estado.",
-    "context": "Muchos colombianos prefieren la medicina prepagada y los servicios privados por su percepcion de mejor calidad.",
+    "context": "Colombia tiene un sistema mixto: aseguramiento público-privado regulado por el Estado, y medicina prepagada complementaria. Defensores del rol privado citan calidad, eficiencia y libertad de elección. Críticos señalan inequidad entre regímenes, captura de recursos públicos y priorización de rentabilidad sobre salud.",
     "type": "likert",
     "weight": 2
   },

@@ -27,7 +27,7 @@
     "id": "cul-04",
     "categoryId": "cultura",
     "text": "Se deben garantizar los derechos de las parejas del mismo sexo, incluyendo la adopcion y el matrimonio civil.",
-    "context": "La Corte Constitucional ha avanzado en derechos LGBTQ+, pero persiste la discriminacion social.",
+    "context": "En Colombia el matrimonio civil entre personas del mismo sexo y la adopción conjunta son permitidos por sentencias de la Corte Constitucional (2016 y 2015 respectivamente), no por ley del Congreso. Quienes apoyan incluirlo en la ley buscan mayor seguridad jurídica; quienes se oponen lo hacen por razones religiosas, de tradición o interpretación constitucional.",
     "type": "likert",
     "weight": 2
   },
@@ -43,7 +43,7 @@
     "id": "cul-06",
     "categoryId": "cultura",
     "text": "Se debe reconocer y proteger la diversidad de género y las identidades no binarias en la legislacion colombiana.",
-    "context": "El debate sobre identidad de género es cada vez mas visible en la sociedad colombiana.",
+    "context": "El reconocimiento legal de identidades no binarias (documento de identidad con opción \"no binario\") es un debate emergente en varios países. Defensores argumentan protección frente a discriminación y reconocimiento de la realidad de personas trans y no binarias. Opositores plantean preocupaciones sobre implicaciones legales, registros oficiales o ámbitos como el deporte.",
     "type": "likert",
     "weight": 2
   }

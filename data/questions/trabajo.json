@@ -11,7 +11,7 @@
     "id": "tra-02",
     "categoryId": "trabajo",
     "text": "Se debe flexibilizar la contratación laboral para facilitar la generacion de empleo formal.",
-    "context": "Algunos argumentan que la rigidez laboral desincentiva la contratación formal.",
+    "context": "Colombia tiene aproximadamente 55% de informalidad laboral (DANE). Defensores de flexibilizar la contratación argumentan que reduce costos de formalización y aumenta empleo formal. Críticos señalan que flexibilización histórica ha precarizado el empleo sin reducir sustancialmente la informalidad, y que afecta derechos como estabilidad, horas extras y seguridad social.",
     "type": "likert",
     "weight": 2
   },
@@ -35,7 +35,7 @@
     "id": "tra-05",
     "categoryId": "trabajo",
     "text": "Se debe crear una renta básica universal para todos los colombianos en situacion de pobreza.",
-    "context": "Los programas de transferencias condicionadas como Familias en Acción ya existen pero con cobertura limitada.",
+    "context": "Programas como Familias en Acción benefician a ~2,7M de hogares con transferencias condicionadas. Defensores de una renta básica universal citan simplicidad administrativa, dignidad y reducción de trámites. Críticos citan el costo fiscal (varios puntos del PIB) y posibles efectos negativos sobre incentivos laborales.",
     "type": "likert",
     "weight": 2
   },
@@ -43,7 +43,7 @@
     "id": "tra-06",
     "categoryId": "trabajo",
     "text": "El sistema de pensiones debe migrar completamente a un sistema público de reparto administrado por Colpensiones.",
-    "context": "El sistema pensional colombiano tiene componentes públicos y privados (AFPs).",
+    "context": "El sistema actual tiene Colpensiones (público, reparto solidario) y AFPs (privadas, ahorro individual). Defensores del sistema público de reparto citan solidaridad intergeneracional y cobertura a trabajadores de bajos ingresos. Defensores del sistema privado citan sostenibilidad fiscal de largo plazo y rentabilidad individual del ahorro.",
     "type": "likert",
     "weight": 2
   },

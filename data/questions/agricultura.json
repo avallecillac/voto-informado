@@ -3,7 +3,7 @@
     "id": "agr-01",
     "categoryId": "agricultura",
     "text": "Se debe realizar una redistribución masiva de tierras improductivas a campesinos sin tierra.",
-    "context": "La concentracion de tierra en Colombia es una de las mas altas del mundo y ha sido fuente histórica de conflicto.",
+    "context": "El Coeficiente de Gini rural de tierra en Colombia supera 0.87, uno de los más altos del mundo (ONU, DANE). Quienes apoyan la redistribución argumentan que es necesaria para cerrar brechas históricas y dinamizar el campo. Quienes se oponen señalan riesgos para la seguridad jurídica y la productividad agrícola.",
     "type": "likert",
     "weight": 3
   },
@@ -43,7 +43,7 @@
     "id": "agr-06",
     "categoryId": "agricultura",
     "text": "La sustitución voluntaria de cultivos ilicitos es mejor estrategia que la erradicación forzada.",
-    "context": "Miles de familias campesinas dependen del cultivo de coca como fuente de ingresos.",
+    "context": "Colombia tiene alrededor de 230.000 hectáreas sembradas con coca (UNODC 2023). La sustitución voluntaria ofrece alternativas productivas al campesino; sus defensores destacan su sostenibilidad. La erradicación forzada (manual o aérea) es defendida por quienes la ven más rápida frente a estructuras criminales y economías ilegales.",
     "type": "likert",
     "weight": 2
   },

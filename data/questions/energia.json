@@ -3,7 +3,7 @@
     "id": "ene-01",
     "categoryId": "energía",
     "text": "Colombia debe detener la exploración y explotación de nuevos yacimientos de petróleo y gas.",
-    "context": "El petróleo representa una fuente importante de ingresos fiscales y exportaciones, pero contribuye al cambio climatico.",
+    "context": "El sector petrolero genera aproximadamente 40% de las exportaciones y 15-20% de los ingresos fiscales. Quienes apoyan detener nueva exploración priorizan la transición energética y las metas climáticas. Quienes se oponen citan dependencia fiscal, empleo en regiones productoras y la necesidad de una transición gradual.",
     "type": "likert",
     "weight": 3
   },
@@ -27,7 +27,7 @@
     "id": "ene-04",
     "categoryId": "energía",
     "text": "El fracking debe permitirse en Colombia bajo regulación estricta para aumentar la producción de gas.",
-    "context": "El fracking es controversial por su impacto ambiental, pero podría aumentar las reservas energéticas del país.",
+    "context": "El fracking (fractura hidráulica) permite extraer gas de yacimientos no convencionales. Defensores lo presentan como vía a la autosuficiencia energética y empleo. Opositores citan riesgos ambientales (uso intensivo de agua, sismicidad inducida, contaminación de acuíferos) y contradicción con los compromisos climáticos del país.",
     "type": "likert",
     "weight": 2
   },
@@ -35,7 +35,7 @@
     "id": "ene-05",
     "categoryId": "energía",
     "text": "Las comunidades locales deben tener poder de veto sobre proyectos minero-energéticos en sus territorios.",
-    "context": "Las consultas previas y populares han frenado proyectos extractivos, generando tension entre desarrollo y derechos comunitarios.",
+    "context": "Colombia tiene dos mecanismos: consulta previa para pueblos étnicos (vinculante) y consulta popular para municipios (alcance limitado por la Corte Constitucional). Defensores del veto comunitario citan autonomía territorial y protección ambiental. Opositores citan el interés general, la seguridad jurídica para la inversión y los ingresos que financian regiones.",
     "type": "likert",
     "weight": 2
   },

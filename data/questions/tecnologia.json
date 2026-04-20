@@ -19,7 +19,7 @@
     "id": "tec-03",
     "categoryId": "tecnología",
     "text": "Colombia debe invertir fuertemente en ciencia e investigacion, aumentando el presupuesto de Minciencias.",
-    "context": "Colombia invierte menos del 0.3% del PIB en investigacion, muy por debajo de países desarrollados.",
+    "context": "Colombia invierte aproximadamente 0,3% del PIB en ciencia, tecnología e innovación; el promedio de la OCDE es cercano al 2,5%. Defensores de aumentar la inversión citan competitividad a largo plazo, diversificación económica y generación de empleo calificado. Críticos priorizan otras necesidades fiscales (salud, educación básica, infraestructura) o cuestionan la ejecución eficiente de recursos.",
     "type": "likert",
     "weight": 2
   },

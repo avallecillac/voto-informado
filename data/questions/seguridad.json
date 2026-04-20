@@ -3,7 +3,7 @@
     "id": "seg-01",
     "categoryId": "seguridad",
     "text": "La política de 'paz total' con todos los grupos armados debe continuar y profundizarse.",
-    "context": "La paz total busca dialogos simultaneos con guerrillas, disidencias y bandas criminales. Tiene defensores y críticos en todo el espectro político.",
+    "context": "La 'paz total' del gobierno actual busca diálogos simultáneos con guerrillas (ELN, disidencias FARC) y estructuras criminales (Clan del Golfo, bandas urbanas). Defensores la ven como estrategia integral para cerrar ciclos de violencia. Críticos cuestionan la extensión de beneficios penales a grupos sin ideología política, resultados limitados y riesgos de revictimización.",
     "type": "likert",
     "weight": 3
   },
@@ -19,7 +19,7 @@
     "id": "seg-03",
     "categoryId": "seguridad",
     "text": "La solución al narcotrafico pasa por la legalización o regulación de las drogas, no por la fumigación y la guerra contra las drogas.",
-    "context": "Colombia ha sido epicentro de la guerra contra las drogas por decadas, con costos humanos y económicos enormes.",
+    "context": "Colombia sigue siendo el mayor productor mundial de cocaína, con décadas de guerra contra las drogas a costo humano y económico alto. Quienes apoyan legalización o regulación citan el fracaso del enfoque prohibicionista y los modelos de Portugal y Uruguay. Quienes se oponen citan riesgos de salud pública, obstáculos diplomáticos (ONU) y reticencia de EE.UU.",
     "type": "likert",
     "weight": 2
   },
@@ -51,7 +51,7 @@
     "id": "seg-07",
     "categoryId": "seguridad",
     "text": "Colombia debe mantener una posicion firme frente al régimen de Venezuela, incluyendo posibles restricciones fronterizas.",
-    "context": "La relacion con Venezuela impacta temas de seguridad, migracion y comercio.",
+    "context": "Colombia comparte ~2.200 km de frontera con Venezuela y alberga 2,8M de migrantes venezolanos. Quienes apoyan una posición firme citan migración irregular, contrabando, presencia del ELN en zona fronteriza y derechos humanos. Quienes prefieren distensión citan economía fronteriza, cooperación humanitaria y el riesgo de aislar a Colombia regionalmente.",
     "type": "likert",
     "weight": 2
   },

@@ -3,7 +3,7 @@
     "id": "ext-01",
     "categoryId": "politica_exterior",
     "text": "Colombia debe mantener relaciones diplomaticas abiertas con Venezuela independientemente de las diferencias políticas.",
-    "context": "Las relaciones con Venezuela han sido un tema central de la política exterior colombiana en la última decada.",
+    "context": "Las relaciones diplomáticas Colombia-Venezuela se rompieron en 2019 y se restablecieron en 2022. Defensores de mantenerlas abiertas citan comercio fronterizo, migración (2,8M de venezolanos en Colombia) y manejo humanitario. Opositores citan la situación política de Venezuela, la presencia de grupos armados y la alineación con sanciones internacionales.",
     "type": "likert",
     "weight": 2
   },
@@ -19,7 +19,7 @@
     "id": "ext-03",
     "categoryId": "politica_exterior",
     "text": "Colombia debe alinearse mas con EE.UU. en temas de seguridad y lucha antidrogas.",
-    "context": "EE.UU. ha sido históricamente el principal aliado de Colombia en temas de seguridad.",
+    "context": "EE.UU. ha sido el principal aliado de Colombia en seguridad (Plan Colombia desde 2000) y el mayor socio comercial. Quienes apoyan mayor alineación citan cooperación antidrogas, ayuda militar y acceso al mercado estadounidense. Quienes prefieren mayor autonomía citan soberanía, diversificación estratégica hacia China/UE y una política exterior multipolar.",
     "type": "likert",
     "weight": 2
   },
