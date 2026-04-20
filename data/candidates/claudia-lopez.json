@@ -129,7 +129,7 @@
     },
     {
       "questionId": "ene-04",
-      "stance": -1,
+      "stance": 1,
       "justification": "Realizar pilotos de fracking bajo evidencia científica y riguroso licenciamiento ambiental para asegurar precios bajos.",
       "programReference": "PAGE 24 - Política energética",
       "confidence": "explicit"

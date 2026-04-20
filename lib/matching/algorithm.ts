@@ -8,15 +8,33 @@ import type {
 } from "@/lib/types";
 
 /**
+ * Normalize a candidate's stance (which may be -2, -1, 0, +1 or +2 in source
+ * data, preserving nuance from program extraction) to the 3-choice scale the
+ * user answers on: {-2: En desacuerdo, 0: Neutral, +2: De acuerdo}.
+ *
+ * This ensures that a candidate with a "mild support" (+1) reads as a full
+ * match when the user says "De acuerdo" (+2). The extra nuance in the source
+ * data is preserved for audit and potential future use.
+ */
+function normalizeStance(stance: number): number {
+  if (stance <= -1) return -2;
+  if (stance >= 1) return 2;
+  return 0;
+}
+
+/**
  * Compute match between a single user answer and a candidate's stance.
  * Returns a value between 0 (complete disagreement) and 1 (perfect agreement).
  *
- * user value: -2 to +2
- * candidate stance: -2 to +2
- * max distance: 4 (e.g. -2 vs +2)
+ * Both sides are normalized to the 3-choice scale, so:
+ *   user +2 vs candidate +1 or +2 → 100% match
+ *   user +2 vs candidate 0        → 50% match
+ *   user +2 vs candidate -1 or -2 → 0% match
  */
 function questionMatch(userValue: number, candidateStance: number): number {
-  const distance = Math.abs(userValue - candidateStance);
+  const userNorm = normalizeStance(userValue);
+  const candNorm = normalizeStance(candidateStance);
+  const distance = Math.abs(userNorm - candNorm);
   return 1 - distance / 4;
 }
 

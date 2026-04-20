@@ -12,13 +12,17 @@ import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import { ArrowLeft, ExternalLink, FileText, AlertTriangle } from "lucide-react";
 
-const STANCE_LABELS: Record<number, string> = {
-  "-2": "Muy en desacuerdo",
-  "-1": "En desacuerdo",
-  "0": "Neutral",
-  "1": "De acuerdo",
-  "2": "Muy de acuerdo",
-};
+/**
+ * Map the underlying -2..+2 stance to the simplified 3-option labels shown
+ * to the user. This matches the 3-option format used in the quiz (En desacuerdo
+ * / Neutral / De acuerdo) so candidate positions and user answers display
+ * consistently. The matching algorithm keeps the full -2..+2 scale for nuance.
+ */
+function stanceLabel(stance: number): string {
+  if (stance <= -1) return "En desacuerdo";
+  if (stance >= 1) return "De acuerdo";
+  return "Neutral";
+}
 
 const ORIENTATION_LABELS: Record<string, string> = {
   izquierda: "Izquierda",
@@ -173,7 +177,7 @@ export default function CandidateDetailPage() {
                     </span>
                     <p className="mt-0.5 text-sm font-medium">
                       {userAnswer
-                        ? STANCE_LABELS[userAnswer.value]
+                        ? stanceLabel(userAnswer.value)
                         : "Sin respuesta"}
                     </p>
                   </div>
@@ -184,7 +188,7 @@ export default function CandidateDetailPage() {
                       {candidate.name.split(" ")[0]}
                     </span>
                     <p className="mt-0.5 text-sm font-medium">
-                      {STANCE_LABELS[position.stance]}
+                      {stanceLabel(position.stance)}
                     </p>
                   </div>
                 </div>
