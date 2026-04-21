@@ -15,10 +15,12 @@ import {
   ThumbsDown,
   Minus,
   ThumbsUp,
+  Users,
 } from "lucide-react";
 import { useState, useEffect } from "react";
-import { getCategoryById } from "@/data";
+import { getCategoryById, candidates as allCandidates } from "@/data";
 import { getCategoryColor } from "@/lib/category-colors";
+import type { Candidate } from "@/lib/types";
 
 // StemWijzer-style 3-option format. Mapped to the underlying -2/0/+2 scale
 // so that existing candidate stance data (-2 to +2) continues to work.
@@ -80,12 +82,14 @@ export default function QuestionsPage() {
     existingAnswer?.value ?? null
   );
   const [showContext, setShowContext] = useState(false);
+  const [showCandidates, setShowCandidates] = useState(false);
 
   useEffect(() => {
     if (question) {
       const existing = getAnswer(question.id);
       setSelectedValue(existing?.value ?? null);
       setShowContext(false);
+      setShowCandidates(false);
     }
   }, [question, getAnswer]);
 
@@ -103,6 +107,25 @@ export default function QuestionsPage() {
   const category = getCategoryById(question.categoryId);
   const color = getCategoryColor(question.categoryId);
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
+
+  /**
+   * Group candidates by their normalized stance on the current question.
+   * Normalization (see lib/matching/algorithm): -2/-1 → -2, 0 → 0, +1/+2 → +2.
+   * Candidates without a documented position on this question go to a
+   * separate "sin posición" bucket (shown only if any candidates lack a
+   * position, and only as a subtle note - not above a button).
+   */
+  const candidatesByStance: Record<number, Candidate[]> = { [-2]: [], 0: [], 2: [] };
+  const candidatesWithoutPosition: Candidate[] = [];
+  for (const cand of allCandidates) {
+    const pos = cand.positions.find((p) => p.questionId === question.id);
+    if (!pos) {
+      candidatesWithoutPosition.push(cand);
+      continue;
+    }
+    const normalized = pos.stance <= -1 ? -2 : pos.stance >= 1 ? 2 : 0;
+    candidatesByStance[normalized].push(cand);
+  }
 
   const handleAnswer = () => {
     if (selectedValue === null) return;
@@ -153,22 +176,68 @@ export default function QuestionsPage() {
             {question.text}
           </h2>
 
-          {/* Context toggle */}
-          <button
-            className={`mt-3 flex items-center gap-1 text-sm ${color.text} hover:opacity-80`}
-            onClick={() => setShowContext(!showContext)}
-          >
-            <Info className="h-3.5 w-3.5" />
-            {showContext ? "Ocultar contexto" : "Ver contexto"}
-          </button>
+          {/* Context + candidate-positions toggles side by side */}
+          <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <button
+              className={`flex items-center gap-1 text-sm ${color.text} hover:opacity-80`}
+              onClick={() => setShowContext(!showContext)}
+            >
+              <Info className="h-3.5 w-3.5" />
+              {showContext ? "Ocultar contexto" : "Ver contexto"}
+            </button>
+            <button
+              className={`flex items-center gap-1 text-sm ${color.text} hover:opacity-80`}
+              onClick={() => setShowCandidates(!showCandidates)}
+            >
+              <Users className="h-3.5 w-3.5" />
+              {showCandidates
+                ? "Ocultar posición de candidatos"
+                : "Qué piensan los candidatos"}
+            </button>
+          </div>
           {showContext && (
             <p className={`mt-2 rounded-md ${color.softBg} p-3 text-sm text-muted-foreground`}>
               {question.context}
             </p>
           )}
 
+          {/* Candidate positions row - appears above the answer buttons.
+              Each candidate badge is shown above the button matching their
+              documented stance. Candidates without a position are listed
+              separately as a small note. */}
+          {showCandidates && (
+            <>
+              <div className="mt-6 grid grid-cols-3 gap-3">
+                {ANSWER_OPTIONS.map((option) => (
+                  <div
+                    key={`cands-${option.value}`}
+                    className="flex min-h-[2rem] flex-col items-center gap-1"
+                  >
+                    {candidatesByStance[option.value].length === 0 ? (
+                      <span className="text-xs text-muted-foreground/60">
+                        —
+                      </span>
+                    ) : (
+                      candidatesByStance[option.value].map((cand) => (
+                        <CandidateChip key={cand.id} candidate={cand} />
+                      ))
+                    )}
+                  </div>
+                ))}
+              </div>
+              {candidatesWithoutPosition.length > 0 && (
+                <p className="mt-2 text-center text-xs text-muted-foreground">
+                  Sin posición documentada:{" "}
+                  {candidatesWithoutPosition
+                    .map((c) => c.name.split(" ")[0])
+                    .join(", ")}
+                </p>
+              )}
+            </>
+          )}
+
           {/* 3-option answer (StemWijzer-style) */}
-          <div className="mt-6 grid grid-cols-3 gap-3">
+          <div className={`${showCandidates ? "mt-3" : "mt-6"} grid grid-cols-3 gap-3`}>
             {ANSWER_OPTIONS.map((option) => {
               const Icon = option.icon;
               const isSelected = selectedValue === option.value;
@@ -243,6 +312,34 @@ export default function QuestionsPage() {
           </Button>
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * Compact candidate badge shown above the matching answer option to reveal
+ * where each candidate stands on the current statement.
+ *
+ * Uses first name only (mobile friendly) plus the initial of the last
+ * name to disambiguate (e.g. "Iván C." / "Iván" when unique). All chips
+ * use the same neutral styling to avoid implying visual hierarchy or
+ * favoritism among candidates.
+ */
+function CandidateChip({ candidate }: { candidate: Candidate }) {
+  const parts = candidate.name.split(" ");
+  const first = parts[0];
+  const lastInitial = parts.length > 1 ? parts[parts.length - 1][0] : "";
+  const label = lastInitial ? `${first} ${lastInitial}.` : first;
+  const initial = first[0];
+  return (
+    <div
+      className="flex w-full items-center gap-1.5 rounded-full border bg-white px-2 py-0.5 text-xs shadow-sm"
+      title={candidate.name}
+    >
+      <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-gray-200 text-[10px] font-semibold text-gray-700">
+        {initial}
+      </span>
+      <span className="truncate">{label}</span>
     </div>
   );
 }
