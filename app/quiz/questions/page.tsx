@@ -83,6 +83,7 @@ export default function QuestionsPage() {
   );
   const [showContext, setShowContext] = useState(false);
   const [showCandidates, setShowCandidates] = useState(false);
+  const [activeCandidate, setActiveCandidate] = useState<string | null>(null);
 
   useEffect(() => {
     if (question) {
@@ -90,6 +91,7 @@ export default function QuestionsPage() {
       setSelectedValue(existing?.value ?? null);
       setShowContext(false);
       setShowCandidates(false);
+      setActiveCandidate(null);
     }
   }, [question, getAnswer]);
 
@@ -203,8 +205,9 @@ export default function QuestionsPage() {
 
           {/* Candidate positions row - appears above the answer buttons.
               Each candidate badge is shown above the button matching their
-              documented stance. Candidates without a position are listed
-              separately as a small note. */}
+              documented stance, colored to match the stance (red / gray /
+              green). Clicking a chip opens a detail card with the
+              justification from the candidate's program. */}
           {showCandidates && (
             <>
               <div className="mt-6 grid grid-cols-3 gap-3">
@@ -219,7 +222,17 @@ export default function QuestionsPage() {
                       </span>
                     ) : (
                       candidatesByStance[option.value].map((cand) => (
-                        <CandidateChip key={cand.id} candidate={cand} />
+                        <CandidateChip
+                          key={cand.id}
+                          candidate={cand}
+                          stance={option.value}
+                          isActive={activeCandidate === cand.id}
+                          onClick={() =>
+                            setActiveCandidate(
+                              activeCandidate === cand.id ? null : cand.id
+                            )
+                          }
+                        />
                       ))
                     )}
                   </div>
@@ -233,6 +246,77 @@ export default function QuestionsPage() {
                     .join(", ")}
                 </p>
               )}
+
+              {/* Detail panel shown when a chip is clicked - works on both
+                  mobile (tap) and desktop (click). Shows justification
+                  quote and program reference. */}
+              {activeCandidate &&
+                (() => {
+                  const cand = allCandidates.find(
+                    (c) => c.id === activeCandidate
+                  );
+                  const pos = cand?.positions.find(
+                    (p) => p.questionId === question.id
+                  );
+                  if (!cand || !pos) return null;
+                  const stanceLabel =
+                    pos.stance <= -1
+                      ? "En desacuerdo"
+                      : pos.stance >= 1
+                      ? "De acuerdo"
+                      : "Neutral";
+                  const stanceStyle =
+                    pos.stance <= -1
+                      ? "text-red-700 bg-red-100"
+                      : pos.stance >= 1
+                      ? "text-green-700 bg-green-100"
+                      : "text-gray-700 bg-gray-100";
+                  return (
+                    <div className="mt-3 rounded-md border bg-white p-3 shadow-sm">
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="min-w-0 flex-1">
+                          <p className="text-sm font-semibold">{cand.name}</p>
+                          <p className="text-xs text-muted-foreground">
+                            {cand.party}
+                          </p>
+                        </div>
+                        <span
+                          className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${stanceStyle}`}
+                        >
+                          {stanceLabel}
+                        </span>
+                        <button
+                          onClick={() => setActiveCandidate(null)}
+                          className="shrink-0 rounded-full p-1 text-muted-foreground hover:bg-gray-100"
+                          aria-label="Cerrar"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            className="h-3 w-3"
+                          >
+                            <line x1="18" y1="6" x2="6" y2="18" />
+                            <line x1="6" y1="6" x2="18" y2="18" />
+                          </svg>
+                        </button>
+                      </div>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        {pos.justification}
+                      </p>
+                      <p className="mt-2 text-xs text-blue-600">
+                        {pos.programReference}
+                      </p>
+                      {pos.confidence === "inferred" && (
+                        <p className="mt-1 text-xs text-yellow-700">
+                          Posición inferida (no explícita en el programa)
+                        </p>
+                      )}
+                    </div>
+                  );
+                })()}
             </>
           )}
 
@@ -317,29 +401,70 @@ export default function QuestionsPage() {
 }
 
 /**
- * Compact candidate badge shown above the matching answer option to reveal
+ * Compact candidate chip shown above the matching answer option to reveal
  * where each candidate stands on the current statement.
  *
- * Uses first name only (mobile friendly) plus the initial of the last
- * name to disambiguate (e.g. "Iván C." / "Iván" when unique). All chips
- * use the same neutral styling to avoid implying visual hierarchy or
- * favoritism among candidates.
+ * Colored by stance (red / gray / green) to reinforce the position at a
+ * glance. Clickable on both mobile and desktop: opens a detail card with
+ * the candidate's justification and program reference.
  */
-function CandidateChip({ candidate }: { candidate: Candidate }) {
+type ChipColor = {
+  base: string;
+  active: string;
+  initial: string;
+};
+
+const CHIP_COLORS: Record<number, ChipColor> = {
+  [-2]: {
+    base: "border-red-200 bg-red-50 text-red-900 hover:bg-red-100",
+    active: "border-red-500 ring-2 ring-red-500",
+    initial: "bg-red-200 text-red-800",
+  },
+  0: {
+    base: "border-gray-200 bg-gray-50 text-gray-900 hover:bg-gray-100",
+    active: "border-gray-500 ring-2 ring-gray-400",
+    initial: "bg-gray-200 text-gray-700",
+  },
+  2: {
+    base: "border-green-200 bg-green-50 text-green-900 hover:bg-green-100",
+    active: "border-green-500 ring-2 ring-green-500",
+    initial: "bg-green-200 text-green-800",
+  },
+};
+
+function CandidateChip({
+  candidate,
+  stance,
+  isActive,
+  onClick,
+}: {
+  candidate: Candidate;
+  stance: number;
+  isActive: boolean;
+  onClick: () => void;
+}) {
   const parts = candidate.name.split(" ");
   const first = parts[0];
   const lastInitial = parts.length > 1 ? parts[parts.length - 1][0] : "";
   const label = lastInitial ? `${first} ${lastInitial}.` : first;
   const initial = first[0];
+  const chipColor = CHIP_COLORS[stance] ?? CHIP_COLORS[0];
+
   return (
-    <div
-      className="flex w-full items-center gap-1.5 rounded-full border bg-white px-2 py-0.5 text-xs shadow-sm"
-      title={candidate.name}
+    <button
+      type="button"
+      onClick={onClick}
+      className={`flex w-full items-center gap-1.5 rounded-full border px-2 py-0.5 text-xs shadow-sm transition-all ${
+        chipColor.base
+      } ${isActive ? chipColor.active : ""}`}
+      title={`${candidate.name} - toca para ver justificación`}
     >
-      <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-gray-200 text-[10px] font-semibold text-gray-700">
+      <span
+        className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full text-[10px] font-semibold ${chipColor.initial}`}
+      >
         {initial}
       </span>
       <span className="truncate">{label}</span>
-    </div>
+    </button>
   );
 }
