@@ -129,6 +129,47 @@ export default function MetodologiaPage() {
             </ul>
           </CardContent>
         </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-lg">
+              <Shield className="h-5 w-5 text-blue-600" />
+              Privacidad y analítica
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="text-sm leading-relaxed text-muted-foreground">
+            <p>
+              Usamos <strong>Vercel Web Analytics</strong> y{" "}
+              <strong>Speed Insights</strong> para entender cuántas personas
+              usan la herramienta, desde qué dispositivos y si hay problemas
+              de desempeño. Es analítica respetuosa con la privacidad:
+            </p>
+            <ul className="mt-3 space-y-2">
+              <li>
+                No usa <em>cookies</em> ni identifica visitantes entre
+                sesiones.
+              </li>
+              <li>
+                No rastrea tu actividad en otros sitios web.
+              </li>
+              <li>
+                No recolecta datos personales (nombre, correo, dirección IP
+                completa).
+              </li>
+              <li>
+                Tus respuestas al cuestionario{" "}
+                <strong>nunca salen de tu navegador</strong>. Se almacenan en{" "}
+                <code>localStorage</code> local; no las enviamos a ningún
+                servidor.
+              </li>
+              <li>
+                Registramos eventos agregados y anónimos (cuántas personas
+                terminan el quiz, cuáles son los canales de compartido más
+                usados) para entender el impacto.
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
 
       <div className="mt-8 text-center">

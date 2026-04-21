@@ -21,7 +21,8 @@ import {
   EyeOff,
   Filter,
 } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { track } from "@vercel/analytics";
 import { ShareButtons } from "@/components/share/share-buttons";
 import { getCategoryColor } from "@/lib/category-colors";
 
@@ -62,6 +63,19 @@ export default function ResultsPage() {
     (r) => !excludedCandidates.includes(r.candidateId)
   );
   const confidence = getMatchConfidence(answers.length);
+
+  // Track when a user reaches results (proxy for "quiz completed"). We
+  // bucket by answer count to avoid per-user identifiers, and only fire
+  // once per page mount via the effect's empty dep array.
+  useEffect(() => {
+    if (hydrated && answers.length > 0) {
+      track("results_viewed", {
+        answers: answers.length,
+        confidence,
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hydrated]);
 
   if (!hydrated) {
     return (

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 import { useQuizStore } from "@/lib/store/quiz-store";
 import { useHydration } from "@/lib/hooks/use-hydration";
 import { Button } from "@/components/ui/button";
@@ -25,10 +26,12 @@ export default function IntroPage() {
   const hasExistingProgress = hydrated && answeredCount > 0;
 
   const handleContinue = () => {
+    track(hasExistingProgress ? "quiz_resumed" : "quiz_started");
     router.push("/quiz/questions");
   };
 
   const handleStartFresh = () => {
+    track("quiz_started_fresh");
     reset();
     router.push("/quiz/questions");
   };

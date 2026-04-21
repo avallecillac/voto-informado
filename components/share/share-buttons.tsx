@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { Button } from "@/components/ui/button";
 import { Check, Copy, Share2, X as CloseIcon } from "lucide-react";
 
@@ -106,6 +107,7 @@ export function ShareButtons({
       await navigator.clipboard.writeText(fullShareString);
       setCopied(true);
       setTimeout(() => setCopied(false), 3000);
+      track("share_copy");
       return true;
     } catch {
       return false;
@@ -113,6 +115,7 @@ export function ShareButtons({
   };
 
   const handleInstagram = async () => {
+    track("share_instagram");
     // Try native share sheet on mobile (user can pick IG Stories / Direct)
     const isMobile =
       typeof navigator !== "undefined" &&
@@ -157,6 +160,7 @@ export function ShareButtons({
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => track("share_whatsapp")}
           className="flex items-center justify-center gap-2 rounded-md bg-[#25D366] px-3 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
         >
           <WhatsAppIcon className="h-4 w-4" />
@@ -168,6 +172,7 @@ export function ShareButtons({
           href={xUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => track("share_x")}
           className="flex items-center justify-center gap-2 rounded-md bg-black px-3 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-800"
         >
           <XIcon className="h-4 w-4" />
@@ -179,6 +184,7 @@ export function ShareButtons({
           href={facebookUrl}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => track("share_facebook")}
           className="flex items-center justify-center gap-2 rounded-md bg-[#1877F2] px-3 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#1565c0]"
         >
           <FacebookIcon className="h-4 w-4" />
