@@ -43,7 +43,7 @@ export default function HomePage() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
             Responde preguntas sobre los temas que te importan y descubre
-            cuál candidato presidencial representa mejor tus ideales.
+            cuál candidato presidencial representa mejor tus ideales y valores.
             Basado en los{" "}
             <strong>programas de gobierno oficiales</strong>.
           </p>
